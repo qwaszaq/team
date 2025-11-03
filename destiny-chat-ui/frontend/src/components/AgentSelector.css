@@ -1,0 +1,110 @@
+/* AgentSelector Component Styles */
+
+.agent-selector {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.agent-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #e2e8f0;
+  text-align: left;
+}
+
+.agent-item:hover {
+  background: #334155;
+}
+
+.agent-item-selected {
+  background: #3d444d !important;
+}
+
+.agent-item-selected:hover {
+  background: #484f58 !important;
+}
+
+.agent-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2a2d35;
+  font-weight: 600;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.agent-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.agent-name {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #f1f5f9;
+}
+
+.agent-item-selected .agent-name {
+  color: white;
+}
+
+.agent-role {
+  font-size: 0.8125rem;
+  color: #94a3b8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.125rem;
+}
+
+.agent-item-selected .agent-role {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.agent-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.agent-status-text {
+  font-size: 0.6875rem;
+  color: #64748b;
+  display: none;
+}
+
+.agent-item:hover .agent-status-text {
+  display: block;
+}
+
+.agent-item-selected .agent-status-text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.agent-divider {
+  padding: 0.75rem 0.75rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,32 @@
+# Destiny Chat UI - Backend Dependencies
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# WebSocket
+websockets==12.0
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# Redis
+redis==5.0.1
+
+# Neo4j
+neo4j==5.14.1
+
+# Qdrant
+qdrant-client>=1.15.0
+
+# Environment
+python-dotenv==1.0.0
+
+# Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Utils
+python-dateutil==2.8.2
