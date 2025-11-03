@@ -1,0 +1,12 @@
+{
+  "id": "1b9cb0cc-0705-4e78-a371-9e6e943abeb5",
+  "from": "Aleksander Nowak",
+  "to": "piotr-szymanski",
+  "type": "PROMPT",
+  "content": "Handshake: You are Piotr Szymański (DevOps Engineer). Reply exactly: READY - DevOps Engineer",
+  "context": {
+    "project": "OSINT_MVP",
+    "phase": "Handshake"
+  },
+  "created_at": "2025-11-01T20:44:39Z"
+}

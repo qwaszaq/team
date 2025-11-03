@@ -1,0 +1,36 @@
+# Showcase outputs (temporary demo files)
+showcase_outputs/
+
+# Demo outputs (can be regenerated)
+demo_*_output.txt
+*_output.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_output/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp

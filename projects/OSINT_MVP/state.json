@@ -1,0 +1,12 @@
+{
+  "project_name": "OSINT_MVP",
+  "description": "OSINT tool MVP for law enforcement: social media + legal entities",
+  "phase": "Discovery",
+  "created_at": "2025-11-01T00:00:00Z",
+  "updated_at": "2025-11-01T00:00:00Z",
+  "requirements": {},
+  "architecture": {},
+  "decisions": [],
+  "risks": [],
+  "tasks": { "active": [], "completed": [] }
+}

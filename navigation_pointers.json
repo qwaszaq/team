@@ -1,0 +1,696 @@
+{
+  "navigation_pointers": [
+    {
+      "id": "nav_001",
+      "type": "protocol_pointer",
+      "title": "Data Persistence Protocol - Save System",
+      "content": "See DATA_PERSISTENCE_PROTOCOL.md \u00a72,3,4",
+      "importance": 0.95,
+      "tags": [
+        "save",
+        "persistence",
+        "helena",
+        "protocol"
+      ],
+      "doc_reference": "DATA_PERSISTENCE_PROTOCOL.md",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "nav_002",
+      "type": "protocol_pointer",
+      "title": "Data Loading Protocol - Load System",
+      "content": "See DATA_LOADING_PROTOCOL.md \u00a72,3,4",
+      "importance": 0.95,
+      "tags": [
+        "load",
+        "context",
+        "briefing",
+        "protocol"
+      ],
+      "doc_reference": "DATA_LOADING_PROTOCOL.md",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "nav_003",
+      "type": "protocol_pointer",
+      "title": "Agent-Specific Memory Architecture",
+      "content": "See AGENT_SPECIFIC_MEMORY.md \u00a72,3,4",
+      "importance": 0.95,
+      "tags": [
+        "memory",
+        "architecture",
+        "agent",
+        "personal"
+      ],
+      "doc_reference": "AGENT_SPECIFIC_MEMORY.md",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "nav_004",
+      "type": "protocol_pointer",
+      "title": "Helena Core Duties - Knowledge Manager",
+      "content": "See HELENA_CORE_DUTIES.md \u00a71,2,3",
+      "importance": 0.95,
+      "tags": [
+        "helena",
+        "duties",
+        "knowledge-manager",
+        "responsibilities"
+      ],
+      "doc_reference": "HELENA_CORE_DUTIES.md",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "nav_005",
+      "type": "protocol_pointer",
+      "title": "Agent Protocols - All 9 Agents",
+      "content": "Complete protocol in AGENT_PROTOCOLS_UPDATED.md",
+      "importance": 0.9,
+      "tags": [
+        "agents",
+        "protocols",
+        "team",
+        "responsibilities"
+      ],
+      "doc_reference": "AGENT_PROTOCOLS_UPDATED.md",
+      "sections": [
+        "all"
+      ]
+    },
+    {
+      "id": "nav_006",
+      "type": "key_fact",
+      "title": "Helena Prime Directive",
+      "content": "Helena's #1 duty: Data Persistence.",
+      "importance": 0.95,
+      "tags": [
+        "helena",
+        "save",
+        "prime-directive",
+        "persistence"
+      ]
+    },
+    {
+      "id": "nav_007",
+      "type": "key_fact",
+      "title": "Multi-Layer Memory Architecture",
+      "content": "5-layer system: PostgreSQL (structured, unlimited context), Neo4j (knowledge graph, relationships...",
+      "importance": 0.95,
+      "tags": [
+        "architecture",
+        "memory",
+        "layers",
+        "databases"
+      ]
+    },
+    {
+      "id": "nav_008",
+      "type": "key_fact",
+      "title": "9-Agent Team Structure",
+      "content": "Complete team: Aleksander Nowak (Orchestrator), Dr.",
+      "importance": 0.9,
+      "tags": [
+        "team",
+        "agents",
+        "structure",
+        "roles"
+      ]
+    },
+    {
+      "id": "nav_009",
+      "type": "key_fact",
+      "title": "System Cost Structure",
+      "content": "Total monthly cost: $0.",
+      "importance": 0.85,
+      "tags": [
+        "cost",
+        "pricing",
+        "local",
+        "docker"
+      ]
+    },
+    {
+      "id": "nav_010",
+      "type": "key_fact",
+      "title": "Save/Load Game Pattern",
+      "content": "Core metaphor: Video game save system.",
+      "importance": 0.9,
+      "tags": [
+        "pattern",
+        "save",
+        "load",
+        "game",
+        "metaphor"
+      ]
+    },
+    {
+      "id": "nav_011",
+      "type": "workflow_pointer",
+      "title": "Morning Briefing Workflow",
+      "content": "Workflow steps in  \u00a71-5",
+      "importance": 0.85,
+      "tags": [
+        "workflow",
+        "briefing",
+        "morning",
+        "helena",
+        "context"
+      ]
+    },
+    {
+      "id": "nav_012",
+      "type": "workflow_pointer",
+      "title": "Save Decision Workflow",
+      "content": "Workflow steps in  \u00a71-5",
+      "importance": 0.9,
+      "tags": [
+        "workflow",
+        "decision",
+        "save",
+        "helena",
+        "procedure"
+      ]
+    },
+    {
+      "id": "nav_013",
+      "type": "workflow_pointer",
+      "title": "Load Context for Task",
+      "content": "Workflow steps in  \u00a71-5",
+      "importance": 0.85,
+      "tags": [
+        "workflow",
+        "context",
+        "load",
+        "task",
+        "optimization"
+      ]
+    },
+    {
+      "id": "nav_014",
+      "type": "workflow_pointer",
+      "title": "End of Day Save Checkpoint",
+      "content": "Workflow steps in  \u00a71-5",
+      "importance": 0.85,
+      "tags": [
+        "workflow",
+        "checkpoint",
+        "end-of-day",
+        "save",
+        "session"
+      ]
+    },
+    {
+      "id": "nav_015",
+      "type": "workflow_pointer",
+      "title": "Decision Chain Tracking",
+      "content": "Workflow steps in  \u00a71-5",
+      "importance": 0.85,
+      "tags": [
+        "workflow",
+        "decisions",
+        "neo4j",
+        "reasoning",
+        "why"
+      ]
+    },
+    {
+      "id": "nav_016",
+      "type": "technical_pointer",
+      "title": "PostgreSQL Connection Details",
+      "content": "Primary database connection. Docker container: sms-postgres, Port: 5432, Database: destiny_team, ...",
+      "importance": 0.75,
+      "tags": [
+        "technical",
+        "postgresql",
+        "database",
+        "connection"
+      ]
+    },
+    {
+      "id": "nav_017",
+      "type": "technical_pointer",
+      "title": "Neo4j Connection Details",
+      "content": "Knowledge graph database. Docker container: sms-neo4j, Port: 7687 (bolt), 7474 (browser), User: n...",
+      "importance": 0.75,
+      "tags": [
+        "technical",
+        "neo4j",
+        "graph",
+        "connection"
+      ]
+    },
+    {
+      "id": "nav_018",
+      "type": "technical_pointer",
+      "title": "Qdrant Connection Details",
+      "content": "Semantic search vector database. Docker container: sms-qdrant, Port: 6333, Collection: destiny-te...",
+      "importance": 0.75,
+      "tags": [
+        "technical",
+        "qdrant",
+        "vector",
+        "semantic",
+        "connection"
+      ]
+    },
+    {
+      "id": "nav_019",
+      "type": "technical_pointer",
+      "title": "Redis Connection Details",
+      "content": "Hot cache for recent data. Docker container: kg-redis, Port: 6379, No password (local). Access: d...",
+      "importance": 0.75,
+      "tags": [
+        "technical",
+        "redis",
+        "cache",
+        "connection"
+      ]
+    },
+    {
+      "id": "nav_020",
+      "type": "technical_pointer",
+      "title": "LM Studio Embedding Service",
+      "content": "Local embedding generation. Port: 1234, Model: multilingual-e5-large-instruct, Vector size: 1024 ...",
+      "importance": 0.8,
+      "tags": [
+        "technical",
+        "lmstudio",
+        "embeddings",
+        "local"
+      ]
+    },
+    {
+      "id": "nav_021",
+      "type": "technical_pointer",
+      "title": "Agent Context Storage Structure",
+      "content": "Personal agent memory stored in PostgreSQL agent_contexts table. Schema: agent_name (text), proje...",
+      "importance": 0.8,
+      "tags": [
+        "technical",
+        "agent-context",
+        "memory",
+        "storage"
+      ]
+    },
+    {
+      "id": "nav_022",
+      "type": "technical_pointer",
+      "title": "Decision Storage Schema",
+      "content": "PostgreSQL decisions table schema: id (uuid), project_id (text), decision_text (text), decision_t...",
+      "importance": 0.75,
+      "tags": [
+        "technical",
+        "schema",
+        "decisions",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "nav_023",
+      "type": "technical_pointer",
+      "title": "Message Communication Schema",
+      "content": "PostgreSQL messages table schema: id (uuid), project_id (text), sender (text), recipient (text), ...",
+      "importance": 0.7,
+      "tags": [
+        "technical",
+        "schema",
+        "messages",
+        "communication"
+      ]
+    },
+    {
+      "id": "nav_024",
+      "type": "aleksander_agent",
+      "title": "Aleksander Nowak - Orchestrator Role",
+      "content": "Orchestrator responsibilities in AGENT_PROTOCOLS_UPDATED.md. Key duties: 1) Coordinate team, 2) T...",
+      "importance": 0.85,
+      "tags": [
+        "agent",
+        "aleksander",
+        "orchestrator",
+        "coordination"
+      ]
+    },
+    {
+      "id": "nav_025",
+      "type": "helena_agent",
+      "title": "Helena Kowalczyk - Knowledge Manager Role",
+      "content": "Knowledge Manager responsibilities in HELENA_CORE_DUTIES.md and AGENT_PROTOCOLS_UPDATED.md. Prime...",
+      "importance": 0.9,
+      "tags": [
+        "agent",
+        "helena",
+        "knowledge-manager",
+        "duties"
+      ]
+    },
+    {
+      "id": "nav_026",
+      "type": "magdalena_agent",
+      "title": "Magdalena Kowalska - Product Manager Role",
+      "content": "Product Manager responsibilities in AGENT_PROTOCOLS_UPDATED.md. Save triggers: New requirements, ...",
+      "importance": 0.75,
+      "tags": [
+        "agent",
+        "magdalena",
+        "product",
+        "requirements"
+      ]
+    },
+    {
+      "id": "nav_027",
+      "type": "katarzyna_agent",
+      "title": "Katarzyna Wi\u015bniewska - Architect Role",
+      "content": "Architect responsibilities in AGENT_PROTOCOLS_UPDATED.md. Save triggers: Architecture decisions, ...",
+      "importance": 0.85,
+      "tags": [
+        "agent",
+        "katarzyna",
+        "architect",
+        "design"
+      ]
+    },
+    {
+      "id": "nav_028",
+      "type": "tomasz_agent",
+      "title": "Tomasz Zieli\u0144ski - Developer Role",
+      "content": "Developer responsibilities in AGENT_PROTOCOLS_UPDATED.md. Save triggers: Code complete, bug fixes...",
+      "importance": 0.75,
+      "tags": [
+        "agent",
+        "tomasz",
+        "developer",
+        "implementation"
+      ]
+    },
+    {
+      "id": "nav_029",
+      "type": "anna_agent",
+      "title": "Anna Nowakowska - QA Engineer Role",
+      "content": "QA Engineer responsibilities in AGENT_PROTOCOLS_UPDATED.md. Save triggers: Test completion, bugs ...",
+      "importance": 0.75,
+      "tags": [
+        "agent",
+        "anna",
+        "qa",
+        "testing"
+      ]
+    },
+    {
+      "id": "nav_030",
+      "type": "piotr_agent",
+      "title": "Piotr Szyma\u0144ski - DevOps Engineer Role",
+      "content": "DevOps Engineer responsibilities in AGENT_PROTOCOLS_UPDATED.md. Save triggers: Infrastructure cha...",
+      "importance": 0.75,
+      "tags": [
+        "agent",
+        "piotr",
+        "devops",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "nav_031",
+      "type": "michal_agent",
+      "title": "Micha\u0142 D\u0105browski - Security Specialist Role",
+      "content": "Security Specialist responsibilities in AGENT_PROTOCOLS_UPDATED.md. Save triggers: Security vulne...",
+      "importance": 0.8,
+      "tags": [
+        "agent",
+        "michal",
+        "security",
+        "vulnerabilities"
+      ]
+    },
+    {
+      "id": "nav_032",
+      "type": "joanna_agent",
+      "title": "Joanna W\u00f3jcik - Data Scientist Role",
+      "content": "Data Scientist responsibilities in AGENT_PROTOCOLS_UPDATED.md. Save triggers: Model training comp...",
+      "importance": 0.75,
+      "tags": [
+        "agent",
+        "joanna",
+        "data-science",
+        "analysis"
+      ]
+    },
+    {
+      "id": "nav_033",
+      "type": "architecture_doc",
+      "title": "System Architecture Overview",
+      "content": "Complete architecture in ARCHITECTURE_EXPLAINED.md and TEAM_STRUCTURE.md. Multi-layer memory syst...",
+      "importance": 0.85,
+      "tags": [
+        "architecture",
+        "overview",
+        "system",
+        "design"
+      ]
+    },
+    {
+      "id": "nav_034",
+      "type": "architecture_doc",
+      "title": "Data Routing Explained",
+      "content": "Intelligent data routing in ARCHITECTURE_EXPLAINED.md. Layer purposes: PostgreSQL (all structured...",
+      "importance": 0.8,
+      "tags": [
+        "architecture",
+        "routing",
+        "data-flow",
+        "optimization"
+      ]
+    },
+    {
+      "id": "nav_035",
+      "type": "project_status",
+      "title": "Framework Current Status",
+      "content": "Project status in PROJECT_STATUS.md and FINAL_STATUS.md. Phase: Framework Development (85% comple...",
+      "importance": 0.8,
+      "tags": [
+        "status",
+        "progress",
+        "milestones",
+        "roadmap"
+      ]
+    },
+    {
+      "id": "nav_036",
+      "type": "project_status",
+      "title": "Completed Milestones",
+      "content": "Major milestones completed: 1) Multi-layer infrastructure setup (PostgreSQL, Neo4j, Qdrant, Redis...",
+      "importance": 0.75,
+      "tags": [
+        "milestones",
+        "achievements",
+        "completed",
+        "progress"
+      ]
+    },
+    {
+      "id": "nav_037",
+      "type": "project_status",
+      "title": "Next Priorities",
+      "content": "Immediate priorities in PROJECT_STATUS.md: 1) Implement save/load functions in code (master_orche...",
+      "importance": 0.8,
+      "tags": [
+        "priorities",
+        "roadmap",
+        "next-steps",
+        "todo"
+      ]
+    },
+    {
+      "id": "nav_038",
+      "type": "best_practice",
+      "title": "When to Save Data",
+      "content": "Save trigger guidelines in DATA_PERSISTENCE_PROTOCOL.md \u00a72. Automatic saves: Critical decisions (...",
+      "importance": 0.85,
+      "tags": [
+        "best-practice",
+        "save",
+        "triggers",
+        "guidelines"
+      ]
+    },
+    {
+      "id": "nav_039",
+      "type": "best_practice",
+      "title": "When to Load Context",
+      "content": "Load timing guidelines in DATA_LOADING_PROTOCOL.md \u00a72. Always load: Morning briefing, before star...",
+      "importance": 0.85,
+      "tags": [
+        "best-practice",
+        "load",
+        "context",
+        "guidelines"
+      ]
+    },
+    {
+      "id": "nav_040",
+      "type": "best_practice",
+      "title": "Agent Communication Patterns",
+      "content": "Standard communication in AGENT_PROTOCOLS_UPDATED.md. Pattern: 1) Clear recipient, 2) Message typ...",
+      "importance": 0.75,
+      "tags": [
+        "best-practice",
+        "communication",
+        "patterns",
+        "agents"
+      ]
+    },
+    {
+      "id": "nav_041",
+      "type": "troubleshooting",
+      "title": "Database Connection Issues",
+      "content": "Troubleshooting database problems. Check Docker: docker ps (all containers running?). PostgreSQL:...",
+      "importance": 0.7,
+      "tags": [
+        "troubleshooting",
+        "database",
+        "connection",
+        "docker"
+      ]
+    },
+    {
+      "id": "nav_042",
+      "type": "troubleshooting",
+      "title": "Embedding Generation Failures",
+      "content": "Troubleshooting LM Studio embedding issues. Check service: curl http://localhost:1234/v1/models (...",
+      "importance": 0.7,
+      "tags": [
+        "troubleshooting",
+        "embeddings",
+        "lmstudio",
+        "errors"
+      ]
+    },
+    {
+      "id": "nav_043",
+      "type": "troubleshooting",
+      "title": "Save Failed - Recovery Procedure",
+      "content": "What to do when save fails in DATA_PERSISTENCE_PROTOCOL.md \u00a75. Steps: 1) Check which layer failed...",
+      "importance": 0.8,
+      "tags": [
+        "troubleshooting",
+        "save",
+        "failure",
+        "recovery"
+      ]
+    },
+    {
+      "id": "nav_044",
+      "type": "code_pointer",
+      "title": "MasterOrchestrator Class Location",
+      "content": "Main memory orchestration class in master_orchestrator.py. Key methods: __init__ (initializes all...",
+      "importance": 0.85,
+      "tags": [
+        "code",
+        "class",
+        "orchestrator",
+        "memory"
+      ]
+    },
+    {
+      "id": "nav_045",
+      "type": "code_pointer",
+      "title": "KnowledgeManagerAgent Class Location",
+      "content": "Helena's implementation in knowledge_manager_agent.py. Key methods: __init__, summarize_project()...",
+      "importance": 0.85,
+      "tags": [
+        "code",
+        "class",
+        "helena",
+        "knowledge-manager"
+      ]
+    },
+    {
+      "id": "nav_046",
+      "type": "code_pointer",
+      "title": "FullDestinyTeam Class Location",
+      "content": "Complete team integration in full_team_integration.py. Initializes all 9 agents with multi-layer ...",
+      "importance": 0.8,
+      "tags": [
+        "code",
+        "class",
+        "integration",
+        "team"
+      ]
+    },
+    {
+      "id": "nav_047",
+      "type": "code_pointer",
+      "title": "Database Client Classes",
+      "content": "Layer-specific clients: PostgresContextStore (postgres_store.py), Neo4jKnowledgeGraph (neo4j_grap...",
+      "importance": 0.75,
+      "tags": [
+        "code",
+        "clients",
+        "database",
+        "abstraction"
+      ]
+    },
+    {
+      "id": "nav_048",
+      "type": "performance_tip",
+      "title": "Semantic Search Optimization",
+      "content": "Optimize Qdrant searches: 1) Use appropriate limit (3-5 for most queries, not 100), 2) Include fi...",
+      "importance": 0.75,
+      "tags": [
+        "performance",
+        "optimization",
+        "search",
+        "qdrant"
+      ]
+    },
+    {
+      "id": "nav_049",
+      "type": "performance_tip",
+      "title": "Token Usage Optimization",
+      "content": "Minimize token costs in DATA_LOADING_PROTOCOL.md \u00a75. Strategies: 1) Load summaries before full co...",
+      "importance": 0.8,
+      "tags": [
+        "performance",
+        "tokens",
+        "optimization",
+        "efficiency"
+      ]
+    },
+    {
+      "id": "nav_050",
+      "type": "performance_tip",
+      "title": "Memory Layer Selection Strategy",
+      "content": "Choose right layer for query type: PostgreSQL for structured queries (specific decision by ID), N...",
+      "importance": 0.75,
+      "tags": [
+        "performance",
+        "optimization",
+        "routing",
+        "strategy"
+      ]
+    }
+  ]
+}

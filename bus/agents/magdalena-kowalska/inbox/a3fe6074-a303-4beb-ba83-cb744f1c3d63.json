@@ -1,0 +1,12 @@
+{
+  "id": "a3fe6074-a303-4beb-ba83-cb744f1c3d63",
+  "from": "Aleksander Nowak",
+  "to": "magdalena-kowalska",
+  "type": "PROMPT",
+  "content": "Handshake: You are Magdalena Kowalska (Product Manager). Reply exactly: READY - Product Manager",
+  "context": {
+    "project": "OSINT_MVP",
+    "phase": "Handshake"
+  },
+  "created_at": "2025-11-01T20:44:39Z"
+}

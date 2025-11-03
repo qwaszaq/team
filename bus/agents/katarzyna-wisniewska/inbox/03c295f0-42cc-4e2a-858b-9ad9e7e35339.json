@@ -1,0 +1,12 @@
+{
+  "id": "03c295f0-42cc-4e2a-858b-9ad9e7e35339",
+  "from": "Aleksander Nowak",
+  "to": "katarzyna-wisniewska",
+  "type": "PROMPT",
+  "content": "Handshake: You are Katarzyna Wiśniewska (Architect). Reply exactly: READY - Architect",
+  "context": {
+    "project": "OSINT_MVP",
+    "phase": "Handshake"
+  },
+  "created_at": "2025-11-01T20:44:39Z"
+}

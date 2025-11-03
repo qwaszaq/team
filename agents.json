@@ -1,0 +1,17 @@
+{
+  "orchestrator": {
+    "name": "Aleksander Nowak",
+    "slug": "aleksander-nowak",
+    "role": "Orchestrator"
+  },
+  "agents": [
+    {"name": "Magdalena Kowalska", "slug": "magdalena-kowalska", "role": "Product Manager"},
+    {"name": "Katarzyna Wiśniewska", "slug": "katarzyna-wisniewska", "role": "Architect"},
+    {"name": "Tomasz Zieliński", "slug": "tomasz-zielinski", "role": "Developer"},
+    {"name": "Anna Nowakowska", "slug": "anna-nowakowska", "role": "QA Engineer"},
+    {"name": "Piotr Szymański", "slug": "piotr-szymanski", "role": "DevOps Engineer"},
+    {"name": "Michał Dąbrowski", "slug": "michal-dabrowski", "role": "Security Specialist"},
+    {"name": "Dr. Joanna Wójcik", "slug": "dr-joanna-wojcik", "role": "Data Scientist"},
+    {"name": "Dr. Helena Kowalczyk", "slug": "helena-kowalczyk", "role": "Knowledge Manager"}
+  ]
+}
