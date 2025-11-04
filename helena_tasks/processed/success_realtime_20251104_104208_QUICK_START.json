@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/guides/QUICK_START.md",
+  "document_type": "protocol",
+  "title": "\u26a1 Quick Start Guide - Get Running in 5 Minutes!",
+  "detected_at": "2025-11-04T10:42:08.581062",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \u26a1 Quick Start Guide - Get Running in 5 Minutes!\n\n**Helena Auto-Execution System - Fastest Path to Success**\n\n---\n\n## \ud83c\udfaf Goal\n\nGet Helena automatically propagating your documents to all 4 databases in under 5 minutes!\n\n---\n\n## \u2705 Prerequisites Checklist\n\nBefore starting, verify you have:\n\n- [ ] macOS or Linux system\n- [ ] Conda installed (`conda --version`)\n- [ ] Conda environment named 'team' (`conda env list | grep team`)\n- [ ] Docker running (`docker ps`)\n- [ ] Databases running (Qdrant, Postg"
+}

@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/guides/TROUBLESHOOTING.md",
+  "document_type": "general_documentation",
+  "title": "\ud83d\udd27 Troubleshooting Guide - Helena Auto-Execution System",
+  "detected_at": "2025-11-04T10:41:19.510782",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udd27 Troubleshooting Guide - Helena Auto-Execution System\n\n**Common issues and their solutions**\n\n---\n\n## \ud83d\udccb Table of Contents\n\n1. [Watcher Issues](#watcher-issues)\n2. [Qdrant Issues](#qdrant-issues)\n3. [Database Connection Issues](#database-connection-issues)\n4. [Environment Issues](#environment-issues)\n5. [Performance Issues](#performance-issues)\n6. [Common Error Messages](#common-error-messages)\n\n---\n\n## \ud83d\udd0d Watcher Issues\n\n### Watcher Not Starting\n\n**Symptoms:**\n- `./start_watcher_conda.sh` runs"
+}

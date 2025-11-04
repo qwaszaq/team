@@ -1,0 +1,59 @@
+SET doc:TROUBLESHOOTING:title "🔧 Troubleshooting Guide - Helena Auto-Execution System"
+SET doc:TROUBLESHOOTING:type "general_documentation"
+SET doc:TROUBLESHOOTING:path "docs/guides/TROUBLESHOOTING.md"
+SET doc:TROUBLESHOOTING:content "# 🔧 Troubleshooting Guide - Helena Auto-Execution System
+
+**Common issues and their solutions**
+
+---
+
+## 📋 Table of Contents
+
+1. [Watcher Issues](#watcher-issues)
+2. [Qdrant Issues](#qdrant-issues)
+3. [Database Connection Issues](#database-connection-issues)
+4. [Environment Issues](#environment-issues)
+5. [Performance Issues](#performance-issues)
+6. [Common Error Messages](#common-error-messages)
+
+---
+
+## 🔍 Watcher Issues
+
+### Watcher Not Starting
+
+**Symptoms:**
+- `./start_watcher_conda.sh` runs but no process visible
+- No log output in `logs/watcher.log`
+
+**Diagnosis:**
+```bash
+# Check if process is running
+ps aux | grep realtime_md_watcher
+
+# Check logs for errors
+cat logs/watcher.log
+cat logs/watcher_error.log
+```
+
+**Solutions:**
+
+1. **Conda environment not activated:**
+```bash
+conda activate team
+./start_watcher_conda.sh
+```
+
+2. **Missing watchdog package:**
+```bash
+conda activate team
+conda install watchdog
+```
+
+3. **Permission issues:**
+```bash
+chmod +x start_watcher_conda.sh
+chm"
+EXPIRE doc:TROUBLESHOOTING:content 86400
+SADD docs:all "TROUBLESHOOTING"
+SADD docs:type:general_documentation "TROUBLESHOOTING"

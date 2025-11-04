@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/team/ENHANCED_COLLABORATION_STEP3.md",
+  "document_type": "architecture",
+  "title": "Enhanced Collaboration System - Step 3: Decision Evolution Tracker",
+  "detected_at": "2025-11-04T11:37:25.368257",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Enhanced Collaboration System - Step 3: Decision Evolution Tracker\n\n**Date:** 2025-11-04  \n**Component:** DecisionEvolutionTracker  \n**Status:** \u2705 Implemented  \n**Branch:** feature/enhanced-cross-team-collaboration\n\n---\n\n## \ud83c\udfaf Purpose\n\nTrack how decisions evolve through multi-turn collaboration, measuring confidence changes, simplification trends, and improvement indicators.\n\n---\n\n## \ud83d\udd27 Component: DecisionEvolutionTracker\n\n### Features\n\n**1. Version Tracking**\n- Complete decision history\n- Ratio"
+}

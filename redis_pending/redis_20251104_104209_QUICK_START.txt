@@ -1,0 +1,56 @@
+SET doc:QUICK_START:title "⚡ Quick Start Guide - Get Running in 5 Minutes!"
+SET doc:QUICK_START:type "protocol"
+SET doc:QUICK_START:path "docs/guides/QUICK_START.md"
+SET doc:QUICK_START:content "# ⚡ Quick Start Guide - Get Running in 5 Minutes!
+
+**Helena Auto-Execution System - Fastest Path to Success**
+
+---
+
+## 🎯 Goal
+
+Get Helena automatically propagating your documents to all 4 databases in under 5 minutes!
+
+---
+
+## ✅ Prerequisites Checklist
+
+Before starting, verify you have:
+
+- [ ] macOS or Linux system
+- [ ] Conda installed (`conda --version`)
+- [ ] Conda environment named 'team' (`conda env list | grep team`)
+- [ ] Docker running (`docker ps`)
+- [ ] Databases running (Qdrant, PostgreSQL, Neo4j, Redis)
+
+```bash
+# Quick verification
+docker ps | grep -E "qdrant|postgres|neo4j|redis" | wc -l
+# Should output: 4 (or more)
+```
+
+---
+
+## 🚀 5-Minute Setup
+
+### Step 1: Navigate to Project (10 seconds)
+
+```bash
+cd /Users/artur/coursor-agents-destiny-folder
+```
+
+### Step 2: Activate Environment (5 seconds)
+
+```bash
+conda activate team
+```
+
+### Step 3: Verify Dependencies (20 seconds)
+
+```bash
+# Quick check - should all return ✅
+python -c "import watchdog; print('✅ watchdog')"
+python -"
+EXPIRE doc:QUICK_START:content 86400
+SADD docs:all "QUICK_START"
+SADD docs:type:protocol "QUICK_START"
