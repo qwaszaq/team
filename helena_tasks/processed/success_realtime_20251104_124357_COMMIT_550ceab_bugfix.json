@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/auto-generated/2025-11-04/COMMIT_550ceab_bugfix.md",
+  "document_type": "general_documentation",
+  "title": "Resolve false-positive warnings in database connectivity checks",
+  "detected_at": "2025-11-04T12:43:57.176514",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Resolve false-positive warnings in database connectivity checks\n\n**Auto-Generated Documentation**\n\n**Date:** 2025-11-04 12:38:37\n**Commit:** `550ceab`\n**Type:** Bugfix\n**Author:** artur\n\n---\n\n## \ud83d\udcdd Commit Message\n\n**fix: Resolve false-positive warnings in database connectivity checks**\n\n## Problem\nPostgreSQL and Redis connectivity checks were showing \u26a0\ufe0f warnings despite\nservices being healthy and fully operational. This was misleading and\nsuggested system issues when none existed.\n\n## Root Caus"
+}

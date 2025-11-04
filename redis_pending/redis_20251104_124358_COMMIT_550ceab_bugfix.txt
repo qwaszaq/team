@@ -1,0 +1,38 @@
+SET doc:COMMIT_550ceab_bugfix:title "Resolve false-positive warnings in database connectivity checks"
+SET doc:COMMIT_550ceab_bugfix:type "general_documentation"
+SET doc:COMMIT_550ceab_bugfix:path "docs/auto-generated/2025-11-04/COMMIT_550ceab_bugfix.md"
+SET doc:COMMIT_550ceab_bugfix:content "# Resolve false-positive warnings in database connectivity checks
+
+**Auto-Generated Documentation**
+
+**Date:** 2025-11-04 12:38:37
+**Commit:** `550ceab`
+**Type:** Bugfix
+**Author:** artur
+
+---
+
+## 📝 Commit Message
+
+**fix: Resolve false-positive warnings in database connectivity checks**
+
+## Problem
+PostgreSQL and Redis connectivity checks were showing ⚠️ warnings despite
+services being healthy and fully operational. This was misleading and
+suggested system issues when none existed.
+
+## Root Cause (Multi-Agent Investigation)
+- **Piotr (DevOps)**: Identified that ports 5432 and 6379 were OPEN
+- **Tomasz (Developer)**: Discovered macOS 'timeout' command was corrupting exit codes
+- The timeout command was causing nc/redis-cli to fail even on successful connections
+
+## Solution Implemented
+1. **Removed problematic timeout command**
+   - Services respond instantly, timeout unnecessary
+   - Timeout was breaking exit code handling on macOS
+
+2. **Improved PostgreSQL check**
+   - Use nc with pro"
+EXPIRE doc:COMMIT_550ceab_bugfix:content 86400
+SADD docs:all "COMMIT_550ceab_bugfix"
+SADD docs:type:general_documentation "COMMIT_550ceab_bugfix"
