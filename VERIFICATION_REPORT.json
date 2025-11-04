@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-11-03T17:11:36.539401",
+  "checks": [
+    {
+      "name": "PostgreSQL: analytical_agents table exists",
+      "status": "PASS",
+      "evidence": "Table exists",
+      "details": ""
+    },
+    {
+      "name": "PostgreSQL: 9 analytical agents",
+      "status": "PASS",
+      "evidence": "9",
+      "details": ""
+    },
+    {
+      "name": "PostgreSQL: team_capabilities table exists",
+      "status": "PASS",
+      "evidence": "Table exists",
+      "details": ""
+    },
+    {
+      "name": "PostgreSQL: 20+ capabilities",
+      "status": "WARN",
+      "evidence": "No count parsed",
+      "details": ""
+    },
+    {
+      "name": "Redis: knowledge:analytical-team:overview exists",
+      "status": "PASS",
+      "evidence": "Key exists",
+      "details": ""
+    },
+    {
+      "name": "Redis: knowledge:analytical-team:quick-ref exists",
+      "status": "PASS",
+      "evidence": "Key exists",
+      "details": ""
+    },
+    {
+      "name": "Redis: overview contains 9 agents",
+      "status": "PASS",
+      "evidence": "Data verified",
+      "details": ""
+    },
+    {
+      "name": "Neo4j: 9 analytical agent nodes",
+      "status": "PASS",
+      "evidence": "9 nodes",
+      "details": ""
+    },
+    {
+      "name": "Neo4j: Analytical team node exists",
+      "status": "PASS",
+      "evidence": "1 node",
+      "details": ""
+    },
+    {
+      "name": "Neo4j: Agent relationships exist",
+      "status": "PASS",
+      "evidence": "26 relationships",
+      "details": ""
+    },
+    {
+      "name": "Qdrant: Collection exists",
+      "status": "PASS",
+      "evidence": "328 points",
+      "details": ""
+    },
+    {
+      "name": "Qdrant: Analytical docs indexed",
+      "status": "PASS",
+      "evidence": "5 docs",
+      "details": ""
+    },
+    {
+      "name": "Docs: ANALYTICAL_TEAM_ANNOUNCEMENT.md",
+      "status": "PASS",
+      "evidence": "10747 bytes",
+      "details": ""
+    },
+    {
+      "name": "Docs: ANALYTICAL_TEAM_QUICK_START.md",
+      "status": "PASS",
+      "evidence": "9722 bytes",
+      "details": ""
+    },
+    {
+      "name": "Docs: agents/analytical/TEAM_PROFILE.md",
+      "status": "PASS",
+      "evidence": "7490 bytes",
+      "details": ""
+    },
+    {
+      "name": "Docs: agents/analytical/PRIVACY_ARCHITECTURE.md",
+      "status": "PASS",
+      "evidence": "12230 bytes",
+      "details": ""
+    },
+    {
+      "name": "Docs: agents/analytical/CROSS_TEAM_INTEGRATION.md",
+      "status": "PASS",
+      "evidence": "13575 bytes",
+      "details": ""
+    },
+    {
+      "name": "Docs: sql/analytical_team_setup.sql",
+      "status": "PASS",
+      "evidence": "15799 bytes",
+      "details": ""
+    },
+    {
+      "name": "Docs: sql/analytical_team_neo4j.cypher",
+      "status": "PASS",
+      "evidence": "6942 bytes",
+      "details": ""
+    }
+  ],
+  "overall_status": "COMPLETE_WITH_WARNINGS"
+}
