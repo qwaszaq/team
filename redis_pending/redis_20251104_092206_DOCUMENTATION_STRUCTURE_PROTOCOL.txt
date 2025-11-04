@@ -1,0 +1,43 @@
+SET doc:DOCUMENTATION_STRUCTURE_PROTOCOL:title "📁 Documentation Structure Protocol"
+SET doc:DOCUMENTATION_STRUCTURE_PROTOCOL:type "protocol"
+SET doc:DOCUMENTATION_STRUCTURE_PROTOCOL:path "docs/protocols/DOCUMENTATION_STRUCTURE_PROTOCOL.md"
+SET doc:DOCUMENTATION_STRUCTURE_PROTOCOL:content "# 📁 Documentation Structure Protocol
+
+**Created:** 2025-11-04  
+**Status:** ACTIVE  
+**Applies to:** ALL AGENTS  
+**Critical:** YES - All agents must follow this structure
+
+---
+
+## 🎯 Purpose
+
+This protocol defines where and how all documentation should be saved in the Destiny project.
+
+**Problem Solved:**
+- ❌ 168 .md files scattered in root directory
+- ❌ Hard to find relevant documentation
+- ❌ No organization or categorization
+- ❌ Difficult for agents to discover knowledge
+
+**Solution:**
+- ✅ Organized `docs/` directory structure
+- ✅ Clear categorization
+- ✅ Automatic indexing
+- ✅ Easy discovery
+
+---
+
+## 📂 Directory Structure
+
+```
+docs/
+├── protocols/          # Process definitions, protocols, procedures
+├── team/              # Team member profiles, agent definitions
+├── status/            # Status reports, completion summaries
+├── architecture/      # System design, framework docs
+├── guides/            # Setup guides, tutorials, how-tos
+├── analysis/          # Research, assessments,"
+EXPIRE doc:DOCUMENTATION_STRUCTURE_PROTOCOL:content 86400
+SADD docs:all "DOCUMENTATION_STRUCTURE_PROTOCOL"
+SADD docs:type:protocol "DOCUMENTATION_STRUCTURE_PROTOCOL"

@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/protocols/HELENA_VECTOR_1024_REQUIREMENT.md",
+  "document_type": "architecture",
+  "title": "\ud83c\udfaf OBOWI\u0104ZEK: Helena - Vectors 1024 Dimensions",
+  "detected_at": "2025-11-04T10:13:04.647599",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udfaf OBOWI\u0104ZEK: Helena - Vectors 1024 Dimensions\n\n**Data:** 2025-11-04  \n**Status:** OBOWI\u0104ZKOWY - MANDATORY  \n**Priority:** CRITICAL  \n**Autor:** System Architecture\n\n---\n\n## \u26a0\ufe0f WYM\u00d3G KRYTYCZNY\n\n**Helena MUSI u\u017cywa\u0107 vector\u00f3w o wymiarze 1024 dla wszystkich operacji z Qdrant!**\n\n### Dlaczego 1024?\n\nKolekcja `destiny-team-framework-master` w Qdrant jest skonfigurowana z:\n\n```json\n{\n  \"vectors\": {\n    \"size\": 1024,\n    \"distance\": \"Cosine\"\n  }\n}\n```\n\n**NIEZGODNO\u015a\u0106 WYMIAR\u00d3W = INDEXING FAILURE!**\n\n---"
+}

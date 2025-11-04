@@ -1,0 +1,8 @@
+{
+  "file_path": "docs/protocols/TEST_PROTOCOL_SYSTEM_CHECK.md",
+  "title": "Test Protocol - System Check",
+  "document_type": "protocol",
+  "content": "# Test Protocol - System Check\n\n**Created:** 2025-11-04 09:13  \n**Purpose:** Test end-to-end documentation processing  \n**Status:** TEST DOCUMENT\n\n---\n\n## Test Objectives\n\nThis document tests the complete documentation pipeline:\n\n1. \u2705 File saved to correct location (`docs/protocols/`)\n2. \u2705 Real-time watcher detects change (if running)\n3. \u2705 Helena processes document automatically\n4. \u2705 Content propagated to databases:\n   - PostgreSQL (metadata)\n   - Neo4j (knowledge graph)\n   - Qdrant (semantic search)\n   - Redis (cache)\n\n## Test Content\n\n### Key Concepts\n- System Integration\n- Automated Processing\n- Knowledge Propagation\n- Real-Time Detection\n\n### Expected Behavior\n\nWhen this file is saved:\n- Watcher detects within 1 second\n- Helena queues for processing\n- SQL/Cypher/Redis commands generated\n- Qdrant indexing queued\n- Processing complete in <10 seconds\n\n## Verification\n\nCheck these locations:\n- `helena_tasks/realtime_queue/` - Processing queue\n- `sql/realtime_updates/` - Generated SQL\n- `qdrant_pending/` - Documents to index\n- `redis_pending/` - Redis commands\n\n## Status\n\nThis is a TEST document to verify the complete pipeline is operational.\n\n---\n\n**Test ID:** SYS-CHECK-001  \n**Timestamp:** 2025-11-04 09:13:00\n",
+  "indexed_at": "2025-11-04T09:14:10.633517",
+  "source": "realtime_watcher"
+}

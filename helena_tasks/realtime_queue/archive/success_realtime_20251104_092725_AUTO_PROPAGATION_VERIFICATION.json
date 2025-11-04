@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/protocols/AUTO_PROPAGATION_VERIFICATION.md",
+  "document_type": "general_documentation",
+  "title": "Automatyczna Propagacja - Weryfikacja",
+  "detected_at": "2025-11-04T09:27:25.451393",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Automatyczna Propagacja - Weryfikacja\n\n**Data:** Tue Nov  4 09:27:25 CET 2025\n**Status:** Produkcyjny dokument\n\n## Opis\n\nTen dokument s\u0142u\u017cy do weryfikacji \u017ce system automatyzacji dzia\u0142a w 100%.\n\n## Wymagania Systemu\n\n1. Watcher musi wykry\u0107 plik natychmiast (<1s)\n2. Helena musi przetworzy\u0107 automatycznie (<10s) \n3. Musi wygenerowa\u0107 pliki dla 4 baz danych:\n   - PostgreSQL SQL\n   - Neo4j Cypher\n   - Qdrant JSON\n   - Redis commands\n\n## Kryteria Sukcesu\n\nJe\u015bli ten dokument zosta\u0142:\n- \u2705 Wykryty przez "
+}

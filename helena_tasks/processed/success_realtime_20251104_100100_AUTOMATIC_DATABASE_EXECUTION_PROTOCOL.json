@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/protocols/AUTOMATIC_DATABASE_EXECUTION_PROTOCOL.md",
+  "document_type": "protocol",
+  "title": "\ud83d\udd04 Automatic Database Execution Protocol",
+  "detected_at": "2025-11-04T10:01:00.262922",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udd04 Automatic Database Execution Protocol\n\n**Data:** 2025-11-04  \n**Status:** OBOWI\u0104ZKOWY - MANDATORY  \n**Autor:** System + Helena\n\n---\n\n## \u26a0\ufe0f WYM\u00d3G KRYTYCZNY\n\n**Helena MUSI automatycznie wykonywa\u0107 zapisy do WSZYSTKICH baz danych!**\n\n### Przed (NIEPRAWID\u0141OWE \u274c):\n```\nHelena \u2192 Generuje SQL\nHelena \u2192 Generuje Cypher  \nHelena \u2192 Generuje JSON\nHelena \u2192 Generuje Redis commands\n\nAdministrator \u2192 R\u0119cznie wykonuje (\u274c NIEDOPUSZCZALNE)\n```\n\n### Teraz (PRAWID\u0141OWE \u2705):\n```\nHelena \u2192 WYKONUJE do PostgreSQL\nHelena "
+}

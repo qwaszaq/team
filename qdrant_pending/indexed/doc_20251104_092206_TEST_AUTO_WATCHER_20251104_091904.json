@@ -1,0 +1,8 @@
+{
+  "file_path": "docs/protocols/TEST_AUTO_WATCHER_20251104_091904.md",
+  "title": "Test Auto-Watcher",
+  "document_type": "protocol",
+  "content": "# Test Auto-Watcher\n\nUtworzony: Tue Nov  4 09:19:04 CET 2025\nTest: Sprawdzenie czy watcher automatycznie wykrywa zmiany\n\nTo jest dokument testowy utworzony aby zweryfikowa\u0107 \u017ce:\n1. Watcher dzia\u0142a automatycznie po starcie systemu\n2. Wykrywa nowe pliki .md natychmiast\n3. Helena przetwarza je automatycznie\n\n",
+  "indexed_at": "2025-11-04T09:22:06.075642",
+  "source": "realtime_watcher"
+}

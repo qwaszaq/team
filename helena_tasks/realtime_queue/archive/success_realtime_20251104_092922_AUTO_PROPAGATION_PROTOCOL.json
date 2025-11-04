@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/protocols/AUTO_PROPAGATION_PROTOCOL.md",
+  "document_type": "protocol",
+  "title": "Protok\u00f3\u0142 Automatycznej Propagacji Wiedzy",
+  "detected_at": "2025-11-04T09:29:22.155716",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Protok\u00f3\u0142 Automatycznej Propagacji Wiedzy\n\n**Data utworzenia:** Tue Nov  4 09:29:22 CET 2025  \n**Autor:** System Automatyzacji  \n**Status:** Produkcyjny dokument\n\n---\n\n## 1. Wprowadzenie\n\nTen protok\u00f3\u0142 definiuje proces automatycznego przetwarzania dokumentacji\nprzez system Helena + Watcher. Ka\u017cdy dokument zapisany w strukturze docs/\njest automatycznie wykrywany i propagowany do wszystkich baz danych.\n\n## 2. Architektura Systemu\n\n### 2.1 Komponenty\n\n1. **Real-Time Watcher**\n   - Monitoruje zmiany"
+}

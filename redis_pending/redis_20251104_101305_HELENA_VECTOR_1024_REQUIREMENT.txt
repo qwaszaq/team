@@ -1,0 +1,54 @@
+SET doc:HELENA_VECTOR_1024_REQUIREMENT:title "🎯 OBOWIĄZEK: Helena - Vectors 1024 Dimensions"
+SET doc:HELENA_VECTOR_1024_REQUIREMENT:type "architecture"
+SET doc:HELENA_VECTOR_1024_REQUIREMENT:path "docs/protocols/HELENA_VECTOR_1024_REQUIREMENT.md"
+SET doc:HELENA_VECTOR_1024_REQUIREMENT:content "# 🎯 OBOWIĄZEK: Helena - Vectors 1024 Dimensions
+
+**Data:** 2025-11-04  
+**Status:** OBOWIĄZKOWY - MANDATORY  
+**Priority:** CRITICAL  
+**Autor:** System Architecture
+
+---
+
+## ⚠️ WYMÓG KRYTYCZNY
+
+**Helena MUSI używać vectorów o wymiarze 1024 dla wszystkich operacji z Qdrant!**
+
+### Dlaczego 1024?
+
+Kolekcja `destiny-team-framework-master` w Qdrant jest skonfigurowana z:
+
+```json
+{
+  "vectors": {
+    "size": 1024,
+    "distance": "Cosine"
+  }
+}
+```
+
+**NIEZGODNOŚĆ WYMIARÓW = INDEXING FAILURE!**
+
+---
+
+## 📋 ZASADY OBOWIĄZKOWE
+
+### 1. Vector Generation - ZAWSZE 1024 wymiary
+
+```python
+# ✅ POPRAWNE - 1024 wymiary
+def generate_embedding(text: str) -> list:
+    """Generate 1024-dimensional vector for Qdrant"""
+    hash_obj = hashlib.sha512(text.encode())
+    hash_bytes = hash_obj.digest()  # 64 bytes
+    
+    # Create 1024-dimensional vector
+    embedding = []
+    for i in range(1024):
+        byte_val = hash_bytes[i % len(hash_bytes)]
+        embedding.append((byte_val / 127.5) - 1.0)
+    
+    "
+EXPIRE doc:HELENA_VECTOR_1024_REQUIREMENT:content 86400
+SADD docs:all "HELENA_VECTOR_1024_REQUIREMENT"
+SADD docs:type:architecture "HELENA_VECTOR_1024_REQUIREMENT"

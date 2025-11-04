@@ -1,0 +1,17 @@
+SET doc:TEST_AUTO_WATCHER_20251104_091904:title "Test Auto-Watcher"
+SET doc:TEST_AUTO_WATCHER_20251104_091904:type "protocol"
+SET doc:TEST_AUTO_WATCHER_20251104_091904:path "docs/protocols/TEST_AUTO_WATCHER_20251104_091904.md"
+SET doc:TEST_AUTO_WATCHER_20251104_091904:content "# Test Auto-Watcher
+
+Utworzony: Tue Nov  4 09:19:04 CET 2025
+Test: Sprawdzenie czy watcher automatycznie wykrywa zmiany
+
+To jest dokument testowy utworzony aby zweryfikować że:
+1. Watcher działa automatycznie po starcie systemu
+2. Wykrywa nowe pliki .md natychmiast
+3. Helena przetwarza je automatycznie
+
+"
+EXPIRE doc:TEST_AUTO_WATCHER_20251104_091904:content 86400
+SADD docs:all "TEST_AUTO_WATCHER_20251104_091904"
+SADD docs:type:protocol "TEST_AUTO_WATCHER_20251104_091904"
