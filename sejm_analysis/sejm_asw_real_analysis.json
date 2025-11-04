@@ -1,0 +1,381 @@
+{
+  "committee": {
+    "appointmentDate": "2019-11-13",
+    "code": "ASW",
+    "compositionDate": "2019-11-13",
+    "members": [
+      {
+        "club": "Lewica",
+        "function": "przewodniczący",
+        "id": 366,
+        "lastFirstName": "Szczepański Wiesław"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 137,
+        "lastFirstName": "Hreniak Paweł"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 150,
+        "lastFirstName": "Kaleta Piotr"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 301,
+        "lastFirstName": "Polaczek Jerzy"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 343,
+        "lastFirstName": "Sipiera Zdzisław"
+      },
+      {
+        "club": "KO",
+        "function": "zastępca przewodniczącego",
+        "id": 381,
+        "lastFirstName": "Szymański Tomasz"
+      },
+      {
+        "club": "Lewica",
+        "id": 2,
+        "lastFirstName": "Adamczyk Rafał"
+      },
+      {
+        "club": "PiS",
+        "id": 18,
+        "lastFirstName": "Baszko Mieczysław"
+      },
+      {
+        "club": "KP",
+        "id": 24,
+        "lastFirstName": "Biernacki Marek"
+      },
+      {
+        "club": "KO",
+        "id": 26,
+        "lastFirstName": "Bochenek Mateusz"
+      },
+      {
+        "club": "KO",
+        "id": 31,
+        "lastFirstName": "Borys Piotr"
+      },
+      {
+        "club": "PiS",
+        "id": 44,
+        "lastFirstName": "Chrzan Tadeusz"
+      },
+      {
+        "club": "PiS",
+        "id": 47,
+        "lastFirstName": "Cieślak Michał"
+      },
+      {
+        "club": "KO",
+        "id": 49,
+        "lastFirstName": "Cyrański Adam"
+      },
+      {
+        "club": "KO",
+        "id": 57,
+        "lastFirstName": "Czernow Zofia"
+      },
+      {
+        "club": "PiS",
+        "id": 59,
+        "lastFirstName": "Czochara Katarzyna"
+      },
+      {
+        "club": "PiS",
+        "id": 68,
+        "lastFirstName": "Duda Elżbieta"
+      },
+      {
+        "club": "KO",
+        "id": 76,
+        "lastFirstName": "Dzikowski Waldy"
+      },
+      {
+        "club": "PiS",
+        "id": 83,
+        "lastFirstName": "Filipiak Ewa"
+      },
+      {
+        "club": "KO",
+        "id": 86,
+        "lastFirstName": "Frysztak Konrad"
+      },
+      {
+        "club": "PiS",
+        "id": 111,
+        "lastFirstName": "Gontarz Robert"
+      },
+      {
+        "club": "PiS",
+        "id": 464,
+        "lastFirstName": "Gosek Mariusz"
+      },
+      {
+        "club": "PiS",
+        "id": 148,
+        "lastFirstName": "Kaczyński Filip"
+      },
+      {
+        "club": "Lewica",
+        "id": 191,
+        "lastFirstName": "Krutul Paweł"
+      },
+      {
+        "club": "KO",
+        "id": 210,
+        "lastFirstName": "Lenartowicz Gabriela"
+      },
+      {
+        "club": "KO",
+        "id": 222,
+        "lastFirstName": "Łącki Artur"
+      },
+      {
+        "club": "KP",
+        "id": 270,
+        "lastFirstName": "Nowogórska Urszula"
+      },
+      {
+        "club": "PiS",
+        "id": 289,
+        "lastFirstName": "Pawłowska Monika"
+      },
+      {
+        "club": "KO",
+        "id": 290,
+        "lastFirstName": "Pępek Małgorzata"
+      },
+      {
+        "club": "KO",
+        "id": 296,
+        "lastFirstName": "Piekarska Katarzyna Maria"
+      },
+      {
+        "club": "PiS",
+        "id": 465,
+        "lastFirstName": "Pogoda Szymon"
+      },
+      {
+        "club": "KP",
+        "id": 357,
+        "lastFirstName": "Sroka Magdalena"
+      },
+      {
+        "club": "PiS",
+        "id": 369,
+        "lastFirstName": "Szczurek-Żelazko Józefa"
+      },
+      {
+        "club": "Lewica",
+        "id": 374,
+        "lastFirstName": "Szopiński Jan"
+      },
+      {
+        "club": "Konfederacja",
+        "id": 401,
+        "lastFirstName": "Tuduj Krzysztof"
+      },
+      {
+        "club": "KO",
+        "id": 425,
+        "lastFirstName": "Wilczyński Ryszard"
+      },
+      {
+        "club": "PiS",
+        "id": 431,
+        "lastFirstName": "Wojtyszek Agata Katarzyna"
+      },
+      {
+        "club": "PiS",
+        "id": 435,
+        "lastFirstName": "Woźniak Grzegorz Adam"
+      },
+      {
+        "club": "PiS",
+        "id": 436,
+        "lastFirstName": "Woźniak Tadeusz"
+      },
+      {
+        "club": "PiS",
+        "id": 449,
+        "lastFirstName": "Zieliński Jarosław"
+      },
+      {
+        "club": "Polska2050",
+        "id": 452,
+        "lastFirstName": "Zimoch Tomasz"
+      }
+    ],
+    "name": "Komisja Administracji i Spraw Wewnętrznych",
+    "nameGenitive": "Komisji Administracji i Spraw Wewnętrznych",
+    "phone": "(22) 694-18-44, 694-14-93, 694-19-38, FAX 694-28-53",
+    "scope": "Do zakresu działania Komisji należą sprawy administracji państwowej oraz bezpieczeństwa, ładu i porządku publicznego.",
+    "subCommittees": [
+      "ASW01N",
+      "ASW01S",
+      "ASW02N",
+      "ASW02S",
+      "ASW03N",
+      "ASW03S",
+      "ASW04S"
+    ],
+    "type": "STANDING"
+  },
+  "total_sittings": 197,
+  "sample_details": [
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Wybór Prezydium Komisji.</div>",
+      "closed": false,
+      "code": "ASW",
+      "comments": "Nastąpiła zmiana godziny rozpoczęcia posiedzenia.",
+      "date": "2019-11-14",
+      "endDateTime": "2019-11-14T13:50:00",
+      "num": 1,
+      "remote": false,
+      "room": "sala im. Konstytucji 3-go Maja (nr 118, bud. C)",
+      "startDateTime": "2019-11-14T13:35:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Wybór Prezydium Komisji.",
+          "endDateTime": "2019-11-14T13:48:16",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=DBBB073C383897D2C12584B1006204FF",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/DBBB073C383897D2C12584B1006204FF",
+          "room": "sala im. Konstytucji 3-go Maja (nr 118, bud. C)",
+          "startDateTime": "2019-11-14T13:31:22",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "DBBB073C383897D2C12584B1006204FF",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC05/DBBB073C383897D2C12584B1006204FF/playlist.m3u8?start=1573734682000&stop=1573735696000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Rozpatrzenie i zaopiniowanie poselskiego wniosku o wyrażenie wotum nieufności wobec Ministra - członka Rady Ministrów, szefa Kancelarii Prezesa Rady Ministrów - Michała Dworczyka (druk nr 1263).</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2021-06-21",
+      "endDateTime": "2021-06-21T14:45:00",
+      "num": 50,
+      "remote": false,
+      "room": "sala nr 312, bud. U",
+      "startDateTime": "2021-06-21T12:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie i zaopiniowanie poselskiego wniosku o wyrażenie wotum nieufności wobec Ministra – członka Rady Ministrów, Szefa Kancelarii Prezesa Ministrów – Michała Dworczyka (druk nr 1263).",
+          "endDateTime": "2021-06-21T14:43:47",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=233723F33DF3D6FDC12586F7002BFE73",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/233723F33DF3D6FDC12586F7002BFE73",
+          "room": "sala nr 312, bud. U",
+          "startDateTime": "2021-06-21T12:08:00",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "233723F33DF3D6FDC12586F7002BFE73",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC22/233723F33DF3D6FDC12586F7002BFE73/playlist.m3u8?start=1624270080000&stop=1624279427000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">I. Rozpatrzenie uchwały Senatu w sprawie ustawy o zmianie ustawy o rezerwach strategicznych oraz niektórych innych ustaw (druk nr 1945).</div>\n<div class=\"agenda-indent-0\">II. Rozpatrzenie uchwały Senatu w sprawie ustawy o zmianie ustawy o przetwarzaniu danych dotyczących przelotu pasażera (druk nr 1940).</div>\n<div class=\"agenda-indent-0\">III. Rozpatrzenie uchwały Senatu w sprawie ustawy o dokumentach paszportowych (druk nr 1941).</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2022-01-26",
+      "endDateTime": "2022-01-26T15:30:00",
+      "notes": "Posiedzenie będzie prowadzone z wykorzystaniem środków komunikacji elektronicznej umożliwiających porozumiewanie się na odległość",
+      "num": 99,
+      "remote": true,
+      "room": "sala nr 211, bud. U",
+      "startDateTime": "2022-01-26T15:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie uchwały Senatu w sprawie ustawy o zmianie ustawy o rezerwach strategicznych oraz niektórych innych ustaw (druk nr 1945). <br/>Rozpatrzenie uchwały Senatu w sprawie ustawy o zmianie ustawy o przetwarzaniu danych dotyczących przelotu pasażera (druk nr 1940).<br/>Rozpatrzenie uchwały Senatu w sprawie ustawy o dokumentach paszportowych (druk nr 1941).",
+          "endDateTime": "2022-01-26T15:31:47",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=B77A49F6B1282722C12587D1003F6D9F",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/B77A49F6B1282722C12587D1003F6D9F",
+          "room": "sala nr 211, bud. U",
+          "startDateTime": "2022-01-26T15:00:56",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "B77A49F6B1282722C12587D1003F6D9F",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC23/B77A49F6B1282722C12587D1003F6D9F/playlist.m3u8?start=1643205656000&stop=1643207507000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Rozpatrzenie informacji Rzecznika Praw Obywatelskich na temat sytuacji cudzoziemców w ośrodkach strzeżonych w dobie kryzysu na granicy Polski i Białorusi - Raport z wizytacji Krajowego Mechanizmu Prewencji Tortur</div>\n<div class=\"agenda-indent-1\">- przedstawiają: zastępca Rzecznika Praw Obywatelskich dr Hanna Machińska, dyrektor Zespołu Krajowego Mechanizmu Prewencji Tortur Przemysław Kazimirski oraz specjalista w Zespole Krajowego Mechanizmu Prewencji Tortur Michał Żłobecki.</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2022-10-26",
+      "endDateTime": "2022-10-26T18:00:00",
+      "num": 148,
+      "remote": false,
+      "room": "sala nr 211, bud. U",
+      "startDateTime": "2022-10-26T15:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie informacji Rzecznika Praw Obywatelskich na temat sytuacji cudzoziemców w ośrodkach strzeżonych w dobie kryzysu na granicy Polski i Białorusi – Raport z wizytacji Krajowego Mechanizmu Prewencji Tortur. ",
+          "endDateTime": "2022-10-26T18:01:18",
+          "room": "sala nr 211, bud. U",
+          "startDateTime": "2022-10-26T15:05:00",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "457D5339BD4E270DC12588E10044B7C7"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Rozpatrzenie projektu sprawozdania Komisji z działalności w IX kadencji Sejmu</div>\n<div class=\"agenda-indent-1\">- przedstawia Przewodniczący Komisji poseł Wiesław Szczepański.</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2023-08-30",
+      "endDateTime": "2023-08-30T17:10:00",
+      "num": 197,
+      "remote": false,
+      "room": "sala nr 312, bud. U",
+      "startDateTime": "2023-08-30T17:00:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie projektu sprawozdania Komisji z działalności w IX kadencji Sejmu<br/>− przedstawia Przewodniczący Komisji.",
+          "endDateTime": "2023-08-30T17:11:31",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=D4213888666D8A90C1258A0F0039725B",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/D4213888666D8A90C1258A0F0039725B",
+          "room": "sala nr 312, bud. U",
+          "startDateTime": "2023-08-30T17:00:26",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "D4213888666D8A90C1258A0F0039725B",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC22/D4213888666D8A90C1258A0F0039725B/playlist.m3u8?start=1693407626000&stop=1693408291000"
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "avg_agenda_items": 0.0,
+    "avg_attendance": 0.0,
+    "sample_topics": []
+  }
+}

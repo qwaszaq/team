@@ -1,0 +1,685 @@
+{
+  "committee": {
+    "appointmentDate": "2019-11-13",
+    "code": "ASW",
+    "compositionDate": "2019-11-13",
+    "members": [
+      {
+        "club": "Lewica",
+        "function": "przewodniczący",
+        "id": 366,
+        "lastFirstName": "Szczepański Wiesław"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 137,
+        "lastFirstName": "Hreniak Paweł"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 150,
+        "lastFirstName": "Kaleta Piotr"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 301,
+        "lastFirstName": "Polaczek Jerzy"
+      },
+      {
+        "club": "PiS",
+        "function": "zastępca przewodniczącego",
+        "id": 343,
+        "lastFirstName": "Sipiera Zdzisław"
+      },
+      {
+        "club": "KO",
+        "function": "zastępca przewodniczącego",
+        "id": 381,
+        "lastFirstName": "Szymański Tomasz"
+      },
+      {
+        "club": "Lewica",
+        "id": 2,
+        "lastFirstName": "Adamczyk Rafał"
+      },
+      {
+        "club": "PiS",
+        "id": 18,
+        "lastFirstName": "Baszko Mieczysław"
+      },
+      {
+        "club": "KP",
+        "id": 24,
+        "lastFirstName": "Biernacki Marek"
+      },
+      {
+        "club": "KO",
+        "id": 26,
+        "lastFirstName": "Bochenek Mateusz"
+      },
+      {
+        "club": "KO",
+        "id": 31,
+        "lastFirstName": "Borys Piotr"
+      },
+      {
+        "club": "PiS",
+        "id": 44,
+        "lastFirstName": "Chrzan Tadeusz"
+      },
+      {
+        "club": "PiS",
+        "id": 47,
+        "lastFirstName": "Cieślak Michał"
+      },
+      {
+        "club": "KO",
+        "id": 49,
+        "lastFirstName": "Cyrański Adam"
+      },
+      {
+        "club": "KO",
+        "id": 57,
+        "lastFirstName": "Czernow Zofia"
+      },
+      {
+        "club": "PiS",
+        "id": 59,
+        "lastFirstName": "Czochara Katarzyna"
+      },
+      {
+        "club": "PiS",
+        "id": 68,
+        "lastFirstName": "Duda Elżbieta"
+      },
+      {
+        "club": "KO",
+        "id": 76,
+        "lastFirstName": "Dzikowski Waldy"
+      },
+      {
+        "club": "PiS",
+        "id": 83,
+        "lastFirstName": "Filipiak Ewa"
+      },
+      {
+        "club": "KO",
+        "id": 86,
+        "lastFirstName": "Frysztak Konrad"
+      },
+      {
+        "club": "PiS",
+        "id": 111,
+        "lastFirstName": "Gontarz Robert"
+      },
+      {
+        "club": "PiS",
+        "id": 464,
+        "lastFirstName": "Gosek Mariusz"
+      },
+      {
+        "club": "PiS",
+        "id": 148,
+        "lastFirstName": "Kaczyński Filip"
+      },
+      {
+        "club": "Lewica",
+        "id": 191,
+        "lastFirstName": "Krutul Paweł"
+      },
+      {
+        "club": "KO",
+        "id": 210,
+        "lastFirstName": "Lenartowicz Gabriela"
+      },
+      {
+        "club": "KO",
+        "id": 222,
+        "lastFirstName": "Łącki Artur"
+      },
+      {
+        "club": "KP",
+        "id": 270,
+        "lastFirstName": "Nowogórska Urszula"
+      },
+      {
+        "club": "PiS",
+        "id": 289,
+        "lastFirstName": "Pawłowska Monika"
+      },
+      {
+        "club": "KO",
+        "id": 290,
+        "lastFirstName": "Pępek Małgorzata"
+      },
+      {
+        "club": "KO",
+        "id": 296,
+        "lastFirstName": "Piekarska Katarzyna Maria"
+      },
+      {
+        "club": "PiS",
+        "id": 465,
+        "lastFirstName": "Pogoda Szymon"
+      },
+      {
+        "club": "KP",
+        "id": 357,
+        "lastFirstName": "Sroka Magdalena"
+      },
+      {
+        "club": "PiS",
+        "id": 369,
+        "lastFirstName": "Szczurek-Żelazko Józefa"
+      },
+      {
+        "club": "Lewica",
+        "id": 374,
+        "lastFirstName": "Szopiński Jan"
+      },
+      {
+        "club": "Konfederacja",
+        "id": 401,
+        "lastFirstName": "Tuduj Krzysztof"
+      },
+      {
+        "club": "KO",
+        "id": 425,
+        "lastFirstName": "Wilczyński Ryszard"
+      },
+      {
+        "club": "PiS",
+        "id": 431,
+        "lastFirstName": "Wojtyszek Agata Katarzyna"
+      },
+      {
+        "club": "PiS",
+        "id": 435,
+        "lastFirstName": "Woźniak Grzegorz Adam"
+      },
+      {
+        "club": "PiS",
+        "id": 436,
+        "lastFirstName": "Woźniak Tadeusz"
+      },
+      {
+        "club": "PiS",
+        "id": 449,
+        "lastFirstName": "Zieliński Jarosław"
+      },
+      {
+        "club": "Polska2050",
+        "id": 452,
+        "lastFirstName": "Zimoch Tomasz"
+      }
+    ],
+    "name": "Komisja Administracji i Spraw Wewnętrznych",
+    "nameGenitive": "Komisji Administracji i Spraw Wewnętrznych",
+    "phone": "(22) 694-18-44, 694-14-93, 694-19-38, FAX 694-28-53",
+    "scope": "Do zakresu działania Komisji należą sprawy administracji państwowej oraz bezpieczeństwa, ładu i porządku publicznego.",
+    "subCommittees": [
+      "ASW01N",
+      "ASW01S",
+      "ASW02N",
+      "ASW02S",
+      "ASW03N",
+      "ASW03S",
+      "ASW04S"
+    ],
+    "type": "STANDING"
+  },
+  "term": 9,
+  "analysis_date": "2025-11-04T15:09:07.451028",
+  "statistics": {
+    "total_sittings": 197,
+    "date_range": {
+      "start": "2019-11-14",
+      "end": "2023-08-30"
+    },
+    "by_year": {
+      "2019": 2,
+      "2020": 33,
+      "2021": 57,
+      "2022": 65,
+      "2023": 40
+    },
+    "avg_per_year": 39.4,
+    "remote_meetings": 66,
+    "with_video": 190,
+    "avg_duration_hours": 1.2071912013536379
+  },
+  "top_keywords": [
+    {
+      "word": "ustawy",
+      "count": 271
+    },
+    {
+      "word": "spraw",
+      "count": 170
+    },
+    {
+      "word": "rozpatrzenie",
+      "count": 168
+    },
+    {
+      "word": "administracji",
+      "count": 166
+    },
+    {
+      "word": "wewnętrznych",
+      "count": 138
+    },
+    {
+      "word": "projektu",
+      "count": 110
+    },
+    {
+      "word": "budżetowej",
+      "count": 108
+    },
+    {
+      "word": "policji",
+      "count": 104
+    },
+    {
+      "word": "ministerstwie",
+      "count": 102
+    },
+    {
+      "word": "zmianie",
+      "count": 100
+    },
+    {
+      "word": "stanu",
+      "count": 91
+    },
+    {
+      "word": "części",
+      "count": 87
+    },
+    {
+      "word": "państwowych",
+      "count": 86
+    },
+    {
+      "word": "straży",
+      "count": 81
+    },
+    {
+      "word": "niektórych",
+      "count": 81
+    },
+    {
+      "word": "ustaw",
+      "count": 72
+    },
+    {
+      "word": "środki",
+      "count": 71
+    },
+    {
+      "word": "ministra",
+      "count": 70
+    },
+    {
+      "word": "zakresie",
+      "count": 69
+    },
+    {
+      "word": "rządowego",
+      "count": 67
+    },
+    {
+      "word": "wynagrodzenia",
+      "count": 66
+    },
+    {
+      "word": "celowe",
+      "count": 65
+    },
+    {
+      "word": "innych",
+      "count": 65
+    },
+    {
+      "word": "wydatki",
+      "count": 63
+    },
+    {
+      "word": "funduszu",
+      "count": 61
+    },
+    {
+      "word": "kontroli",
+      "count": 61
+    },
+    {
+      "word": "temat",
+      "count": 59
+    },
+    {
+      "word": "sekretarz",
+      "count": 57
+    },
+    {
+      "word": "dochody",
+      "count": 57
+    },
+    {
+      "word": "jednostkach",
+      "count": 56
+    }
+  ],
+  "sample_agendas": [
+    "Wybór Prezydium Komisji.",
+    "Informacja Ministra Spraw Wewnętrznych i Administracji Mariusza Kamińskiego na temat planowanych zamierzeń resortu w latach 2019-2023.",
+    "I. Informacja Ministra Spraw Wewnętrznych i Administracji na temat stanu realizacji Porozumienia zawartego w dniu 8 listopada 2018 r. pomiędzy MSWiA, a związkami zawodowymi służb mundurowych \n - przedstawia sekretarz stanu w Ministerstwie Administracji i Spraw Wewnętrznych Maciej Wąsik. \n II. Rozpatrzenie projektu planu pracy Komisji na okres od 1 stycznia do 31 lipca 2020 r. \n - przedstawia Przewodniczący Komisji.",
+    "Rozpatrzenie i zaopiniowanie dla Komisji Finansów Publicznych rządowego projektu ustawy budżetowej na rok 2020 wraz z autopoprawką (druki nr 112 i 112-A) w zakresie: \n 1) części budżetowej 16 - Kancelaria Prezesa Rady Ministrów, \n a) dochody i wydatki z zał. nr 1 i 2, \n b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6, \n c) dotacje podmiotowe i celowe z zał. nr 8, \n d) środki europejskie z zał. nr 4 i 15; \n 2) trzyletniego planu limitu mianowań urzędników w służbie cywilnej na lata 2020-2022; \n 3) planu finansowego agencji wykonawczej z zał. nr 11: \n - Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego; \n 4) planu finansowego instytucji gospodarki budżetowej z zał. nr 12: \n - Centrum Obsługi Administracji Rządowej; \n 5) planu finansowego państwowych funduszy celowych z zał. nr 13: \n - Fundusz Wspierania Rozwoju Społeczeństwa Obywatelskiego, \n - Fundusz Wspierania Organizacji Pożytku Publicznego; \n 6) planu finansowego państwowych osób prawnych z zał. nr 14: \n - Ośrodek Studiów Wschodnich im. Marka Karpia, \n - Instytut Zachodni im. Zygmunta Wojciechowskiego, \n - Instytut Współpracy Polsko-Węgierskiej im. Wacława Felczaka; \n 7) części budżetowej 83 - Rezerwy celowe w zakresie pozycji: \n - 20 środki na szkolenia i wynagrodzenia na nowe mianowania urzędników służby cywilnej oraz skutki przechodzące z roku 2019, \n - 39 Fundusz Inicjatyw Obywatelskich; \n - referuje pkt 1-6 - zastępca szefa Kancelarii Prezesa Rady Ministrów, sekretarz stanu Paweł Szrot, \n - koreferuje pkt 1-7 - poseł Jerzy Polaczek; \n 8) części budżetowej 75 - wiceprezes Rządowego Centrum Legislacji, \n a) dochody i wydatki z zał. nr 1 i 2, \n b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6; \n - referuje - wiceprezes Rządowego Centrum Legislacji Tomasz Dobrowolski, \n - koreferuje - poseł Marta Kubiak; \n 9) części budżetowej 43 - Wyznania religijne oraz mniejszości narodowe i etniczne, \n a) dochody i wydatki z zał. nr 1 i 2, \n b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6, \n c) dotacje podmiotowe i celowe z zał. nr 8; \n - referuje - zastępca dyrektora Departamentu Budżetu w Ministerstwie Spraw Wewnętrznych i Administracji Władysław Budzeń, \n - koreferuje - poseł Tomasz Szymański; \n 10) części budżetowej 42 - Sprawy wewnętrzne, \n a) dochody i wydatki z zał. nr 1 i 2, \n b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6, \n c) dotacje podmiotowe i celowe z zał. nr 8, \n d) dotacja podmiotowa dla Centralnego Laboratorium Kryminalistycznego Policji z zał. nr 9, \n e) środki europejskie z zał. nr 4 i 15; \n 11) planu finansowego instytucji gospodarki budżetowej z zał. nr 12: \n - Centrum Usług Logistycznych; \n 12) planu finansowego państwowych funduszy celowych z zał. nr 13: \n a) Funduszu Wsparcia Policji, \n b) Funduszu Modernizacji Bezpieczeństwa Publicznego, \n c) Funduszu Wsparcia Straży Granicznej, \n d) Funduszu Wsparcia Państwowej Straży Pożarnej; \n 13) części budżetowej 83 - Rezerwy celowe w zakresie pozycji: \n - 13 pomoc dla repatriantów, \n - 22 budowa, modernizacja i utrzymywanie przejść granicznych (w tym na sfinansowanie zobowiązań wynikających z umów dwustronnych dotyczących przejść granicznych), \n - 28 środki na realizację zadań wynikających z ustawy o Karcie Polaka, \n - 36 środki na realizację Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017-2020, \n - 37 środki na realizację Programu ograniczania przestępczości i aspołecznych zachowań Razem bezpieczniej im. Władysława Stasiaka na lata 2018-2020, oraz na realizację przedsięwzięć związanych z ograniczaniem przestępczości gospodarczej, \n - 64 uzupełnienie wydatków, o których mowa w art. 7 ustawy z dnia 25 maja 2001 r. o przebudowie i modernizacji technicznej oraz finansowaniu Sił Zbrojnych RP, z przeznaczeniem na realizację przedsięwzięć: sprzęt transportowy, uzbrojenia i techniki specjalnej, informatyki i łączności oraz wyposażenie osobiste i ochronne funkcjonariuszy, w ramach Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017-2020; \n 14) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu: \n 754 - bezpieczeństwo publiczne i ochrona przeciwpożarowa, \n - dochody i wydatki z zał. nr 1 i 2, \n - wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6, \n - dotacje celowe z zał. nr 8, \n - zadania z zakresu administracji rządowej i inne zadania zlecone jednostkom samorządu terytorialnego odrębnymi ustawami w części 85 - budżety wojewodów z zał. nr 7, \n - środki europejskie z zał. nr 4 i 15; \n - referuje pkt 10-12 - zastępca dyrektora Departamentu Budżetu w Ministerstwie Spraw Wewnętrznych i Administracji Władysław Budzeń, \n - koreferuje pkt 10-14 - poseł Edward Siarka; \n 15) części budżetowej 17 - Administracja Publiczna \n a) dochody i wydatki z zał. nr 1 i 2, \n b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6, \n c) dotacje celowe z zał. nr 8, \n d) środki europejskie z zał. nr 4 i 15; \n 16) planu finansowego państwowych funduszy celowych z zał. nr 13: \n - Fundusz Rekompensacyjny; \n 17) części budżetowej 83 - Rezerwy celowe w zakresie pozycji: \n - 9 środki na realizację zadań wynikających z ustawy z dnia 22 listopada 2013 r. o systemie powiadamiania ratunkowego, w tym na wynagrodzenia wraz z pochodnymi w kwocie 2.530 tys. zł, \n - 14 pomoc dla społeczności romskiej wraz z programem wieloletnim z zał. nr 10; \n - referuje pkt 15-16 - zastępca dyrektora Departamentu Budżetu w Ministerstwie Spraw Wewnętrznych i Administracji Władysław Budzeń, \n - koreferuje pkt 15-17 - poseł Zdzisław Sipiera; \n 18) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu: \n 750 - Administracja publiczna, \n - dochody i wydatki z zał. nr 1 i 2, \n - wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6; \n - środki europejskie z zał. nr 4 i 15; \n - referuje pkt 18 - dyrektor Departamentu Finansowania Sfery Budżetowej w Ministerstwie Finansów Aneta Cieloch.",
+    "I. Rozpatrzenie Informacji Ministra Spraw Wewnętrznych i Administracji o realizacji w 2018 r. \"Programu modernizacji Policji, Straży Granicznej i Służby Ochrony Państwa w latach 2017-2020\" (druk nr 71) \n - przedstawia sekretarz stanu w Ministerstwie Spraw Wewnętrznych i Administracji Paweł Szefernaker \n II. Rozpatrzenie Informacji Najwyższej Izby Kontroli o realizacji Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017-2020 \n - przedstawia wiceprezes Najwyższej Izby Kontroli Marek Opioła.",
+    "Rozpatrzenie poselskiego projektu ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw wraz z autopoprawką (druki nr 158 i 158-A).",
+    "Rozpatrzenie wniosku i poprawek zgłoszonych w czasie drugiego czytania do projektu ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw (druki nr 158, 158-A i 192).",
+    "I. Rozpatrzenie uchwały Senatu w sprawie ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw (druk nr 213). \n II. Rozpatrzenie informacji na temat funkcjonowania i finansowania izb wytrzeźwień w Polsce oraz związanych z nimi regulacji prawnych zwłaszcza pod kątem zadań wykonywanych przez Policję \n - przedstawiają: sekretarz stanu w Ministerstwie Zdrowia Józefa Szczurek-Żelazko oraz dyrektor Departamentu Porządku Publicznego w Ministerstwie Spraw Wewnętrznych i Administracji Mariusz Cichomski.",
+    "Pierwsze czytanie rządowego projektu ustawy o zmianie ustawy o zarządzaniu kryzysowym oraz niektórych innych ustaw (druk nr 203) \n - uzasadnia zastępca dyrektora Rządowego Centrum Bezpieczeństwa Grzegorz Świszcz.",
+    "I. Rozpatrzenie sprawozdania Podkomisji nadzwyczajnej o rządowym projekcie ustawy o zmianie ustawy o zarządzaniu kryzysowym oraz niektórych innych ustaw (druk nr 203) \n - przedstawia przewodniczący podkomisji poseł Edward Siarka. \n II. Pierwsze czytanie rządowego projektu ustawy o zmianie ustawy o systemie powiadamiania ratunkowego (druk nr 260) \n - uzasadnia dyrektor Departamentu Teleinformatyki w Ministerstwie Spraw Wewnętrznych i Administracji Anna Woźnica.",
+    "I. Rozpatrzenie i zaopiniowanie dla Komisji Finansów Publicznych Sprawozdania z wykonania budżetu państwa za okres od 1 stycznia do 31 grudnia 2019 r. (druk nr 396) wraz z Analizą Najwyższej Izby Kontroli w zakresie: \n 1) części budżetowej 43 - Wyznania religijne oraz mniejszości narodowe i etniczne, \n a) dochody i wydatki, \n b) wynagrodzenia w państwowych jednostkach budżetowych, \n c) dotacje podmiotowe i celowe, \n - referuje - sekretarz stanu w Ministerstwie Spraw Wewnętrznych i Administracji Maciej Wąsik, \n - koreferuje - poseł Tomasz Szymański; \n 2) części budżetowej 16 - Kancelaria Prezesa Rady Ministrów, \n a) dochody i wydatki, \n b) wynagrodzenia w państwowych jednostkach budżetowych, \n c) dotacje podmiotowe i celowe, \n d) środki europejskie; \n 3) wykonania limitu mianowań urzędników w służbie cywilnej w 2019 r.; \n 4) agencji wykonawczej: \n - Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego; \n 5) instytucji gospodarki budżetowej: \n - Centrum Obsługi Administracji Rządowej; \n 6) państwowych funduszy celowych: \n - Funduszu Wspierania Rozwoju Społeczeństwa Obywatelskiego, - Funduszu Wspierania Organizacji Pożytku Publicznego; \n 7) państwowych osób prawnych: \n - Ośrodek Studiów Wschodnich im. Marka Karpia, \n - Instytut Zachodni im. Zygmunta Wojciechowskiego, \n - Instytut Współpracy Polsko-Węgierskiej im. Wacława Felczaka, \n - Instytut Europy Środkowej, \n - Polski Instytut Ekonomiczny; \n 8) części budżetowej 83 - Rezerwa celowa w zakresie pozycji: \n - 20 środki na szkolenia i wynagrodzenia na nowe mianowania urzędników służby cywilnej oraz skutki przechodzące z roku 2018 oraz zwiększenia wynagrodzeń aplikantów i asesorów Urzędu Patentowego RP w związku z awansem zawodowym, \n - 39 Fundusz Inicjatyw Obywatelskich, \n - referuje pkt 2-8 - sekretarz stanu w Kancelarii Prezesa Rady Ministrów Paweł Szrot, \n - koreferuje pkt 2-8 - poseł Jerzy Polaczek; \n 9) części budżetowej 42 - Sprawy wewnętrzne, \n a) dochody i wydatki, \n b) wynagrodzenia w państwowych jednostkach budżetowych, \n c) dotacje podmiotowe i celowe, \n d) dotacja podmiotowa dla CLKP, \n e) środki europejskie, \n 10) części budżetowej 83 - Rezerwy celowe w zakresie pozycji: \n - 13 pomoc dla repatriantów, \n - 22 budowa, modernizacja i utrzymanie przejść granicznych (w tym na sfinansowanie zobowiązań wynikających z umów dwustronnych dotyczących przejść granicznych), \n - 62 środki na realizację zadań wynikających z ustawy o Karcie Polaka, \n - 69 środki na realizację Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Biura Ochrony Rządu w latach 2017-2020, \n - 70 uzupełnienie wydatków na realizacje zadań przez Służbę Ochrony Państwa, \n - 74 środki na realizację przedsięwzięć związanych z ograniczaniem przestępczości gospodarczej oraz przeciwdziałaniem zagrożeniom terrorystycznym, \n - 82 środki na realizację programu ograniczania przestępczości i aspołecznych zachowań \"Razem bezpieczniej\" im. Władysława Stasiaka na lata 2018-2020, \n - 83 uzupełnienie wydatków na dowody osobiste; \n 11) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu 754 - bezpieczeństwo publiczne i ochrona przeciwpożarowa, \n - dochody i wydatki, \n - wynagrodzenia w państwowych jednostkach budżetowych, \n - dotacje celowe, \n - środki europejskie; \n 12) państwowych funduszy celowych: \n a) Funduszu Wsparcia Państwowej Straży Pożarnej, \n b) Funduszu Wsparcia Policji, \n c) Funduszu Modernizacji Bezpieczeństwa Publicznego, \n d) Funduszu Wsparcia Straży Granicznej; \n 13) instytucji gospodarki budżetowej: \n - Centrum Usług Logistycznych; \n - referuje pkt 9, 12 i 13 - sekretarz stanu w Ministerstwie Spraw Wewnętrznych i Administracji Maciej Wąsik, \n - koreferuje pkt 9-13 - poseł Edward Siarka; \n 14) części budżetowej 17 - Administracja Publiczna, \n a) dochody i wydatki, \n b) wynagrodzenia w państwowych jednostkach budżetowych, \n c) dotacje celowe, \n d) środki europejskie; \n 15) państwowego funduszu celowego: \n - Funduszu Rekompensacyjnego; \n 16) części budżetowej 83 - Rezerwy celowe w zakresie pozycji: \n - 9 środki na realizację zadań wynikających z ustawy z dnia 22 listopada 2013 r. o systemie powiadamiania ratunkowego, w tym na wynagrodzenia wraz z pochodnymi w kwocie 13.660 tys. zł, \n - 14 pomoc dla społeczności romskiej wraz z programem wieloletnim; \n - referuje pkt 14 i 15 - sekretarz stanu w Ministerstwie Spraw Wewnętrznych i Administracji Maciej Wąsik, \n - koreferuje pkt 14-16 - poseł Zdzisław Sipiera; \n 17) części budżetowej 75 - Rządowe Centrum Legislacji, \n a) dochody i wydatki, \n b) wynagrodzenia w państwowych jednostkach budżetowych; \n - referuje - wiceprezes Rządowego Centrum Legislacji Tomasz Dobrowolski , \n - koreferuje - poseł Marta Kubiak; \n 18) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu 750 - Administracja publiczna, \n - dochody i wydatki, \n - wynagrodzenia w państwowych jednostkach budżetowych, \n - dotacje celowe, \n - środki europejskie; \n - referuje pkt 18 - dyrektor Departamentu Finansowania w Ministerstwie Finansów Aneta Cieloch. \n II. Rozpatrzenie propozycji tematów kontroli do planu pracy Najwyższej Izby Kontroli na 2021 rok.",
+    "\"Przedstawienie informacji Ministra Spraw Wewnętrznych i Administracji, Koordynatora Służb Specjalnych Mariusza Kamińskiego w sprawie działań podejmowanych przez funkcjonariuszy Policji w związku z ograniczeniami wynikającymi z wprowadzenia w Polsce stanu zagrożenia epidemicznego oraz stanu epidemii\".",
+    "Pierwsze czytanie rządowego projektu ustawy o szczególnych rozwiązaniach dotyczących wsparcia służb mundurowych nadzorowanych przez ministra właściwego do spraw wewnętrznych oraz Służby Więziennej (druk nr 432) \n - uzasadnia Minister Spraw Wewnętrznych i Administracji Mariusz Kamiński.",
+    "Rozpatrzenie i zaopiniowanie poselskiego wniosku o wyrażenie wotum nieufności wobec Ministra Spraw Wewnętrznych i Administracji - Mariusza Kamińskiego (druk nr 453).",
+    "I. Rozpatrzenie sprawozdania Podkomisji nadzwyczajnej o rządowym projekcie ustawy o szczególnych rozwiązaniach dotyczących wsparcia służb mundurowych nadzorowanych przez ministra właściwego do spraw wewnętrznych oraz Służby Więziennej (druk nr 432) \n - przedstawia przewodniczący podkomisji poseł Zdzisław Sipiera. \n II. Rozpatrzenie projektu planu pracy Komisji na okres od 1 sierpnia do 31 grudnia 2020 r. \n - przedstawia Przewodniczący Komisji.",
+    "Rozpatrzenie poprawek zgłoszonych w czasie drugiego czytania do projektu ustawy o szczególnych rozwiązaniach dotyczących wsparcia służb mundurowych nadzorowanych przez ministra właściwego do spraw wewnętrznych oraz Służby Więziennej (druki nr 432 i 493).",
+    "Rozpatrzenie uchwały Senatu w sprawie ustawy o szczególnych rozwiązaniach dotyczących wsparcia służb mundurowych nadzorowanych przez ministra właściwego do spraw wewnętrznych, o zmianie ustawy o Służbie Więziennej oraz niektórych innych ustaw (druk nr 544).",
+    "Rozpatrzenie i zaopiniowanie dla Marszałek Sejmu wniosku Klubu Parlamentarnego Koalicja Obywatelska - Platforma Obywatelska, Nowoczesna, Inicjatywa Polska, Zieloni o przedstawienie na posiedzeniu Sejmu \"Informacji Ministra Spraw Wewnętrznych i Administracji na temat interwencji policji i zatrzymań dokonanych na ul. Krakowskie Przedmieście oraz ul. Wilczej w Warszawie w dniach 7 i 8 sierpnia 2020 r.\"",
+    "I. Rozpatrzenie rządowego projektu ustawy o cudzoziemcach oraz niektórych innych ustaw (druk nr 484). \n II. Rozpatrzenie sprawozdania Podkomisji nadzwyczajnej o rządowym projekcie ustawy o zmianie ustawy o systemie powiadamiania ratunkowego (druk nr 260) \n - przedstawia przewodniczący podkomisji poseł Rafał Adamczyk.",
+    "Pierwsze czytanie rządowego projektu ustawy o ratyfikacji Umowy między Rzecząpospolitą Polską a Zjednoczonym Królestwem Wielkiej Brytanii i Irlandii Północnej w sprawie udziału w niektórych wyborach przez obywateli jednego Państwa zamieszkujących na terytorium drugiego Państwa, podpisanej w Warszawie dnia 29 maja 2020 r. (druk nr 487) \n - uzasadniają: sekretarz stanu w Ministerstwie Spraw Zagranicznych Piotr Wawrzyk oraz podsekretarz stanu w Ministerstwie Spraw Wewnętrznych i Administracji Bartosz Grodecki."
+  ],
+  "all_sittings": [
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Wybór Prezydium Komisji.</div>",
+      "closed": false,
+      "code": "ASW",
+      "comments": "Nastąpiła zmiana godziny rozpoczęcia posiedzenia.",
+      "date": "2019-11-14",
+      "endDateTime": "2019-11-14T13:50:00",
+      "num": 1,
+      "remote": false,
+      "room": "sala im. Konstytucji 3-go Maja (nr 118, bud. C)",
+      "startDateTime": "2019-11-14T13:35:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Wybór Prezydium Komisji.",
+          "endDateTime": "2019-11-14T13:48:16",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=DBBB073C383897D2C12584B1006204FF",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/DBBB073C383897D2C12584B1006204FF",
+          "room": "sala im. Konstytucji 3-go Maja (nr 118, bud. C)",
+          "startDateTime": "2019-11-14T13:31:22",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "DBBB073C383897D2C12584B1006204FF",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC05/DBBB073C383897D2C12584B1006204FF/playlist.m3u8?start=1573734682000&stop=1573735696000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Informacja Ministra Spraw Wewnętrznych i Administracji Mariusza Kamińskiego na temat planowanych zamierzeń resortu w latach 2019-2023.</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2019-12-18",
+      "endDateTime": "2019-12-18T16:00:00",
+      "num": 2,
+      "remote": false,
+      "room": "sala nr 111, bud. U",
+      "startDateTime": "2019-12-18T14:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Informacja Ministra Spraw Wewnętrznych i Administracji na temat planowanych zamierzeń resortu w latach 2019–2023.",
+          "endDateTime": "2019-12-18T16:01:44",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=F24EE2AB7AADE78EC12584CE0052530D",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/F24EE2AB7AADE78EC12584CE0052530D",
+          "room": "sala nr 111, bud. U",
+          "startDateTime": "2019-12-18T14:07:05",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "F24EE2AB7AADE78EC12584CE0052530D",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC24/F24EE2AB7AADE78EC12584CE0052530D/playlist.m3u8?start=1576674425000&stop=1576681304000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">I. Informacja Ministra Spraw Wewnętrznych i Administracji na temat stanu realizacji Porozumienia zawartego w dniu 8 listopada 2018 r. pomiędzy MSWiA, a związkami zawodowymi służb mundurowych</div>\n<div class=\"agenda-indent-1\">- przedstawia sekretarz stanu w Ministerstwie Administracji i Spraw Wewnętrznych Maciej Wąsik.</div>\n<div class=\"agenda-indent-0\">II. Rozpatrzenie projektu planu pracy Komisji na okres od 1 stycznia do 31 lipca 2020 r.</div>\n<div class=\"agenda-indent-1\">- przedstawia Przewodniczący Komisji.</div>",
+      "closed": false,
+      "code": "ASW",
+      "comments": "Nastąpiła zmiana sali.",
+      "date": "2020-01-07",
+      "endDateTime": "2020-01-07T17:15:00",
+      "num": 3,
+      "remote": false,
+      "room": "sala nr 312, bud. U",
+      "startDateTime": "2020-01-07T16:00:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Informacja Ministra Spraw Wewnętrznych i Administracji na temat stanu realizacji Porozumienia zawartego w dniu 8 listopada 2018 r. pomiędzy MSWiA, a związkami zawodowymi służb mundurowych.<br/>Rozpatrzenie projektu planu pracy Komisji na okres od 1 stycznia do 31 lipca 2020 r. <br/>   - przedstawia Przewodniczący Komisji.",
+          "endDateTime": "2020-01-07T17:14:33",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=D11A594040A0C9FEC12584E0003DC898",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/D11A594040A0C9FEC12584E0003DC898",
+          "room": "sala nr 312, bud. U",
+          "startDateTime": "2020-01-07T16:03:00",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "D11A594040A0C9FEC12584E0003DC898",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC22/D11A594040A0C9FEC12584E0003DC898/playlist.m3u8?start=1578409380000&stop=1578413673000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Rozpatrzenie i zaopiniowanie dla Komisji Finansów Publicznych rządowego projektu ustawy budżetowej na rok 2020 wraz z autopoprawką (druki nr 112 i 112-A) w zakresie:</div>\n<div class=\"agenda-indent-1\">1) części budżetowej 16 - Kancelaria Prezesa Rady Ministrów,</div>\n<div class=\"agenda-indent-2\">a) dochody i wydatki z zał. nr 1 i 2,</div>\n<div class=\"agenda-indent-2\">b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,</div>\n<div class=\"agenda-indent-2\">c) dotacje podmiotowe i celowe z zał. nr 8,</div>\n<div class=\"agenda-indent-2\">d) środki europejskie z zał. nr 4 i 15;</div>\n<div class=\"agenda-indent-1\">2) trzyletniego planu limitu mianowań urzędników w służbie cywilnej na lata 2020-2022;</div>\n<div class=\"agenda-indent-1\">3) planu finansowego agencji wykonawczej z zał. nr 11:</div>\n<div class=\"agenda-indent-2\">- Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego;</div>\n<div class=\"agenda-indent-1\">4) planu finansowego instytucji gospodarki budżetowej z zał. nr 12:</div>\n<div class=\"agenda-indent-2\">- Centrum Obsługi Administracji Rządowej;</div>\n<div class=\"agenda-indent-1\">5) planu finansowego państwowych funduszy celowych z zał. nr 13:</div>\n<div class=\"agenda-indent-2\">- Fundusz Wspierania Rozwoju Społeczeństwa Obywatelskiego,</div>\n<div class=\"agenda-indent-2\">- Fundusz Wspierania Organizacji Pożytku Publicznego;</div>\n<div class=\"agenda-indent-1\">6) planu finansowego państwowych osób prawnych z zał. nr 14:</div>\n<div class=\"agenda-indent-2\">- Ośrodek Studiów Wschodnich im. Marka Karpia,</div>\n<div class=\"agenda-indent-2\">- Instytut Zachodni im. Zygmunta Wojciechowskiego,</div>\n<div class=\"agenda-indent-2\">- Instytut Współpracy Polsko-Węgierskiej im. Wacława Felczaka;</div>\n<div class=\"agenda-indent-1\">7) części budżetowej 83 - Rezerwy celowe w zakresie pozycji:</div>\n<div class=\"agenda-indent-2\">- 20 środki na szkolenia i wynagrodzenia na nowe mianowania urzędników służby cywilnej oraz skutki przechodzące z roku 2019,</div>\n<div class=\"agenda-indent-2\">- 39 Fundusz Inicjatyw Obywatelskich;</div>\n<div class=\"agenda-indent-1\">- referuje pkt 1-6 - zastępca szefa Kancelarii Prezesa Rady Ministrów, sekretarz stanu Paweł Szrot,</div>\n<div class=\"agenda-indent-1\">- koreferuje pkt 1-7 - poseł Jerzy Polaczek;</div>\n<div class=\"agenda-indent-1\">8) części budżetowej 75 - wiceprezes Rządowego Centrum Legislacji,</div>\n<div class=\"agenda-indent-2\">a) dochody i wydatki z zał. nr 1 i 2,</div>\n<div class=\"agenda-indent-2\">b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6;</div>\n<div class=\"agenda-indent-1\">- referuje - wiceprezes Rządowego Centrum Legislacji Tomasz Dobrowolski,</div>\n<div class=\"agenda-indent-1\">- koreferuje - poseł Marta Kubiak;</div>\n<div class=\"agenda-indent-1\">9) części budżetowej 43 - Wyznania religijne oraz mniejszości narodowe i etniczne,</div>\n<div class=\"agenda-indent-2\">a) dochody i wydatki z zał. nr 1 i 2,</div>\n<div class=\"agenda-indent-2\">b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,</div>\n<div class=\"agenda-indent-2\">c) dotacje podmiotowe i celowe z zał. nr 8;</div>\n<div class=\"agenda-indent-1\">- referuje - zastępca dyrektora Departamentu Budżetu w Ministerstwie Spraw Wewnętrznych i Administracji Władysław Budzeń,</div>\n<div class=\"agenda-indent-1\">- koreferuje - poseł Tomasz Szymański;</div>\n<div class=\"agenda-indent-1\">10) części budżetowej 42 - Sprawy wewnętrzne,</div>\n<div class=\"agenda-indent-2\">a) dochody i wydatki z zał. nr 1 i 2,</div>\n<div class=\"agenda-indent-2\">b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,</div>\n<div class=\"agenda-indent-2\">c) dotacje podmiotowe i celowe z zał. nr 8,</div>\n<div class=\"agenda-indent-2\">d) dotacja podmiotowa dla Centralnego Laboratorium Kryminalistycznego Policji z zał. nr 9,</div>\n<div class=\"agenda-indent-2\">e) środki europejskie z zał. nr 4 i 15;</div>\n<div class=\"agenda-indent-1\">11) planu finansowego instytucji gospodarki budżetowej z zał. nr 12:</div>\n<div class=\"agenda-indent-2\">- Centrum Usług Logistycznych;</div>\n<div class=\"agenda-indent-1\">12) planu finansowego państwowych funduszy celowych z zał. nr 13:</div>\n<div class=\"agenda-indent-2\">a) Funduszu Wsparcia Policji,</div>\n<div class=\"agenda-indent-2\">b) Funduszu Modernizacji Bezpieczeństwa Publicznego,</div>\n<div class=\"agenda-indent-2\">c) Funduszu Wsparcia Straży Granicznej,</div>\n<div class=\"agenda-indent-2\">d) Funduszu Wsparcia Państwowej Straży Pożarnej;</div>\n<div class=\"agenda-indent-1\">13) części budżetowej 83 - Rezerwy celowe w zakresie pozycji:</div>\n<div class=\"agenda-indent-2\">- 13 pomoc dla repatriantów,</div>\n<div class=\"agenda-indent-2\">- 22 budowa, modernizacja i utrzymywanie przejść granicznych (w tym na sfinansowanie zobowiązań wynikających z umów dwustronnych dotyczących przejść granicznych),</div>\n<div class=\"agenda-indent-2\">- 28 środki na realizację zadań wynikających z ustawy o Karcie Polaka,</div>\n<div class=\"agenda-indent-2\">- 36 środki na realizację Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017-2020,</div>\n<div class=\"agenda-indent-2\">- 37 środki na realizację Programu ograniczania przestępczości i aspołecznych zachowań Razem bezpieczniej im. Władysława Stasiaka na lata 2018-2020, oraz na realizację przedsięwzięć związanych z ograniczaniem przestępczości gospodarczej,</div>\n<div class=\"agenda-indent-2\">- 64 uzupełnienie wydatków, o których mowa w art. 7 ustawy z dnia 25 maja 2001 r. o przebudowie i modernizacji technicznej oraz finansowaniu Sił Zbrojnych RP, z przeznaczeniem na realizację przedsięwzięć: sprzęt transportowy, uzbrojenia i techniki specjalnej, informatyki i łączności oraz wyposażenie osobiste i ochronne funkcjonariuszy, w ramach Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017-2020;</div>\n<div class=\"agenda-indent-1\">14) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu:</div>\n<div class=\"agenda-indent-2\">754 - bezpieczeństwo publiczne i ochrona przeciwpożarowa,</div>\n<div class=\"agenda-indent-2\">- dochody i wydatki z zał. nr 1 i 2,</div>\n<div class=\"agenda-indent-2\">- wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,</div>\n<div class=\"agenda-indent-2\">- dotacje celowe z zał. nr 8,</div>\n<div class=\"agenda-indent-2\">- zadania z zakresu administracji rządowej i inne zadania zlecone jednostkom samorządu terytorialnego odrębnymi ustawami w części 85 - budżety wojewodów z zał. nr 7,</div>\n<div class=\"agenda-indent-2\">- środki europejskie z zał. nr 4 i 15;</div>\n<div class=\"agenda-indent-1\">- referuje pkt 10-12 - zastępca dyrektora Departamentu Budżetu w Ministerstwie Spraw Wewnętrznych i Administracji Władysław Budzeń,</div>\n<div class=\"agenda-indent-1\">- koreferuje pkt 10-14 - poseł Edward Siarka;</div>\n<div class=\"agenda-indent-1\">15) części budżetowej 17 - Administracja Publiczna</div>\n<div class=\"agenda-indent-2\">a) dochody i wydatki z zał. nr 1 i 2,</div>\n<div class=\"agenda-indent-2\">b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,</div>\n<div class=\"agenda-indent-2\">c) dotacje celowe z zał. nr 8,</div>\n<div class=\"agenda-indent-2\">d) środki europejskie z zał. nr 4 i 15;</div>\n<div class=\"agenda-indent-1\">16) planu finansowego państwowych funduszy celowych z zał. nr 13:</div>\n<div class=\"agenda-indent-2\">- Fundusz Rekompensacyjny;</div>\n<div class=\"agenda-indent-1\">17) części budżetowej 83 - Rezerwy celowe w zakresie pozycji:</div>\n<div class=\"agenda-indent-2\">- 9 środki na realizację zadań wynikających z ustawy z dnia 22 listopada 2013 r. o systemie powiadamiania ratunkowego, w tym na wynagrodzenia wraz z pochodnymi w kwocie 2.530 tys. zł,</div>\n<div class=\"agenda-indent-2\">- 14 pomoc dla społeczności romskiej wraz z programem wieloletnim z zał. nr 10;</div>\n<div class=\"agenda-indent-1\">- referuje pkt 15-16 - zastępca dyrektora Departamentu Budżetu w Ministerstwie Spraw Wewnętrznych i Administracji Władysław Budzeń,</div>\n<div class=\"agenda-indent-1\">- koreferuje pkt 15-17 - poseł Zdzisław Sipiera;</div>\n<div class=\"agenda-indent-1\">18) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu:</div>\n<div class=\"agenda-indent-2\">750 - Administracja publiczna,</div>\n<div class=\"agenda-indent-2\">- dochody i wydatki z zał. nr 1 i 2,</div>\n<div class=\"agenda-indent-2\">- wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6;</div>\n<div class=\"agenda-indent-2\">- środki europejskie z zał. nr 4 i 15;</div>\n<div class=\"agenda-indent-1\">- referuje pkt 18 - dyrektor Departamentu Finansowania Sfery Budżetowej w Ministerstwie Finansów Aneta Cieloch.</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2020-01-15",
+      "endDateTime": "2020-01-15T16:30:00",
+      "num": 4,
+      "remote": false,
+      "room": "sala nr 111, bud. U",
+      "startDateTime": "2020-01-15T13:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie i zaopiniowanie dla Komisji Finansów Publicznych rządowego projektu ustawy budżetowej na rok 2020 wraz z autopoprawką (druki nr 112 i 112-A) w zakresie:<br/>1) części budżetowej 16 - Kancelaria Prezesa Rady Ministrów,<br/>a) dochody i wydatki z zał. nr 1 i 2, <br/>b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,<br/>c) dotacje podmiotowe i celowe z zał. nr 8, <br/>d) środki europejskie z zał. nr 4 i 15;<br/>2) trzyletniego planu limitu mianowań  urzędników w służbie cywilnej na lata 2020 - 2022;<br/>3) planu finansowego agencji wykonawczej z zał. nr 11:<br/>   - Narodowy Instytut  Wolności – Centrum Rozwoju Społeczeństwa Obywatelskiego;<br/>4) planu finansowego instytucji gospodarki budżetowej z zał. nr 12:<br/>   - Centrum Obsługi Administracji Rządowej;<br/>5) planu finansowego państwowych funduszy celowych z zał. nr 13:<br/>   - Fundusz Wspierania Rozwoju Społeczeństwa Obywatelskiego, <br/>   - Fundusz Wspierania Organizacji Pożytku Publicznego; <br/>6) planu finansowego państwowych osób prawnych z zał. nr 14: <br/>   - Ośrodek Studiów Wschodnich im. Marka Karpia,<br/>   - Instytut Zachodni im. Zygmunta Wojciechowskiego,<br/>   - Instytut Współpracy Polsko-Węgierskiej im. Wacława Felczaka; <br/>7) części budżetowej 83 - Rezerwy celowe w zakresie pozycji:<br/>   - 20  środki na szkolenia i wynagrodzenia  na nowe mianowania urzędników służby cywilnej oraz skutki przechodzące z roku 2019, <br/>   - 39 Fundusz Inicjatyw Obywatelskich.<br/>Referuje pkt 1 - 6 - Szef Kancelarii Prezesa Rady Ministrów.<br/>Referuje pkt 7 - przedstawiciel Ministra Finansów w porozumieniu z Szefem Kancelarii Prezesa Rady Ministrów.<br/>Koreferuje pkt 1 - 7 - poseł Jerzy Polaczek.<br/>8) części budżetowej 75 - Rządowe Centrum Legislacji,<br/>a) dochody i wydatki z zał. nr 1 i 2,<br/>b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6.<br/>Referuje - Prezes Rządowego Centrum Legislacji.<br/>Koreferuje - poseł Marta Kubiak.<br/>9) części budżetowej 42 - Sprawy wewnętrzne,<br/>a) dochody i wydatki z zał. nr 1 i 2, <br/>b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,<br/>c) dotacje podmiotowe i celowe z zał. nr 8,<br/>d) dotacja podmiotowa dla Centralnego Laboratorium Kryminalistycznego Policji z zał. nr 9,<br/>e) środki europejskie z zał. nr 4 i 15;<br/>10) planu finansowego instytucji gospodarki budżetowej z zał. nr 12:<br/>   - Centrum Usług Logistycznych;<br/>11) planu finansowego państwowych funduszy celowych z zał. nr 13:<br/>a) Funduszu Wsparcia Policji, <br/>b) Funduszu Modernizacji Bezpieczeństwa Publicznego,<br/>c) Funduszu Wsparcia Straży Granicznej,<br/>d) Funduszu Wsparcia Państwowej Straży Pożarnej;<br/>12) części budżetowej 83 - Rezerwy celowe w zakresie pozycji:<br/>   - 13 pomoc dla repatriantów,<br/>   - 22 budowa, modernizacja i utrzymywanie przejść granicznych (w tym na sfinansowanie zobowiązań wynikających z umów dwustronnych dotyczących przejść granicznych), <br/>   - 28 środki na realizację zadań wynikających z ustawy o Karcie Polaka,<br/>   - 36 środki na  realizację Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017 - 2020, <br/>   - 37 środki na realizację Programu ograniczania przestępczości i aspołecznych zachowań Razem bezpieczniej im. Władysława Stasiaka na lata 2018 - 2020, oraz na realizację przedsięwzięć związanych z ograniczaniem przestępczości   gospodarczej, <br/>   - 64 uzupełnienie wydatków, o których mowa w art.7 ustawy z dnia 25 maja 2001 r. o przebudowie i modernizacji technicznej oraz finansowaniu Sił Zbrojnych RP, z przeznaczeniem na realizację przedsięwzięć: sprzęt transportowy, uzbrojenia i techniki specjalnej, informatyki i łączności oraz wyposażenie osobiste i ochronne funkcjonariuszy, w ramach Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017-2020; <br/>13) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu: 754 - bezpieczeństwo publiczne i ochrona przeciwpożarowa,<br/>   - dochody i wydatki z zał. nr 1 i 2,<br/>   - wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,<br/>   - dotacje celowe z zał. nr 8,<br/>   - zadania z zakresu administracji rządowej i inne zadania zlecone jednostkom samorządu terytorialnego odrębnymi ustawami w części 85 – budżety wojewodów z zał. nr 7,<br/>   - środki europejskie z zał. nr 4 i 15;<br/>Referuje pkt 9 - 11 - Minister Spraw Wewnętrznych i Administracji.<br/>Referuje pkt 12 - 13 – przedstawiciel Ministra Finansów w porozumieniu z  Ministrem Spraw Wewnętrznych i Administracji.<br/>Koreferuje pkt 9 -13 - poseł Edward Siarka.<br/>14) części budżetowej 17 - Administracja Publiczna,<br/>a) dochody i wydatki z zał. nr 1 i 2, <br/>b) wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6,<br/>c) dotacje celowe z zał. nr 8,<br/>d) środki europejskie z zał. nr 4 i 15;<br/>15) planu finansowego państwowych funduszy celowych z zał. nr 13:<br/>   - Fundusz Rekompensacyjny;<br/>16) części budżetowej 83 - Rezerwy celowe w zakresie pozycji:<br/>   - 9  środki na realizację zadań wynikających z ustawy z dnia 22 listopada 2013 r. o systemie powiadamiania ratunkowego, w tym na wynagrodzenia wraz z pochodnymi w kwocie 2.530 tyś. zł, <br/>   - 14 pomoc dla społeczności romskiej wraz z programem wieloletnim z zał. nr 10;<br/>Referuje pkt 14 - 15 - Minister Spraw Wewnętrznych i Administracji.<br/>Referuje pkt 16 - przedstawiciel Ministra Finansów w porozumieniu z Ministrem Spraw Wewnętrznych i Administracji.<br/>Koreferuje pkt 14-16 – poseł Zdzisław Sipiera.<br/>17) części budżetowej 43 - Wyznania religijne oraz mniejszości narodowe i etniczne, <br/>a) dochody i wydatki z zał. nr 1 i 2, <br/>b) wynagrodzenia w państwowych  jednostkach budżetowych z zał. nr 6,<br/>c) dotacje podmiotowe i celowe z zał. nr 8.<br/>Referuje - Minister Spraw Wewnętrznych i Administracji.<br/>Koreferuje - poseł Tomasz Szymański.<br/>18) części budżetowej 85 - Budżety wojewodów ogółem, w zakresie działu: 750 - Administracja publiczna,<br/>   - dochody i wydatki z zał. nr 1 i 2,<br/>   - wynagrodzenia w państwowych jednostkach budżetowych z zał. nr 6;<br/>   - środki europejskie z zał. nr 4 i 15.<br/>Referuje pkt 18 - przedstawiciel Ministra Finansów.",
+          "endDateTime": "2020-01-15T16:30:38",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=818E2427B9B8145BC12584EA0047A14B",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/818E2427B9B8145BC12584EA0047A14B",
+          "room": "sala nr 111, bud. U",
+          "startDateTime": "2020-01-15T13:04:25",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "818E2427B9B8145BC12584EA0047A14B",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC24/818E2427B9B8145BC12584EA0047A14B/playlist.m3u8?start=1579089865000&stop=1579102238000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">I. Rozpatrzenie Informacji Ministra Spraw Wewnętrznych i Administracji o realizacji w 2018 r. \"Programu modernizacji Policji, Straży Granicznej i Służby Ochrony Państwa w latach 2017-2020\" (druk nr 71)</div>\n<div class=\"agenda-indent-1\">- przedstawia sekretarz stanu w Ministerstwie Spraw Wewnętrznych i Administracji Paweł Szefernaker</div>\n<div class=\"agenda-indent-0\">II. Rozpatrzenie Informacji Najwyższej Izby Kontroli o realizacji Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2017-2020</div>\n<div class=\"agenda-indent-1\">- przedstawia wiceprezes Najwyższej Izby Kontroli Marek Opioła.</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2020-01-21",
+      "endDateTime": "2020-01-21T17:55:00",
+      "num": 5,
+      "remote": false,
+      "room": "sala nr 111, bud. U",
+      "startDateTime": "2020-01-21T15:40:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie Informacji Ministra Spraw Wewnętrznych i Administracji o realizacji w 2018 r. „Programu modernizacji Policji, Straży Granicznej i Służby Ochrony Państwa w latach 2017 – 2020” (druk nr 71)<br/>   - przedstawia Minister Spraw Wewnętrznych i Administracji.<br/>Rozpatrzenie Informacji Najwyższej Izby Kontroli o realizacji Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Biura Ochrony Rządu w latach 2017-2020 <br/>   - przedstawia Prezes Najwyższej Izby Kontroli.",
+          "endDateTime": "2020-01-21T17:55:00",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=EB6021E77B6A46A5C12584F1004C2183",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/EB6021E77B6A46A5C12584F1004C2183",
+          "room": "sala nr 111, bud. U",
+          "startDateTime": "2020-01-21T15:38:39",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "EB6021E77B6A46A5C12584F1004C2183",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC24/EB6021E77B6A46A5C12584F1004C2183/playlist.m3u8?start=1579617519000&stop=1579625700000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Rozpatrzenie poselskiego projektu ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw wraz z autopoprawką (druki nr 158 i 158-A).</div>",
+      "closed": false,
+      "code": "ASW",
+      "comments": "Nastąpiła zmiana godziny rozpoczęcia posiedzenia",
+      "date": "2020-01-22",
+      "endDateTime": "2020-01-22T18:30:00",
+      "notes": "Posiedzenie aktualne w przypadku zakończenia pierwszego czytania na posiedzeniu plenarnym Sejmu i skierowania projektu ustawy do komisji sejmowej",
+      "num": 6,
+      "remote": false,
+      "room": "sala im. Wojciecha Trąmpczyńskiego (nr 106, bud. C)",
+      "startDateTime": "2020-01-22T13:20:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie poselskiego projektu ustawy o zmianie ustawy o działach  administracji rządowej oraz niektórych innych ustaw (druk nr 158).",
+          "endDateTime": "2020-01-22T18:31:31",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=E3FA67457FA0D24DC12584F20038A308",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/E3FA67457FA0D24DC12584F20038A308",
+          "room": "sala im. Wojciecha Trąmpczyńskiego (nr 106, bud. C)",
+          "startDateTime": "2020-01-22T13:22:19",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "E3FA67457FA0D24DC12584F20038A308",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC04/E3FA67457FA0D24DC12584F20038A308/playlist.m3u8?start=1579695739000&stop=1579714291000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Rozpatrzenie wniosku i poprawek zgłoszonych w czasie drugiego czytania do projektu ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw (druki nr 158, 158-A i 192).</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2020-01-23",
+      "endDateTime": "2020-01-23T14:20:00",
+      "num": 7,
+      "remote": false,
+      "room": "sala nr 312, bud. U",
+      "startDateTime": "2020-01-23T14:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie poprawek zgłoszonych w czasie drugiego czytania do projektu ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw (druki nr 158, 158-A i 192).",
+          "endDateTime": "2020-01-23T14:21:27",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=22D90DEE5A1E99DEC12584F700642981",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/22D90DEE5A1E99DEC12584F700642981",
+          "room": "sala nr 312, bud. U",
+          "startDateTime": "2020-01-23T14:02:40",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "22D90DEE5A1E99DEC12584F700642981",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC22/22D90DEE5A1E99DEC12584F700642981/playlist.m3u8?start=1579784560000&stop=1579785687000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">I. Rozpatrzenie uchwały Senatu w sprawie ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw (druk nr 213).</div>\n<div class=\"agenda-indent-0\">II. Rozpatrzenie informacji na temat funkcjonowania i finansowania izb wytrzeźwień w Polsce oraz związanych z nimi regulacji prawnych zwłaszcza pod kątem zadań wykonywanych przez Policję</div>\n<div class=\"agenda-indent-1\">- przedstawiają: sekretarz stanu w Ministerstwie Zdrowia Józefa Szczurek-Żelazko oraz dyrektor Departamentu Porządku Publicznego w Ministerstwie Spraw Wewnętrznych i Administracji Mariusz Cichomski.</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2020-02-11",
+      "endDateTime": "2020-02-11T15:55:00",
+      "num": 8,
+      "remote": false,
+      "room": "sala nr 111, bud. U",
+      "startDateTime": "2020-02-11T15:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Informacja na temat funkcjonowania i finansowania izb wytrzeźwień w Polsce oraz związanych z nimi regulacji prawnych zwłaszcza pod kątem zadań wykonywanych przez Policję<br/>   - przedstawiają: Minister Spraw Wewnętrznych i Administracji, Minister Zdrowia.<br/>Rozpatrzenie uchwały Senatu RP w sprawie ustawy o zmianie ustawy o działach administracji rządowej oraz niektórych innych ustaw.",
+          "endDateTime": "2020-02-11T15:54:56",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=366E2E9B3D53478CC125850300499FFA",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/366E2E9B3D53478CC125850300499FFA",
+          "room": "sala nr 111, bud. U",
+          "startDateTime": "2020-02-11T15:03:24",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "366E2E9B3D53478CC125850300499FFA",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC24/366E2E9B3D53478CC125850300499FFA/playlist.m3u8?start=1581429804000&stop=1581432896000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">Pierwsze czytanie rządowego projektu ustawy o zmianie ustawy o zarządzaniu kryzysowym oraz niektórych innych ustaw (druk nr 203)</div>\n<div class=\"agenda-indent-1\">- uzasadnia zastępca dyrektora Rządowego Centrum Bezpieczeństwa Grzegorz Świszcz.</div>",
+      "closed": false,
+      "code": "ASW",
+      "date": "2020-02-12",
+      "endDateTime": "2020-02-12T16:40:00",
+      "num": 9,
+      "remote": false,
+      "room": "sala nr 111, bud. U",
+      "startDateTime": "2020-02-12T16:05:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Pierwsze czytanie rządowego projektu ustawy o zmianie ustawy o zarządzaniu kryzysowym oraz niektórych innych ustaw (druk nr 203)<br/>   - uzasadnia Prezes Rady Ministrów.",
+          "endDateTime": "2020-02-12T16:40:43",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=5F1F783897838F9CC125850400405A62",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/5F1F783897838F9CC125850400405A62",
+          "room": "sala nr 111, bud. U",
+          "startDateTime": "2020-02-12T16:05:28",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "5F1F783897838F9CC125850400405A62",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC24/5F1F783897838F9CC125850400405A62/playlist.m3u8?start=1581519928000&stop=1581522043000"
+        }
+      ]
+    },
+    {
+      "agenda": "<div class=\"agenda-indent-0\">I. Rozpatrzenie sprawozdania Podkomisji nadzwyczajnej o rządowym projekcie ustawy o zmianie ustawy o zarządzaniu kryzysowym oraz niektórych innych ustaw (druk nr 203)</div>\n<div class=\"agenda-indent-1\">- przedstawia przewodniczący podkomisji poseł Edward Siarka.</div>\n<div class=\"agenda-indent-0\">II. Pierwsze czytanie rządowego projektu ustawy o zmianie ustawy o systemie powiadamiania ratunkowego (druk nr 260)</div>\n<div class=\"agenda-indent-1\">- uzasadnia dyrektor Departamentu Teleinformatyki w Ministerstwie Spraw Wewnętrznych i Administracji Anna Woźnica.</div>",
+      "closed": false,
+      "code": "ASW",
+      "comments": "Nastąpiła zmiana godziny  posiedzenia, Posiedzenie będzie prowadzone z wykorzystaniem środków komunikacji elektronicznej umożliwiających porozumiewanie się na odległość",
+      "date": "2020-06-03",
+      "endDateTime": "2020-06-03T12:30:00",
+      "num": 10,
+      "remote": true,
+      "room": "sala nr 111, bud. U",
+      "startDateTime": "2020-06-03T09:15:00",
+      "status": "FINISHED",
+      "video": [
+        {
+          "committee": "ASW",
+          "description": "Rozpatrzenie sprawozdania Podkomisji nadzwyczajnej o rządowym projekcie ustawy o zmianie ustawy o zarządzaniu kryzysowym oraz niektórych innych ustaw (druk nr 203)<br/>   - przedstawia przewodniczący podkomisji poseł Edward Siarka.<br/>Pierwsze czytanie rządowego projektu ustawy o zmianie ustawy o systemie powiadamiania ratunkowego (druk nr 260)<br/>   - uzasadnia Minister Spraw Wewnętrznych i Administracji.",
+          "endDateTime": "2020-06-03T12:31:39",
+          "playerLink": "https://sejm.gov.pl/Sejm9.nsf/transmisje_arch.xsp?unid=C2A634C4D8CCDAFEC12585730043C075",
+          "playerLinkIFrame": "https://sejm.gov.pl/Sejm9.nsf/VideoFrame.xsp/C2A634C4D8CCDAFEC12585730043C075",
+          "room": "sala nr 111, bud. U",
+          "startDateTime": "2020-06-03T09:01:33",
+          "title": "Komisja Administracji i Spraw Wewnętrznych (ASW)",
+          "transcribe": false,
+          "type": "komisja",
+          "unid": "C2A634C4D8CCDAFEC12585730043C075",
+          "videoLink": "https://sejm.c.blueonline.tv/stream/ENC24/C2A634C4D8CCDAFEC12585730043C075/playlist.m3u8?start=1591167693000&stop=1591180299000"
+        }
+      ]
+    }
+  ]
+}
