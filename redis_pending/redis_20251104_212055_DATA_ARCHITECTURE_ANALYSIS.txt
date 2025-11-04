@@ -1,0 +1,37 @@
+SET doc:DATA_ARCHITECTURE_ANALYSIS:title "Data Architecture Analysis - ES vs PostgreSQL Separation"
+SET doc:DATA_ARCHITECTURE_ANALYSIS:type "analysis"
+SET doc:DATA_ARCHITECTURE_ANALYSIS:path "docs/DATA_ARCHITECTURE_ANALYSIS.md"
+SET doc:DATA_ARCHITECTURE_ANALYSIS:content "# Data Architecture Analysis - ES vs PostgreSQL Separation
+
+## Question: Why is "no OSINT in PostgreSQL" a problem?
+
+### Current State
+- **Elasticsearch**: 375 PDF documents (OSINT financial reports)
+- **PostgreSQL**: 0 messages with `osint` tag
+- **Observation**: Data is NOT propagated from ES → PG
+
+### Is this actually a problem? 🤔
+
+## Architecture Philosophy: Separation of Concerns
+
+### Option 1: ❌ Full Replication (NOT RECOMMENDED)
+```
+Elasticsearch (375 docs) → PostgreSQL (375 message records)
+```
+
+**Problems**:
+- ❌ Data duplication (ES already has metadata)
+- ❌ Scalability issue (375 docs * chunks = 1000s of PG rows)
+- ❌ Different usage patterns (ES = search index, PG = operational store)
+- ❌ Sync complexity (keep ES and PG in sync forever)
+- ❌ Wrong tool for the job (PG not designed for full-text search)
+
+### Option 2: ✅ Smart References (RECOMMENDED)
+```
+Elasticsearch (375 docs, source of truth)
+      ↓ doc_id reference
+PostgreSQL (lightweight reference table)
+      ↓ entity li"
+EXPIRE doc:DATA_ARCHITECTURE_ANALYSIS:content 86400
+SADD docs:all "DATA_ARCHITECTURE_ANALYSIS"
+SADD docs:type:analysis "DATA_ARCHITECTURE_ANALYSIS"

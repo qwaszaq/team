@@ -1,0 +1,47 @@
+SET doc:COMMIT_038e967_feature:title "Deep Research Agents - Complete System Design"
+SET doc:COMMIT_038e967_feature:type "team_documentation"
+SET doc:COMMIT_038e967_feature:path "docs/auto-generated/2025-11-04/COMMIT_038e967_feature.md"
+SET doc:COMMIT_038e967_feature:content "# Deep Research Agents - Complete System Design
+
+**Auto-Generated Documentation**
+
+**Date:** 2025-11-04 14:58:42
+**Commit:** `038e967`
+**Type:** Feature
+**Author:** artur
+
+---
+
+## 📝 Commit Message
+
+**feat: Deep Research Agents - Complete System Design**
+
+## User Request
+"Design agents for deep research on complex topics:
+- Example: Why is company X in financial trouble? (2015-2025)
+- Input: ~1M tokens (reports, financial data, OSINT)
+- Output: 50k token report (~50 pages)
+- Multi-dimensional analysis with sources"
+
+## Cross-Team Collaboration Process
+
+### Teams Involved:
+**Analytical Team (6 agents):**
+- Viktor: Overall architecture design
+- Elena: Data sources & OSINT strategy
+- Sofia: Research methodology
+- Maya: Data processing strategy
+- Damian: Quality control framework
+- Lucas: Report synthesis design
+
+**Core Team (4 agents):**
+- Maria: Technical architecture
+- Tomasz: Token handling strategy
+- Piotr: Infrastructure design
+- Michał: Security & compliance
+
+### Workflow:
+1. Briefin"
+EXPIRE doc:COMMIT_038e967_feature:content 86400
+SADD docs:all "COMMIT_038e967_feature"
+SADD docs:type:team_documentation "COMMIT_038e967_feature"

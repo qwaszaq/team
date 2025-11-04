@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.destiny.hourly-batch</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/artur/coursor-agents-destiny-folder/hourly_batch_processor.py</string>
+    </array>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/artur/coursor-agents-destiny-folder</string>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <true/>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/artur/coursor-agents-destiny-folder/logs/hourly_batch_error.log</string>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/artur/coursor-agents-destiny-folder/logs/hourly_batch_output.log</string>
+</dict>
+</plist>

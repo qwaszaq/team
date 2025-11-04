@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/capabilities/INSTITUTIONAL_API_ANALYSIS.md",
+  "document_type": "analysis",
+  "title": "\ud83c\udf10 Institutional API Analysis Capability",
+  "detected_at": "2025-11-04T18:31:27.617660",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udf10 Institutional API Analysis Capability\n\n**Date:** 2025-11-04  \n**Status:** \u2705 VERIFIED IN PRODUCTION  \n**Evidence:** Sejm API Analysis (197 meetings analyzed)  \n\n---\n\n## \ud83c\udfaf Overview\n\nAgenci Destiny Team potrafi\u0105 **analizowa\u0107 otwarte API instytucji publicznych** - zbiera\u0107 prawdziwe dane, przeprowadza\u0107 analizy statystyczne i generowa\u0107 kompleksowe raporty.\n\n---\n\n## \u2705 Verified Capabilities\n\n### 1. **API Integration & Data Collection**\n- \u2705 Komunikacja z publicznymi REST API\n- \u2705 Rate limiting i grace"
+}

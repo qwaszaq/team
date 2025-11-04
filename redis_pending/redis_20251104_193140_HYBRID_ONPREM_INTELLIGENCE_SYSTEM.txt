@@ -1,0 +1,37 @@
+SET doc:HYBRID_ONPREM_INTELLIGENCE_SYSTEM:title "🏗️ HYBRID ON-PREM INTELLIGENCE SYSTEM"
+SET doc:HYBRID_ONPREM_INTELLIGENCE_SYSTEM:type "team_documentation"
+SET doc:HYBRID_ONPREM_INTELLIGENCE_SYSTEM:path "docs/architecture/HYBRID_ONPREM_INTELLIGENCE_SYSTEM.md"
+SET doc:HYBRID_ONPREM_INTELLIGENCE_SYSTEM:content "# 🏗️ HYBRID ON-PREM INTELLIGENCE SYSTEM
+## Local LLM Workers + Cloud Supervisor Architecture
+
+**Date:** 2025-11-04  
+**Status:** Conceptual Design  
+**Feasibility:** ✅ HIGH - All components available  
+**Innovation:** Hybrid approach (on-prem execution + cloud quality assurance)  
+
+---
+
+## 🎯 CORE CONCEPT
+
+**Problem:** Cloud LLM APIs are expensive, raise privacy concerns, and create dependency
+
+**Solution:** Hybrid architecture
+- **On-Prem Worker:** Local LLM (LMStudio) executes investigations using local tools
+- **Cloud Supervisor:** Claude (Aleksander) monitors quality, guides strategy, reviews output
+- **Local Tools:** All data processing, scraping, analysis happens locally
+- **Local Data:** All databases on-prem (PostgreSQL, Neo4j, Qdrant, Redis)
+
+**Result:** Privacy + Control + Cost Savings + Professional Quality Assurance
+
+---
+
+## 🏛️ ARCHITECTURE OVERVIEW
+
+### **Three-Tier System:**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  TIER 1: CLOUD SUPERVISO"
+EXPIRE doc:HYBRID_ONPREM_INTELLIGENCE_SYSTEM:content 86400
+SADD docs:all "HYBRID_ONPREM_INTELLIGENCE_SYSTEM"
+SADD docs:type:team_documentation "HYBRID_ONPREM_INTELLIGENCE_SYSTEM"

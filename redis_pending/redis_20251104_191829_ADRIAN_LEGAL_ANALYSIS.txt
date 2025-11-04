@@ -1,0 +1,35 @@
+SET doc:ADRIAN_LEGAL_ANALYSIS:title "⚖️ LEGAL ANALYSIS: Robert Telus - CPK Land Transaction"
+SET doc:ADRIAN_LEGAL_ANALYSIS:type "analysis"
+SET doc:ADRIAN_LEGAL_ANALYSIS:path "investigations/telus_cpk_land_investigation/analysis/ADRIAN_LEGAL_ANALYSIS.md"
+SET doc:ADRIAN_LEGAL_ANALYSIS:content "# ⚖️ LEGAL ANALYSIS: Robert Telus - CPK Land Transaction
+
+**Prepared by:** Adrian Kowalski (Legal Analyst)  
+**Date:** 2025-11-04  
+**Investigation ID:** INV-2025-11-04-001  
+**Based on:** Elena's OSINT + Marcus's Financial Analysis  
+**Status:** Phase 3 Complete  
+
+---
+
+## 📋 EXECUTIVE SUMMARY
+
+**Legal Focus:** Regulatory framework applicable to government officials' property transactions in Poland  
+**Key Question:** What legal obligations did Robert Telus have regarding land transactions while serving as Minister?  
+**Methodology:** Statutory analysis, case law review, ethical standards assessment  
+**Compliance:** SOURCE ATTRIBUTION PROTOCOL - all laws and regulations properly cited  
+
+---
+
+## ⚖️ APPLICABLE LEGAL FRAMEWORK
+
+### **1. Primary Legislation**
+
+#### **A. Public Officials Act (Ustawa o ograniczeniu prowadzenia działalności gospodarczej)**
+
+```markdown
+**Source:** Polish Statute
+**Title:** Act on Limitations of Business Activity by Persons Performing Public Functions
+**Cita"
+EXPIRE doc:ADRIAN_LEGAL_ANALYSIS:content 86400
+SADD docs:all "ADRIAN_LEGAL_ANALYSIS"
+SADD docs:type:analysis "ADRIAN_LEGAL_ANALYSIS"

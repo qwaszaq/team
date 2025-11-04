@@ -1,0 +1,38 @@
+SET doc:ELENA_OSINT_REPORT:title "🔍 OSINT REPORT: Robert Telus - CPK Land Transaction"
+SET doc:ELENA_OSINT_REPORT:type "analysis"
+SET doc:ELENA_OSINT_REPORT:path "investigations/telus_cpk_land_investigation/analysis/ELENA_OSINT_REPORT.md"
+SET doc:ELENA_OSINT_REPORT:content "# 🔍 OSINT REPORT: Robert Telus - CPK Land Transaction
+
+**Prepared by:** Elena Volkov (OSINT Specialist)  
+**Date:** 2025-11-04  
+**Investigation ID:** INV-2025-11-04-001  
+**Classification:** Public Interest  
+**Status:** Phase 1 Complete  
+
+---
+
+## 📊 EXECUTIVE SUMMARY
+
+**Subject:** Robert Telus  
+**Position (former):** Minister of Agriculture and Rural Development (Poland)  
+**Investigation Focus:** Land transaction related to CPK (Centralny Port Komunikacyjny) railway corridor  
+**Public Interest:** Government official, public infrastructure project, potential conflict of interest  
+
+**Key Finding:** This case has been widely reported in Polish media with multiple public sources available.
+
+---
+
+## 👤 SUBJECT PROFILE
+
+### **Robert Telus**
+
+**Position:**
+- Minister of Agriculture and Rural Development, Republic of Poland
+- Timeline: [Need to verify exact dates from official government sources]
+
+**Public Profile:**
+- LinkedIn: [Search required]
+- Official government bio: [Archive requir"
+EXPIRE doc:ELENA_OSINT_REPORT:content 86400
+SADD docs:all "ELENA_OSINT_REPORT"
+SADD docs:type:analysis "ELENA_OSINT_REPORT"

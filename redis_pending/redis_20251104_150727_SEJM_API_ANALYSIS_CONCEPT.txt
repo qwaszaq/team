@@ -1,0 +1,47 @@
+SET doc:SEJM_API_ANALYSIS_CONCEPT:title "🏛️ Sejm API Analysis System - Complete Concept"
+SET doc:SEJM_API_ANALYSIS_CONCEPT:type "analysis"
+SET doc:SEJM_API_ANALYSIS_CONCEPT:path "docs/concepts/SEJM_API_ANALYSIS_CONCEPT.md"
+SET doc:SEJM_API_ANALYSIS_CONCEPT:content "# 🏛️ Sejm API Analysis System - Complete Concept
+
+**Project:** Parliamentary Committee Work Analysis  
+**API:** https://api.sejm.gov.pl/committees.html  
+**Date:** 2025-11-04  
+**Teams:** Analytical Team + Core Team  
+**Status:** ✅ Concept Complete + Working Code
+
+---
+
+## 📋 Executive Summary
+
+System for analyzing Polish Parliament (Sejm) committee work using official API.
+
+**Test Case:** Komisja Administracji i Spraw Wewnętrznych (ASW), kadencja IX (2019-2023)
+
+**Key Finding:** 197 posiedzeń komisji w kadencji 2019-2023
+
+---
+
+## 🎯 Problem Statement
+
+**Need:** Analyze parliamentary committee work to understand:
+- Meeting frequency and patterns
+- Topics discussed (porządek dzienny)
+- Attendance and participation
+- Legislative activity and productivity
+- Trends over time
+
+**Challenge:** Manual analysis of 197 meetings is time-consuming
+
+**Solution:** Automated analysis system using Sejm API
+
+---
+
+## 🔍 API Research (Elena Volkov - OSINT)
+
+### **API Endpoints Discovered:**
+
+```
+BASE: https:"
+EXPIRE doc:SEJM_API_ANALYSIS_CONCEPT:content 86400
+SADD docs:all "SEJM_API_ANALYSIS_CONCEPT"
+SADD docs:type:analysis "SEJM_API_ANALYSIS_CONCEPT"

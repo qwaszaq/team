@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/auto-generated/2025-11-04/COMMIT_300ea7b_feature.md",
+  "document_type": "general_documentation",
+  "title": "Transparency + Cross-Team Orchestration System (Option B+C)",
+  "detected_at": "2025-11-04T13:26:25.517181",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Transparency + Cross-Team Orchestration System (Option B+C)\n\n**Auto-Generated Documentation**\n\n**Date:** 2025-11-04 13:26:25\n**Commit:** `300ea7b`\n**Type:** Feature\n**Author:** artur\n\n---\n\n## \ud83d\udcdd Commit Message\n\n**feat: Transparency + Cross-Team Orchestration System (Option B+C)**\n\n## User Decision: \"lepiej mi to zlecac tobie jako orchestratorowi\"\n\nUser identified that his workflow is:\nUSER \u2192 ORCHESTRATOR (me/Aleksander) \u2192 Teams work \u2192 Results delivered\n\nNOT:\nUSER \u2192 Picks agents manually \u2192 Agent"
+}

@@ -1,0 +1,41 @@
+SET doc:SEJM_ASW_ANALYSIS_2019_2023:title "🏛️ Analiza Pracy Komisji Administracji i Spraw Wewnętrznych"
+SET doc:SEJM_ASW_ANALYSIS_2019_2023:type "analysis"
+SET doc:SEJM_ASW_ANALYSIS_2019_2023:path "docs/research/SEJM_ASW_ANALYSIS_2019_2023.md"
+SET doc:SEJM_ASW_ANALYSIS_2019_2023:content "# 🏛️ Analiza Pracy Komisji Administracji i Spraw Wewnętrznych
+
+**Komisja:** Komisja Administracji i Spraw Wewnętrznych (ASW)  
+**Kadencja:** IX (2019-2023)  
+**Zakres:** 2019-11-14 do 2023-08-30  
+**Data Analizy:** 2025-11-04  
+**Źródło Danych:** https://api.sejm.gov.pl
+
+---
+
+## 📋 Executive Summary
+
+Kompleksowa analiza pracy Komisji Administracji i Spraw Wewnętrznych w IX kadencji Sejmu (2019-2023) na podstawie danych z oficjalnego API Sejmu RP.
+
+### **Kluczowe Ustalenia:**
+
+✅ **197 posiedzeń** w okresie 2019-2023  
+✅ **Średnio 39.4 posiedzeń/rok** (wysoka aktywność)  
+✅ **96.4% posiedzeń nagranych** (transparentność)  
+✅ **33.5% posiedzeń zdalnych** (COVID-19)  
+✅ **Główne tematy:** Policja, budżet, ustawy o administracji
+
+---
+
+## 📊 Dane Podstawowe
+
+### **Komisja:**
+- **Nazwa:** Komisja Administracji i Spraw Wewnętrznych
+- **Kod:** ASW
+- **Data powołania:** 2019-11-13
+- **Typ:** Komisja stała
+- **Skład:** 25 posłów (stali członkowie)
+
+### **Przewodniczący:**
+- **Wiesław Szczepański** "
+EXPIRE doc:SEJM_ASW_ANALYSIS_2019_2023:content 86400
+SADD docs:all "SEJM_ASW_ANALYSIS_2019_2023"
+SADD docs:type:analysis "SEJM_ASW_ANALYSIS_2019_2023"

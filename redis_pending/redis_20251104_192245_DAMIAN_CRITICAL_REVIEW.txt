@@ -1,0 +1,41 @@
+SET doc:DAMIAN_CRITICAL_REVIEW:title "🎭 CRITICAL REVIEW: Robert Telus Investigation - Devil's Advocate Analysis"
+SET doc:DAMIAN_CRITICAL_REVIEW:type "team_documentation"
+SET doc:DAMIAN_CRITICAL_REVIEW:path "investigations/telus_cpk_land_investigation/analysis/DAMIAN_CRITICAL_REVIEW.md"
+SET doc:DAMIAN_CRITICAL_REVIEW:content "# 🎭 CRITICAL REVIEW: Robert Telus Investigation - Devil's Advocate Analysis
+
+**Prepared by:** Damian Rousseau (Critical Thinking Agent)  
+**Experience Level:** Intermediate (150 XP)  
+**Date:** 2025-11-04  
+**Investigation ID:** INV-2025-11-04-001  
+**Reviewed:** Elena (OSINT) + Marcus (Financial) + Adrian (Legal) + Maya (Data)  
+**Status:** Phase 5 Complete - Critical Review with Source Verification  
+
+---
+
+## 🎯 MY ROLE
+
+I am the **Devil's Advocate**. My job is NOT to be negative - my job is to **make us stronger** by challenging everything.
+
+If our findings survive my scrutiny, they're solid.  
+If they don't, we need more work.
+
+**Experience Level:** Intermediate (150 XP)  
+- I've developed pattern recognition
+- I can spot common biases
+- I ask targeted questions
+- My intuition is developing
+
+**This Review:** Will gain +20 XP (comprehensive investigation review)
+
+---
+
+## 🚨 CRITICAL ISSUES IDENTIFIED
+
+### **ISSUE 1: We're in DEMONSTRATION MODE** 🔴
+
+**My Challenge:**
+
+**What We CLAIM t"
+EXPIRE doc:DAMIAN_CRITICAL_REVIEW:content 86400
+SADD docs:all "DAMIAN_CRITICAL_REVIEW"
+SADD docs:type:team_documentation "DAMIAN_CRITICAL_REVIEW"

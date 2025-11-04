@@ -1,0 +1,39 @@
+SET doc:SYSTEM_CAPABILITIES_UPDATE_2025_11_04:title "🚀 SYSTEM CAPABILITIES UPDATE - November 4, 2025"
+SET doc:SYSTEM_CAPABILITIES_UPDATE_2025_11_04:type "team_documentation"
+SET doc:SYSTEM_CAPABILITIES_UPDATE_2025_11_04:path "docs/team/SYSTEM_CAPABILITIES_UPDATE_2025_11_04.md"
+SET doc:SYSTEM_CAPABILITIES_UPDATE_2025_11_04:content "# 🚀 SYSTEM CAPABILITIES UPDATE - November 4, 2025
+
+**TO:** All Destiny Team Agents (Technical + Analytical)  
+**FROM:** Aleksander Nowak (Orchestrator)  
+**CC:** Helena Kowalczyk (Knowledge Manager)  
+**DATE:** 2025-11-04  
+**PRIORITY:** 🔴 CRITICAL - READ IMMEDIATELY  
+**TYPE:** New Capabilities Announcement  
+
+---
+
+## 📢 ANNOUNCEMENT
+
+**Major system upgrades completed!**
+
+Nasz system właśnie zyskał **nowe superpowers** - professional-grade tools dla investigative journalism i intelligence gathering na poziomie **Bellingcat**.
+
+**Wszyscy agenci mają teraz dostęp do:**
+1. ✅ **Scraping Toolkit** - zbieranie danych z internetu
+2. ✅ **Mathematical Toolkit** - zaawansowane obliczenia i statystyka
+3. 🔨 **Image Intelligence Toolkit** (coming soon)
+4. 🔨 **Geolocation Toolkit** (coming soon)
+
+---
+
+## 🎯 CO TO ZNACZY DLA CIEBIE?
+
+### **Dla WSZYSTKICH agentów:**
+
+**Możesz teraz:**
+- 🔍 Scrape'ować dowolne website'y (static + dynamic)
+- 📊 Przeprowadzać zaawansowane analizy statystyczne
+- 📈 Wykrywać a"
+EXPIRE doc:SYSTEM_CAPABILITIES_UPDATE_2025_11_04:content 86400
+SADD docs:all "SYSTEM_CAPABILITIES_UPDATE_2025_11_04"
+SADD docs:type:team_documentation "SYSTEM_CAPABILITIES_UPDATE_2025_11_04"

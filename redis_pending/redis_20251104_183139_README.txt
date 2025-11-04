@@ -1,0 +1,49 @@
+SET doc:README:title "🤖 Destiny Team Framework - Helena Auto-Execution System"
+SET doc:README:type "protocol"
+SET doc:README:path "README.md"
+SET doc:README:content "# 🤖 Destiny Team Framework - Helena Auto-Execution System
+
+**Multi-Agent AI Development Framework with Unlimited Context Memory**
+
+A complete AI software development team that automatically propagates knowledge across all databases in real-time.
+
+---
+
+## 🎯 What is This?
+
+**Helena** - your AI Knowledge Manager - now **automatically detects, processes, and propagates** every change you make to `.md` files across **4 databases** in real-time:
+
+- ✅ **Qdrant** - Semantic search (1024-dim vectors)
+- ✅ **PostgreSQL** - Structured metadata
+- ✅ **Neo4j** - Knowledge graph relationships
+- ✅ **Redis** - Quick cache
+
+**Zero manual intervention required!**
+
+---
+
+## ⚡ Quick Start (5 minutes)
+
+### Prerequisites
+
+```bash
+# You need:
+- conda environment named 'team'
+- Python 3.9+
+- Docker containers running:
+  * Qdrant (localhost:6333)
+  * PostgreSQL (localhost:5432)
+  * Neo4j (localhost:7687)
+  * Redis (localhost:6379)
+```
+
+### 1. Activate Conda Environment
+
+```bash
+conda activate team
+```
+
+### 2. Ins"
+EXPIRE doc:README:content 86400
+SADD docs:all "README"
+SADD docs:type:protocol "README"

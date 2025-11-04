@@ -1,0 +1,36 @@
+SET doc:BELLINGCAT_METHODOLOGY_ANALYSIS:title "🔍 Bellingcat Methodology Analysis - Quality Standards & Investigative Excellence"
+SET doc:BELLINGCAT_METHODOLOGY_ANALYSIS:type "analysis"
+SET doc:BELLINGCAT_METHODOLOGY_ANALYSIS:path "docs/research/BELLINGCAT_METHODOLOGY_ANALYSIS.md"
+SET doc:BELLINGCAT_METHODOLOGY_ANALYSIS:content "# 🔍 Bellingcat Methodology Analysis - Quality Standards & Investigative Excellence
+
+**Research By:** Elena Volkov (OSINT Lead) + Maya Patel (Analysis)  
+**Orchestrated By:** Aleksander Nowak  
+**Date:** 2025-11-04  
+**Focus:** TEXT + IMAGE Intelligence (Video/Audio: Phase 2)  
+**Classification:** Internal Research - Learning from the Best  
+
+---
+
+## 🎯 Executive Summary
+
+**Bellingcat** to organizacja non-profit specjalizująca się w **open source investigations** (OSINT), która:
+- Zidentyfikowała sprawców zestrzelenia MH17
+- Ujawniła tożsamość agentów GRU w sprawie Skripal
+- Udokumentowała setki zbrodni wojennych w Syrii, Ukrainie
+- Ustaliła standardy dla investigative journalism w erze cyfrowej
+
+**Ich siła:** Metodologia + Weryfikacja + Transparentność + Community
+
+**Nasz cel:** Zaimplementować ich standardy w AI-powered system
+
+---
+
+## 📚 Case Studies - Jak Bellingcat Pracuje
+
+### **Case 1: MH17 - Masterclass w OSINT (2014-2019)**
+
+#### **Problem:**
+Zestrzelenie cywilnego samolotu Malay"
+EXPIRE doc:BELLINGCAT_METHODOLOGY_ANALYSIS:content 86400
+SADD docs:all "BELLINGCAT_METHODOLOGY_ANALYSIS"
+SADD docs:type:analysis "BELLINGCAT_METHODOLOGY_ANALYSIS"

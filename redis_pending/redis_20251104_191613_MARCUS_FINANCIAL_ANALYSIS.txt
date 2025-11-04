@@ -1,0 +1,41 @@
+SET doc:MARCUS_FINANCIAL_ANALYSIS:title "💰 FINANCIAL ANALYSIS: Robert Telus - CPK Land Transaction"
+SET doc:MARCUS_FINANCIAL_ANALYSIS:type "analysis"
+SET doc:MARCUS_FINANCIAL_ANALYSIS:path "investigations/telus_cpk_land_investigation/analysis/MARCUS_FINANCIAL_ANALYSIS.md"
+SET doc:MARCUS_FINANCIAL_ANALYSIS:content "# 💰 FINANCIAL ANALYSIS: Robert Telus - CPK Land Transaction
+
+**Prepared by:** Marcus Chen (Financial Analyst)  
+**Date:** 2025-11-04  
+**Investigation ID:** INV-2025-11-04-001  
+**Based on:** Elena Volkov's OSINT findings  
+**Status:** Phase 2 Complete  
+
+---
+
+## 📊 EXECUTIVE SUMMARY
+
+**Analysis Focus:** Financial aspects of land transaction involving Robert Telus and CPK railway corridor  
+**Methodology:** Market comparison, price analysis, financial timeline reconstruction  
+**Data Quality:** Based on publicly available information (demonstration mode)  
+**Compliance:** SOURCE ATTRIBUTION PROTOCOL fully applied  
+
+---
+
+## 💵 TRANSACTION ANALYSIS FRAMEWORK
+
+### **Key Financial Questions:**
+
+1. **Purchase Price vs. Market Value**
+   - What was paid for the land?
+   - Was it market rate?
+   - How does it compare to similar properties?
+
+2. **Sale Price vs. Market Value**
+   - What was received for the land?
+   - Premium or discount?
+   - Market justification?
+
+3. **Price Appreciation**
+   "
+EXPIRE doc:MARCUS_FINANCIAL_ANALYSIS:content 86400
+SADD docs:all "MARCUS_FINANCIAL_ANALYSIS"
+SADD docs:type:analysis "MARCUS_FINANCIAL_ANALYSIS"

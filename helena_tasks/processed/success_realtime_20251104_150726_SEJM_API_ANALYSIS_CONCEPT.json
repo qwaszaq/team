@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/concepts/SEJM_API_ANALYSIS_CONCEPT.md",
+  "document_type": "analysis",
+  "title": "\ud83c\udfdb\ufe0f Sejm API Analysis System - Complete Concept",
+  "detected_at": "2025-11-04T15:07:26.931335",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udfdb\ufe0f Sejm API Analysis System - Complete Concept\n\n**Project:** Parliamentary Committee Work Analysis  \n**API:** https://api.sejm.gov.pl/committees.html  \n**Date:** 2025-11-04  \n**Teams:** Analytical Team + Core Team  \n**Status:** \u2705 Concept Complete + Working Code\n\n---\n\n## \ud83d\udccb Executive Summary\n\nSystem for analyzing Polish Parliament (Sejm) committee work using official API.\n\n**Test Case:** Komisja Administracji i Spraw Wewn\u0119trznych (ASW), kadencja IX (2019-2023)\n\n**Key Finding:** 197 posiedze\u0144 kom"
+}

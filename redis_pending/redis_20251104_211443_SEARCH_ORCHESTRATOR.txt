@@ -1,0 +1,29 @@
+SET doc:SEARCH_ORCHESTRATOR:title "SearchOrchestrator - Unified Search Interface"
+SET doc:SEARCH_ORCHESTRATOR:type "architecture"
+SET doc:SEARCH_ORCHESTRATOR:path "docs/SEARCH_ORCHESTRATOR.md"
+SET doc:SEARCH_ORCHESTRATOR:content "# SearchOrchestrator - Unified Search Interface
+
+## Overview
+
+SearchOrchestrator provides a unified API for querying across all Destiny framework data layers:
+- **Elasticsearch**: Full-text search, aggregations, time-series queries
+- **Qdrant**: Semantic/vector search using embeddings
+- **PostgreSQL**: Structured queries, metadata, relationships
+- **Neo4j**: Graph queries, decision chains, knowledge graphs
+
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│              SearchOrchestrator                          │
+│                                                          │
+│  ┌────────────────────────────────────────────────┐    │
+│  │  Unified API                                    │    │
+│  │  - full_text_search()                          │    │
+│  │  - semantic_search()                           │    │
+│  │  - structured_query()                          │    │
+│  │  - graph_query()                               │    │
+│  │  - hybrid_search()        "
+EXPIRE doc:SEARCH_ORCHESTRATOR:content 86400
+SADD docs:all "SEARCH_ORCHESTRATOR"
+SADD docs:type:architecture "SEARCH_ORCHESTRATOR"

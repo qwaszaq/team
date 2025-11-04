@@ -1,0 +1,53 @@
+SET doc:ADAPTIVE_LEARNING_SYSTEM:title "🧠 Adaptive Learning System - Intelligence That Grows"
+SET doc:ADAPTIVE_LEARNING_SYSTEM:type "general_documentation"
+SET doc:ADAPTIVE_LEARNING_SYSTEM:path "docs/team/ADAPTIVE_LEARNING_SYSTEM.md"
+SET doc:ADAPTIVE_LEARNING_SYSTEM:content "# 🧠 Adaptive Learning System - Intelligence That Grows
+
+**Date:** 2025-11-04  
+**Status:** ✅ ACTIVE  
+**Version:** 1.0  
+
+---
+
+## 🎯 Vision
+
+**System inteligencji, który się UCZY.**
+
+Nie tylko wykonuje zadania - **pamięta doświadczenia, wyciąga wnioski, staje się mądrzejszy**.
+
+---
+
+## 🌟 Core Concept
+
+### **Traditional AI Systems:**
+```
+Task → Execute → Result
+Task → Execute → Result  (same as before)
+Task → Execute → Result  (same as before)
+```
+❌ **No learning. No growth. Repeat forever.**
+
+### **Destiny Adaptive System:**
+```
+Task → Execute → Result → LEARN → IMPROVE
+Task → Execute (better!) → Result → LEARN → IMPROVE
+Task → Execute (even better!) → Result → LEARN → IMPROVE
+```
+✅ **Continuous improvement. Growing intelligence.**
+
+---
+
+## 🔧 Implementation
+
+### **1. Capabilities Registry**
+
+**File:** `capabilities_registry.py`
+
+**Purpose:** Central knowledge base of ALL system capabilities
+
+**Features:**
+- 📊 Track all agents, toolkits, databases, methodologies
+- 🔄 Version tracking (sys"
+EXPIRE doc:ADAPTIVE_LEARNING_SYSTEM:content 86400
+SADD docs:all "ADAPTIVE_LEARNING_SYSTEM"
+SADD docs:type:general_documentation "ADAPTIVE_LEARNING_SYSTEM"

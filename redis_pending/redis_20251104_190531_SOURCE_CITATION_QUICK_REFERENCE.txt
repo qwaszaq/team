@@ -1,0 +1,66 @@
+SET doc:SOURCE_CITATION_QUICK_REFERENCE:title "📚 SOURCE CITATION - QUICK REFERENCE CARD"
+SET doc:SOURCE_CITATION_QUICK_REFERENCE:type "general_documentation"
+SET doc:SOURCE_CITATION_QUICK_REFERENCE:path "SOURCE_CITATION_QUICK_REFERENCE.md"
+SET doc:SOURCE_CITATION_QUICK_REFERENCE:content "# 📚 SOURCE CITATION - QUICK REFERENCE CARD
+
+**🔴 MANDATORY for ALL investigative & research agents**
+
+---
+
+## 🎯 THE RULE
+
+```
+NO SOURCE = NO CLAIM
+```
+
+If you can't cite it, don't claim it.
+
+---
+
+## ✅ Quick Checklist
+
+**Before making ANY claim:**
+
+- [ ] Do I have a source for this?
+- [ ] Is the source cited completely?
+- [ ] Is the source archived?
+- [ ] Is credibility assessed?
+- [ ] For key claims: Do I have 3+ sources?
+
+**If ANY box unchecked → DON'T PUBLISH**
+
+---
+
+## 📝 Minimum Citation Format
+
+```markdown
+**Claim:** [Your claim]
+
+**Source:** [Source name/title]
+**URL:** [Link]
+**Date Accessed:** [YYYY-MM-DD]
+**Archive:** [Archive.org link]
+**Quote:** "[Relevant quote]"
+**Credibility:** [High/Medium/Low]
+```
+
+---
+
+## 🛠️ Quick Archive Command
+
+```python
+from agents.analytical.tools.scraping_toolkit import ScrapingToolkit
+
+toolkit = ScrapingToolkit()
+archive = toolkit.archive_page(url)
+# Returns archive info automatically!
+```
+
+---
+
+## 📊 Source Credibility Levels
+
+**HIGH:** Official r"
+EXPIRE doc:SOURCE_CITATION_QUICK_REFERENCE:content 86400
+SADD docs:all "SOURCE_CITATION_QUICK_REFERENCE"
+SADD docs:type:general_documentation "SOURCE_CITATION_QUICK_REFERENCE"

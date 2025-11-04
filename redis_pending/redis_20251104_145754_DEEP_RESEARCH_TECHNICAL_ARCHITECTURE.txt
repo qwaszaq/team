@@ -1,0 +1,45 @@
+SET doc:DEEP_RESEARCH_TECHNICAL_ARCHITECTURE:title "🏗️ Deep Research System - Technical Architecture"
+SET doc:DEEP_RESEARCH_TECHNICAL_ARCHITECTURE:type "architecture"
+SET doc:DEEP_RESEARCH_TECHNICAL_ARCHITECTURE:path "docs/concepts/DEEP_RESEARCH_TECHNICAL_ARCHITECTURE.md"
+SET doc:DEEP_RESEARCH_TECHNICAL_ARCHITECTURE:content "# 🏗️ Deep Research System - Technical Architecture
+
+**Document Type:** Technical Implementation Specification  
+**Date:** 2025-11-04  
+**Lead:** Maria Wiśniewska (Software Architect)  
+**Contributors:** Tomasz, Piotr, Michał (Core Team)
+
+---
+
+## 📋 Technical Overview
+
+This document provides detailed technical specifications for implementing the Deep Research Agent system.
+
+---
+
+## 🎯 System Requirements
+
+### **Functional Requirements:**
+- FR1: Process 1M+ tokens of input data
+- FR2: Generate 50k token reports
+- FR3: Multi-agent coordination
+- FR4: Real-time progress tracking
+- FR5: Quality assurance gates
+- FR6: Source attribution
+
+### **Non-Functional Requirements:**
+- NFR1: Performance: Complete research in 5-8 hours
+- NFR2: Cost: < $70 per report
+- NFR3: Accuracy: 95%+ fact accuracy
+- NFR4: Scalability: Support 10 concurrent research tasks
+- NFR5: Reliability: 99% uptime
+- NFR6: Security: Enterprise-grade data protection
+
+---
+
+## 🏗️ Architecture Diagram
+
+```
+┌─────────────────────────"
+EXPIRE doc:DEEP_RESEARCH_TECHNICAL_ARCHITECTURE:content 86400
+SADD docs:all "DEEP_RESEARCH_TECHNICAL_ARCHITECTURE"
+SADD docs:type:architecture "DEEP_RESEARCH_TECHNICAL_ARCHITECTURE"

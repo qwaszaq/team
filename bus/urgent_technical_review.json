@@ -1,0 +1,27 @@
+{
+  "task_id": "URGENT_POSTGRES_ANALYSIS_20251104_220400",
+  "type": "urgent_technical_review",
+  "priority": "CRITICAL",
+  "title": "PostgreSQL Performance Crisis - System Stuck Analysis",
+  "description": "URGENT: PostgreSQL commands hanging for 431+ seconds. Need immediate technical review and action plan.",
+  "assigned_to": [
+    "Aleksander",
+    "Helena",
+    "Viktor",
+    "System_Admin"
+  ],
+  "requester": "Artur",
+  "deadline": "2025-11-04T22:04:00.525525",
+  "context": {
+    "issue": "Database performance degradation",
+    "severity": "CRITICAL",
+    "impact": "System operations blocked",
+    "analysis_file": "POSTGRES_STUCK_ANALYSIS.md"
+  },
+  "required_actions": [
+    "Review root cause analysis",
+    "Propose immediate fixes",
+    "Design long-term solution",
+    "Implement monitoring"
+  ]
+}

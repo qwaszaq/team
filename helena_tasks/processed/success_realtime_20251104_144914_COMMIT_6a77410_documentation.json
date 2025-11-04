@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/auto-generated/2025-11-04/COMMIT_6a77410_documentation.md",
+  "document_type": "general_documentation",
+  "title": "Add dashboard demo and interactive tutorial",
+  "detected_at": "2025-11-04T14:49:14.545765",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Add dashboard demo and interactive tutorial\n\n**Auto-Generated Documentation**\n\n**Date:** 2025-11-04 14:49:14\n**Commit:** `6a77410`\n**Type:** Documentation\n**Author:** artur\n\n---\n\n## \ud83d\udcdd Commit Message\n\n**docs: Add dashboard demo and interactive tutorial**\n\nThis answers user's question: 'what about those dashboards we discussed?'\n\nShows what was built today:\n- Real-time team status tracking\n- Progress monitoring dashboards\n- Team briefing system\n- Cross-team handoff protocol\n\nIncludes:\n- DASHBOAR"
+}

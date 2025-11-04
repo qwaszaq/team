@@ -1,0 +1,31 @@
+SET doc:BATCH_MIGRATION_PLAN:title "Batch Processing Migration Plan"
+SET doc:BATCH_MIGRATION_PLAN:type "architecture"
+SET doc:BATCH_MIGRATION_PLAN:path "BATCH_MIGRATION_PLAN.md"
+SET doc:BATCH_MIGRATION_PLAN:content "# Batch Processing Migration Plan
+
+## Executive Summary
+Replace real-time database processing with intelligent batch system to resolve PostgreSQL performance crisis.
+
+## Current State (CRITICAL)
+- **Real-time processors** writing to PostgreSQL immediately on file save
+- **180+ SQL files** queued, causing 431+ second hangs
+- **No connection pooling** - each script creates new connections
+- **Heavy GIN indexes** blocking operations during updates
+
+## New Batch Architecture
+
+### Core Components
+
+#### 1. Batch Processor (`batch_processing_system.py`)
+- **Queuing System**: Separate queues for inserts, updates, messages
+- **Batch Accumulation**: Groups operations by table
+- **Timed Flushes**: Every 5 seconds or 100 operations
+- **Connection Pool**: Max 3 connections (vs unlimited before)
+- **Transaction Batching**: Single transaction per flush
+
+#### 2. Helena Batch Processor (`helena_batch_processor.py`)
+- **Replaces**: `helena_realtime_processor.py`
+- **Document Queue**: Processes documents"
+EXPIRE doc:BATCH_MIGRATION_PLAN:content 86400
+SADD docs:all "BATCH_MIGRATION_PLAN"
+SADD docs:type:architecture "BATCH_MIGRATION_PLAN"

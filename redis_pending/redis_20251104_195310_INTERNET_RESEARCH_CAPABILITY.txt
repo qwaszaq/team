@@ -1,0 +1,49 @@
+SET doc:INTERNET_RESEARCH_CAPABILITY:title "🌐 INTERNET RESEARCH CAPABILITY"
+SET doc:INTERNET_RESEARCH_CAPABILITY:type "general_documentation"
+SET doc:INTERNET_RESEARCH_CAPABILITY:path "docs/capabilities/INTERNET_RESEARCH_CAPABILITY.md"
+SET doc:INTERNET_RESEARCH_CAPABILITY:content "# 🌐 INTERNET RESEARCH CAPABILITY
+## Direct Web Access & Data Collection
+
+**Date:** 2025-11-04  
+**Status:** ✅ VERIFIED & OPERATIONAL  
+**Discovered During:** Robert Telus - CPK Investigation (Real Data)  
+
+---
+
+## 🎯 CAPABILITY OVERVIEW
+
+**Aleksander i agenci potrafią:**
+
+✅ **Bezpośrednio przeszukiwać internet** bez external APIs  
+✅ **Pobierać strony WWW** (curl, Python urllib)  
+✅ **Parsować HTML** (regex, text extraction)  
+✅ **Zbierać real-time data** z publicznie dostępnych źródeł  
+✅ **Archivować źródła lokalnie** (investigation hygiene)  
+✅ **Analizować zawartość** (text mining, pattern matching)  
+
+---
+
+## 🔧 TECHNICAL METHODS
+
+### **Method 1: Direct HTTP with curl**
+
+```bash
+# Basic page download
+curl -s "https://pl.wikipedia.org/wiki/Robert_Telus" \
+  -H "User-Agent: Mozilla/5.0" \
+  > source.html
+
+# With error handling
+curl -s "https://www.cpk.pl" \
+  -H "User-Agent: Mozilla/5.0" \
+  --max-time 30 \
+  --retry 3 \
+  2>&1
+```
+
+**Advantages:**
+- ✅ Fast and lightweight
+- ✅ No depe"
+EXPIRE doc:INTERNET_RESEARCH_CAPABILITY:content 86400
+SADD docs:all "INTERNET_RESEARCH_CAPABILITY"
+SADD docs:type:general_documentation "INTERNET_RESEARCH_CAPABILITY"

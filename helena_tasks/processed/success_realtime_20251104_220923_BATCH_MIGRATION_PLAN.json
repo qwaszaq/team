@@ -1,0 +1,9 @@
+{
+  "file_path": "BATCH_MIGRATION_PLAN.md",
+  "document_type": "architecture",
+  "title": "Batch Processing Migration Plan",
+  "detected_at": "2025-11-04T22:09:23.324148",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Batch Processing Migration Plan\n\n## Executive Summary\nReplace real-time database processing with intelligent batch system to resolve PostgreSQL performance crisis.\n\n## Current State (CRITICAL)\n- **Real-time processors** writing to PostgreSQL immediately on file save\n- **180+ SQL files** queued, causing 431+ second hangs\n- **No connection pooling** - each script creates new connections\n- **Heavy GIN indexes** blocking operations during updates\n\n## New Batch Architecture\n\n### Core Components\n\n##"
+}

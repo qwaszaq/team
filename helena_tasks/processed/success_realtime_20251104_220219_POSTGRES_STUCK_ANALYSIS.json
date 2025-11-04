@@ -1,0 +1,9 @@
+{
+  "file_path": "POSTGRES_STUCK_ANALYSIS.md",
+  "document_type": "analysis",
+  "title": "PostgreSQL Stuck Analysis - November 4, 2025",
+  "detected_at": "2025-11-04T22:02:19.154001",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# PostgreSQL Stuck Analysis - November 4, 2025\n\n## Summary of Issue\nThe PostgreSQL command `\\d es_document_references` was stuck for 431+ seconds. This appears to be caused by multiple concurrent database operations and complex schema design.\n\n## Root Causes Identified\n\n### 1. Heavy Database Schema Complexity\nThe `es_document_references` table has:\n- **6 indexes** including 3 GIN indexes (for arrays and JSONB)\n- **Foreign key constraints**\n- **Materialized view** that joins with usage logs\n- **M"
+}

@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/concepts/BELLINGCAT_LEVEL_OSINT.md",
+  "document_type": "architecture",
+  "title": "\ud83d\udd0d Bellingcat-Level OSINT System - Investigative Journalism & Intelligence",
+  "detected_at": "2025-11-04T18:42:19.259457",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udd0d Bellingcat-Level OSINT System - Investigative Journalism & Intelligence\n\n**Inspired by:** Bellingcat, The Insider, ProPublica investigative methodologies  \n**Prepared by:** Aleksander Nowak (Orchestrator) + Elena Volkov (OSINT Lead)  \n**Date:** 2025-11-04  \n**Classification:** INTERNAL - Ethical Investigative Journalism  \n**Status:** \ud83c\udfaf DESIGN FOR WORLD-CLASS INVESTIGATIONS  \n\n---\n\n## \ud83c\udfaf Mission Statement\n\nBuild an **AI-powered investigative intelligence system** at the level of **Bellingcat**"
+}

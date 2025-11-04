@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/guides/HYBRID_SYSTEM_COMPLETE_OVERVIEW.md",
+  "document_type": "team_documentation",
+  "title": "\ud83d\udd0d HYBRID ON-PREM INTELLIGENCE SYSTEM",
+  "detected_at": "2025-11-04T19:43:29.581896",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udd0d HYBRID ON-PREM INTELLIGENCE SYSTEM\n## Kompletny Przegl\u0105d Systemu: Local LLM + Cloud Supervisor + Data Hygiene\n\n**Date:** 2025-11-04  \n**Author:** Aleksander Nowak (Technical Orchestrator)  \n**Status:** Production-Ready Design  \n**Use Case:** Professional Investigations (e.g., Robert Telus - CPK Land Transaction)\n\n---\n\n## \ud83d\udccb SPIS TRE\u015aCI\n\n1. [Architektura Hybrydowa](#architektura-hybrydowa)\n2. [Komponenty Techniczne](#komponenty-techniczne)\n3. [Workflow Investigacji](#workflow-investigacji)\n4. "
+}

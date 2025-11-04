@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/capabilities/INTERNET_RESEARCH_CAPABILITY.md",
+  "document_type": "general_documentation",
+  "title": "\ud83c\udf10 INTERNET RESEARCH CAPABILITY",
+  "detected_at": "2025-11-04T19:53:09.801847",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udf10 INTERNET RESEARCH CAPABILITY\n## Direct Web Access & Data Collection\n\n**Date:** 2025-11-04  \n**Status:** \u2705 VERIFIED & OPERATIONAL  \n**Discovered During:** Robert Telus - CPK Investigation (Real Data)  \n\n---\n\n## \ud83c\udfaf CAPABILITY OVERVIEW\n\n**Aleksander i agenci potrafi\u0105:**\n\n\u2705 **Bezpo\u015brednio przeszukiwa\u0107 internet** bez external APIs  \n\u2705 **Pobiera\u0107 strony WWW** (curl, Python urllib)  \n\u2705 **Parsowa\u0107 HTML** (regex, text extraction)  \n\u2705 **Zbiera\u0107 real-time data** z publicznie dost\u0119pnych \u017ar\u00f3de\u0142  \n\u2705 **Arch"
+}

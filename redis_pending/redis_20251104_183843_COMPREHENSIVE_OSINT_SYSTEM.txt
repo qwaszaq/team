@@ -1,0 +1,32 @@
+SET doc:COMPREHENSIVE_OSINT_SYSTEM:title "🕵️ Comprehensive OSINT System - Enterprise Architecture"
+SET doc:COMPREHENSIVE_OSINT_SYSTEM:type "team_documentation"
+SET doc:COMPREHENSIVE_OSINT_SYSTEM:path "docs/concepts/COMPREHENSIVE_OSINT_SYSTEM.md"
+SET doc:COMPREHENSIVE_OSINT_SYSTEM:content "# 🕵️ Comprehensive OSINT System - Enterprise Architecture
+
+**Prepared by:** Aleksander Nowak (Orchestrator) + Elena Volkov (OSINT Lead)  
+**Date:** 2025-11-04  
+**Status:** 🔨 DESIGN PHASE  
+**Classification:** INTERNAL - Ethical OSINT Only  
+
+---
+
+## 🎯 Executive Summary
+
+This document outlines a **professional-grade OSINT (Open Source Intelligence) research system** capable of conducting comprehensive investigations on individuals, organizations, networks, and topics using exclusively **legal, ethical, publicly available sources**.
+
+**Current Status:** Basic OSINT toolkit exists (Elena Volkov)  
+**Goal:** Enterprise-level intelligence gathering system  
+**Approach:** Multi-agent, multi-source, automated + human-in-the-loop  
+
+---
+
+## ⚖️ CRITICAL: Ethical & Legal Framework
+
+### **Fundamental Principles (NON-NEGOTIABLE):**
+
+1. ✅ **Legal Sources Only:** All data from publicly available sources
+2. ✅ **No Hacking:** Zero unauthorized access to systems
+3. ✅ **RODO/GDPR Compliance:** Full com"
+EXPIRE doc:COMPREHENSIVE_OSINT_SYSTEM:content 86400
+SADD docs:all "COMPREHENSIVE_OSINT_SYSTEM"
+SADD docs:type:team_documentation "COMPREHENSIVE_OSINT_SYSTEM"

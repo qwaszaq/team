@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/architecture/HYBRID_ONPREM_INTELLIGENCE_SYSTEM.md",
+  "document_type": "team_documentation",
+  "title": "\ud83c\udfd7\ufe0f HYBRID ON-PREM INTELLIGENCE SYSTEM",
+  "detected_at": "2025-11-04T19:31:39.385365",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udfd7\ufe0f HYBRID ON-PREM INTELLIGENCE SYSTEM\n## Local LLM Workers + Cloud Supervisor Architecture\n\n**Date:** 2025-11-04  \n**Status:** Conceptual Design  \n**Feasibility:** \u2705 HIGH - All components available  \n**Innovation:** Hybrid approach (on-prem execution + cloud quality assurance)  \n\n---\n\n## \ud83c\udfaf CORE CONCEPT\n\n**Problem:** Cloud LLM APIs are expensive, raise privacy concerns, and create dependency\n\n**Solution:** Hybrid architecture\n- **On-Prem Worker:** Local LLM (LMStudio) executes investigations us"
+}

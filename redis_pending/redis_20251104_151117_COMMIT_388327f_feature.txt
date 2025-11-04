@@ -1,0 +1,43 @@
+SET doc:COMMIT_388327f_feature:title "Sejm API Analysis System - Real Data from Parliament"
+SET doc:COMMIT_388327f_feature:type "architecture"
+SET doc:COMMIT_388327f_feature:path "docs/auto-generated/2025-11-04/COMMIT_388327f_feature.md"
+SET doc:COMMIT_388327f_feature:content "# Sejm API Analysis System - Real Data from Parliament
+
+**Auto-Generated Documentation**
+
+**Date:** 2025-11-04 15:11:16
+**Commit:** `388327f`
+**Type:** Feature
+**Author:** artur
+
+---
+
+## 📝 Commit Message
+
+**feat: Sejm API Analysis System - Real Data from Parliament**
+
+## User Request
+"Analyze Sejm committee meetings via https://api.sejm.gov.pl/committees.html
+Test case: Komisja Spraw Wewnętrznych i Administracji (2019-2023)
+Use real data, not simulation!"
+
+## What We Delivered
+
+### 1. REAL Analysis Report (20+ pages)
+docs/research/SEJM_ASW_ANALYSIS_2019_2023.md
+
+**REAL DATA from official Sejm API:**
+- ✅ 197 posiedzeń przeanalizowanych
+- ✅ Zakres: 2019-11-14 do 2023-08-30
+- ✅ Rozkład po latach (2019:2, 2020:33, 2021:57, 2022:65, 2023:40)
+- ✅ Top 30 słów kluczowych (rzeczywiste!)
+- ✅ Przykładowe tematy (prawdziwe agendy)
+- ✅ Analiza video (96.4% nagranych)
+- ✅ Posiedzenia zdalne (33.5% - COVID)
+
+**Key Findings:**
+- Komisja bardzo aktywna (4.4 posiedzenia/miesiąc)
+- Rosnący trend aktywnoś"
+EXPIRE doc:COMMIT_388327f_feature:content 86400
+SADD docs:all "COMMIT_388327f_feature"
+SADD docs:type:architecture "COMMIT_388327f_feature"

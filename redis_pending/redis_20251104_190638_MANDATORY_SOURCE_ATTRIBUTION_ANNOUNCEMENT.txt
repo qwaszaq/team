@@ -1,0 +1,54 @@
+SET doc:MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT:title "🔴 MANDATORY PROTOCOL: SOURCE ATTRIBUTION"
+SET doc:MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT:type "team_documentation"
+SET doc:MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT:path "docs/team/MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT.md"
+SET doc:MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT:content "# 🔴 MANDATORY PROTOCOL: SOURCE ATTRIBUTION
+
+**TO:** ALL Investigative & Research Agents  
+**FROM:** Aleksander Nowak (Orchestrator)  
+**DATE:** 2025-11-04  
+**PRIORITY:** 🔴 CRITICAL - IMMEDIATE COMPLIANCE REQUIRED  
+**EFFECTIVE:** Immediately  
+
+---
+
+## 📢 ANNOUNCEMENT
+
+**New mandatory protocol in effect: SOURCE ATTRIBUTION**
+
+**From this moment forward:**
+
+**EVERY claim MUST have a source.**  
+**EVERY source MUST be cited.**  
+**EVERY online source MUST be archived.**
+
+**NO EXCEPTIONS.**
+
+---
+
+## 🎯 THE RULE
+
+```
+╔═══════════════════════════════════╗
+║                                   ║
+║     NO SOURCE = NO CLAIM          ║
+║                                   ║
+║  If you can't cite it,            ║
+║  DON'T claim it.                  ║
+║                                   ║
+╚═══════════════════════════════════╝
+```
+
+---
+
+## ⚖️ WHY THIS MATTERS
+
+**1. Credibility**
+- Without sources = opinions
+- With sources = intelligence
+
+**2. Verification**
+- Others must verify our work
+- Sources make "
+EXPIRE doc:MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT:content 86400
+SADD docs:all "MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT"
+SADD docs:type:team_documentation "MANDATORY_SOURCE_ATTRIBUTION_ANNOUNCEMENT"

@@ -1,0 +1,35 @@
+SET doc:INVESTIGATION_PLAN:title "🔍 INVESTIGATION PLAN: Robert Telus - CPK Land Transaction"
+SET doc:INVESTIGATION_PLAN:type "general_documentation"
+SET doc:INVESTIGATION_PLAN:path "investigations/telus_cpk_land_investigation/INVESTIGATION_PLAN.md"
+SET doc:INVESTIGATION_PLAN:content "# 🔍 INVESTIGATION PLAN: Robert Telus - CPK Land Transaction
+
+**Investigation ID:** INV-2025-11-04-001  
+**Case Name:** Robert Telus - CPK Railway Land Sale Analysis  
+**Status:** ACTIVE  
+**Priority:** HIGH  
+**Classification:** Public Interest Investigation  
+
+**Director:** Viktor Kovalenko  
+**Team:** Analytical Team (Full deployment)  
+**Date Started:** 2025-11-04  
+**Estimated Duration:** 2-3 hours (comprehensive analysis)  
+
+---
+
+## 🎯 INVESTIGATION OBJECTIVES
+
+### **Primary Question:**
+Analyze the land transaction involving Robert Telus (former Minister of Agriculture) and land designated for CPK railway development.
+
+### **Specific Questions to Answer:**
+1. What is the exact nature of the transaction?
+2. When did it occur?
+3. What was the land's designation at time of sale?
+4. What was the purchase/sale price?
+5. Who were the parties involved?
+6. What is the timeline relative to Telus's government position?
+7. Are there any legal or ethical concerns?
+8. What is the current status"
+EXPIRE doc:INVESTIGATION_PLAN:content 86400
+SADD docs:all "INVESTIGATION_PLAN"
+SADD docs:type:general_documentation "INVESTIGATION_PLAN"

@@ -1,0 +1,376 @@
+{
+  "session_id": "eval_20251104_213005",
+  "timestamp": "2025-11-04T21:30:05.676944",
+  "evaluations": [
+    {
+      "agent": "Elena",
+      "role": "Strategic Architect",
+      "timestamp": "2025-11-04T21:30:05.676508",
+      "assessment": {
+        "overall_rating": "8/10 - Strong foundation, missing critical connections",
+        "strengths": [
+          "✅ SearchOrchestrator provides unified interface across all 5 data layers",
+          "✅ Smart references in PostgreSQL avoid data duplication",
+          "✅ Audit trail (es_document_usage_log) enables compliance tracking",
+          "✅ Agent context updates inform agents about OSINT availability",
+          "✅ 375 Grupa Azoty PDFs successfully ingested and searchable"
+        ],
+        "gaps_identified": [
+          "❌ CRITICAL: Neo4j knowledge graph completely disconnected from ES documents",
+          "❌ HIGH: No entity extraction (NER) - documents are 'black boxes'",
+          "❌ MEDIUM: Qdrant vector embeddings not linked to ES source documents",
+          "❌ LOW: No automatic metadata enrichment pipeline"
+        ],
+        "architectural_concerns": [
+          "🔴 Data islands: ES, Qdrant, Neo4j operate independently",
+          "🟡 Agents lack context about document relationships and entities",
+          "🟡 Search results don't leverage knowledge graph for context"
+        ],
+        "priorities": [
+          {
+            "level": "IMMEDIATE",
+            "action": "Integrate Neo4j - create Document nodes and relationships",
+            "rationale": "Without graph integration, agents can't understand document relationships, citations, or entity connections",
+            "estimated_effort": "2-3 days"
+          },
+          {
+            "level": "HIGH",
+            "action": "Implement NER pipeline for financial entities",
+            "rationale": "Unlock semantic understanding of documents (companies, people, amounts, dates)",
+            "estimated_effort": "3-5 days"
+          },
+          {
+            "level": "MEDIUM",
+            "action": "Add bidirectional ES ⇄ Qdrant sync",
+            "rationale": "Enable hybrid search that combines full-text + semantic similarity",
+            "estimated_effort": "2-3 days"
+          }
+        ],
+        "recommendation": "Neo4j integration is the highest ROI next step. It transforms isolated documents into a queryable knowledge network."
+      }
+    },
+    {
+      "agent": "Marcus",
+      "role": "OSINT Specialist",
+      "timestamp": "2025-11-04T21:30:05.676518",
+      "assessment": {
+        "data_quality_rating": "7/10 - Good foundation, needs enrichment",
+        "usability_assessment": {
+          "search_capability": "✅ EXCELLENT - Full-text search works well",
+          "context_awareness": "⚠️  LIMITED - Can find documents, but can't understand relationships",
+          "entity_tracking": "❌ MISSING - No way to track companies, people, or amounts across documents",
+          "temporal_analysis": "❌ MISSING - Can't build timelines from document dates"
+        },
+        "real_world_use_case": {
+          "scenario": "Investigating Grupa Azoty financial irregularities",
+          "current_capability": "Can search for 'sprawozdanie finansowe' and get 375 results",
+          "missing_capability": [
+            "Can't automatically identify all board members mentioned",
+            "Can't track how 'aktywa obrotowe' changed over time",
+            "Can't find documents that cite each other",
+            "Can't build entity relationship map (company subsidiaries, partnerships)"
+          ]
+        },
+        "priorities": [
+          {
+            "level": "IMMEDIATE",
+            "action": "Add Neo4j Document nodes + Person/Company entities",
+            "rationale": "Without entities, OSINT analysis is manual and inefficient",
+            "example": "Query: 'Find all documents mentioning CEO and legal issues' - currently impossible"
+          },
+          {
+            "level": "HIGH",
+            "action": "Implement financial NER (amounts, dates, companies)",
+            "rationale": "Enable automated extraction of key financial data points",
+            "example": "Extract 'revenue: 2.5M PLN' from text, link to company entity"
+          }
+        ],
+        "recommendation": "From OSINT perspective, Neo4j + NER are game-changers. Without them, we're just searching PDFs, not doing intelligence analysis."
+      }
+    },
+    {
+      "agent": "Adrian",
+      "role": "Knowledge Graph Engineer",
+      "timestamp": "2025-11-04T21:30:05.676525",
+      "assessment": {
+        "neo4j_status": "❌ CRITICAL GAP - Zero integration with Elasticsearch",
+        "current_neo4j_state": {
+          "agents": "✅ Well-represented (Agent nodes, capabilities, interactions)",
+          "project_context": "✅ Good structure (Context, Knowledge nodes)",
+          "documents": "❌ MISSING - No Document nodes for ES data",
+          "entities": "❌ MISSING - No Person, Company, FinancialEvent nodes"
+        },
+        "proposed_schema": {
+          "nodes": [
+            {
+              "label": "Document",
+              "properties": [
+                "es_doc_id",
+                "filename",
+                "issuer",
+                "doc_date",
+                "doc_type",
+                "source_url"
+              ],
+              "purpose": "Represent each Elasticsearch document in the graph"
+            },
+            {
+              "label": "Company",
+              "properties": [
+                "name",
+                "nip",
+                "regon",
+                "industry"
+              ],
+              "purpose": "Entities extracted from documents via NER"
+            },
+            {
+              "label": "Person",
+              "properties": [
+                "full_name",
+                "role",
+                "organization"
+              ],
+              "purpose": "People mentioned in documents (CEOs, board members, etc.)"
+            },
+            {
+              "label": "FinancialEvent",
+              "properties": [
+                "event_type",
+                "amount",
+                "currency",
+                "date",
+                "description"
+              ],
+              "purpose": "Key financial events extracted from documents"
+            }
+          ],
+          "relationships": [
+            "(Document)-[:MENTIONS]->(Company)",
+            "(Document)-[:MENTIONS]->(Person)",
+            "(Document)-[:REPORTS]->(FinancialEvent)",
+            "(Document)-[:CITES]->(Document)",
+            "(Person)-[:WORKS_FOR]->(Company)",
+            "(Agent)-[:ANALYZED]->(Document)",
+            "(Document)-[:PART_OF_INVESTIGATION]->(Context)"
+          ]
+        },
+        "implementation_plan": {
+          "phase_1": "Create Document nodes for existing 375 PDFs",
+          "phase_2": "Extract entities via NER, create Company/Person nodes",
+          "phase_3": "Add relationship extraction (citations, mentions)",
+          "estimated_time": "Phase 1: 1 day, Phase 2: 3-4 days, Phase 3: 2-3 days"
+        },
+        "priorities": [
+          {
+            "level": "IMMEDIATE",
+            "action": "Create Document nodes in Neo4j for all ES documents",
+            "technical_approach": "Sync from es_document_references table, create nodes with es_doc_id as key",
+            "expected_outcome": "375 Document nodes, linked to Context nodes"
+          },
+          {
+            "level": "HIGH",
+            "action": "Add (Agent)-[:SEARCHED]->(Document) when full_text_search is called",
+            "technical_approach": "Modify SearchOrchestrator to create relationship in Neo4j",
+            "expected_outcome": "Track which agents access which documents, when, and why"
+          }
+        ],
+        "recommendation": "Neo4j integration should be top priority. It's the missing link that connects all other layers and enables true knowledge management."
+      }
+    },
+    {
+      "agent": "Viktor",
+      "role": "System Engineer",
+      "timestamp": "2025-11-04T21:30:05.676534",
+      "assessment": {
+        "technical_quality": "8/10 - Clean code, good architecture",
+        "performance_analysis": {
+          "elasticsearch": "✅ GOOD - 375 docs, ~500ms avg query time",
+          "postgresql": "✅ EXCELLENT - 375 references, <50ms lookup",
+          "audit_logging": "✅ WORKING - Usage tracked in es_document_usage_log",
+          "neo4j": "❌ N/A - No integration yet"
+        },
+        "code_quality_assessment": {
+          "search_orchestrator_py": {
+            "strengths": [
+              "Clean class structure",
+              "Good error handling",
+              "Comprehensive logging"
+            ],
+            "improvements_needed": [
+              "Add connection pooling",
+              "Implement caching for frequent queries"
+            ]
+          },
+          "sync_es_references_to_pg_py": {
+            "strengths": [
+              "Handles JSON serialization issues well",
+              "Good error messages"
+            ],
+            "improvements_needed": [
+              "Could batch inserts more efficiently"
+            ]
+          }
+        },
+        "technical_debt": [
+          "⚠️  No connection pooling - could cause issues under load",
+          "⚠️  No caching layer for frequent searches",
+          "⚠️  No rate limiting on Elasticsearch queries",
+          "⚠️  No automated testing for SearchOrchestrator methods"
+        ],
+        "priorities": [
+          {
+            "level": "IMMEDIATE",
+            "action": "Add Neo4j integration to SearchOrchestrator",
+            "technical_spec": "New method: create_document_node(es_doc_id, metadata) -> neo4j_node_id",
+            "risk_if_delayed": "Data layers remain siloed, limiting system capabilities"
+          },
+          {
+            "level": "HIGH",
+            "action": "Implement connection pooling for all database connections",
+            "rationale": "Prevent connection exhaustion under concurrent load",
+            "estimated_effort": "1 day"
+          },
+          {
+            "level": "MEDIUM",
+            "action": "Add integration tests for SearchOrchestrator",
+            "rationale": "Ensure reliability as system grows",
+            "estimated_effort": "2 days"
+          }
+        ],
+        "recommendation": "From technical perspective, core infrastructure is solid. Neo4j integration is the logical next step to complete the architecture."
+      }
+    },
+    {
+      "agent": "Helena",
+      "role": "Knowledge Manager",
+      "timestamp": "2025-11-04T21:30:05.676541",
+      "assessment": {
+        "orchestration_rating": "7/10 - Good start, needs deeper integration",
+        "layer_integration_status": {
+          "PostgreSQL": "✅ EXCELLENT - Smart references, audit trail, agent contexts updated",
+          "Elasticsearch": "✅ GOOD - 375 docs searchable, full-text working",
+          "Qdrant": "⚠️  PARTIAL - Vectors exist, but not linked to ES documents",
+          "Neo4j": "❌ MISSING - No document nodes, no entity graph",
+          "Redis": "✅ GOOD - Agent contexts cached"
+        },
+        "agent_readiness": {
+          "context_awareness": "✅ Agents know 375 Grupa Azoty reports exist",
+          "search_capability": "✅ Agents can use SearchOrchestrator.full_text_search()",
+          "relationship_queries": "❌ Agents can't ask 'Which documents mention Company X?'",
+          "entity_extraction": "❌ Agents can't automatically extract financial entities"
+        },
+        "workflow_gaps": [
+          "When agent searches ES, result doesn't include related documents from graph",
+          "No automatic entity extraction pipeline integrated with helena_core.py",
+          "Agent context updates don't include entity/relationship info",
+          "No way to query 'Find all documents in same investigation'"
+        ],
+        "priorities": [
+          {
+            "level": "IMMEDIATE",
+            "action": "Integrate Neo4j into SearchOrchestrator + helena_core.py",
+            "workflow": "When document indexed -> create Neo4j node -> link to Context",
+            "benefit": "Enables graph-based document discovery and relationship queries"
+          },
+          {
+            "level": "HIGH",
+            "action": "Add NER pipeline to document ingestion workflow",
+            "workflow": "PDF text extraction -> NER -> entities to Neo4j -> update agent context",
+            "benefit": "Agents automatically learn about entities in documents"
+          }
+        ],
+        "recommendation": "Neo4j integration is critical for knowledge management. It's the difference between 'document storage' and 'knowledge graph'."
+      }
+    }
+  ],
+  "synthesis": {
+    "immediate_actions": [
+      {
+        "level": "IMMEDIATE",
+        "action": "Integrate Neo4j - create Document nodes and relationships",
+        "rationale": "Without graph integration, agents can't understand document relationships, citations, or entity connections",
+        "estimated_effort": "2-3 days"
+      },
+      {
+        "level": "IMMEDIATE",
+        "action": "Add Neo4j Document nodes + Person/Company entities",
+        "rationale": "Without entities, OSINT analysis is manual and inefficient",
+        "example": "Query: 'Find all documents mentioning CEO and legal issues' - currently impossible"
+      },
+      {
+        "level": "IMMEDIATE",
+        "action": "Create Document nodes in Neo4j for all ES documents",
+        "technical_approach": "Sync from es_document_references table, create nodes with es_doc_id as key",
+        "expected_outcome": "375 Document nodes, linked to Context nodes"
+      },
+      {
+        "level": "IMMEDIATE",
+        "action": "Add Neo4j integration to SearchOrchestrator",
+        "technical_spec": "New method: create_document_node(es_doc_id, metadata) -> neo4j_node_id",
+        "risk_if_delayed": "Data layers remain siloed, limiting system capabilities"
+      },
+      {
+        "level": "IMMEDIATE",
+        "action": "Integrate Neo4j into SearchOrchestrator + helena_core.py",
+        "workflow": "When document indexed -> create Neo4j node -> link to Context",
+        "benefit": "Enables graph-based document discovery and relationship queries"
+      }
+    ],
+    "high_priority": [
+      {
+        "level": "HIGH",
+        "action": "Implement NER pipeline for financial entities",
+        "rationale": "Unlock semantic understanding of documents (companies, people, amounts, dates)",
+        "estimated_effort": "3-5 days"
+      },
+      {
+        "level": "HIGH",
+        "action": "Implement financial NER (amounts, dates, companies)",
+        "rationale": "Enable automated extraction of key financial data points",
+        "example": "Extract 'revenue: 2.5M PLN' from text, link to company entity"
+      },
+      {
+        "level": "HIGH",
+        "action": "Add (Agent)-[:SEARCHED]->(Document) when full_text_search is called",
+        "technical_approach": "Modify SearchOrchestrator to create relationship in Neo4j",
+        "expected_outcome": "Track which agents access which documents, when, and why"
+      },
+      {
+        "level": "HIGH",
+        "action": "Implement connection pooling for all database connections",
+        "rationale": "Prevent connection exhaustion under concurrent load",
+        "estimated_effort": "1 day"
+      },
+      {
+        "level": "HIGH",
+        "action": "Add NER pipeline to document ingestion workflow",
+        "workflow": "PDF text extraction -> NER -> entities to Neo4j -> update agent context",
+        "benefit": "Agents automatically learn about entities in documents"
+      }
+    ],
+    "medium_priority": [
+      {
+        "level": "MEDIUM",
+        "action": "Add bidirectional ES ⇄ Qdrant sync",
+        "rationale": "Enable hybrid search that combines full-text + semantic similarity",
+        "estimated_effort": "2-3 days"
+      },
+      {
+        "level": "MEDIUM",
+        "action": "Add integration tests for SearchOrchestrator",
+        "rationale": "Ensure reliability as system grows",
+        "estimated_effort": "2 days"
+      }
+    ],
+    "critical_gaps": [
+      "❌ CRITICAL: Neo4j knowledge graph completely disconnected from ES documents",
+      "❌ HIGH: No entity extraction (NER) - documents are 'black boxes'",
+      "❌ MEDIUM: Qdrant vector embeddings not linked to ES source documents",
+      "❌ LOW: No automatic metadata enrichment pipeline"
+    ],
+    "risk_factors": [],
+    "team_consensus": "STRONG_CONSENSUS: Prioritize Neo4j knowledge graph integration"
+  },
+  "final_recommendation": "\nBased on unanimous team consensus, the highest-ROI next step is:\n\n╔════════════════════════════════════════════════════════════════════════════╗\n║  🚀 IMPLEMENT NEO4J INTEGRATION FOR ELASTICSEARCH DOCUMENTS                ║\n╚════════════════════════════════════════════════════════════════════════════╝\n\nWhy this is critical:\n  1. Transforms isolated documents into a queryable knowledge network\n  2. Enables relationship-based queries (citations, entity connections)\n  3. Unlocks agent capability to understand document context\n  4. Foundation for NER and entity extraction (Phase 2B)\n  5. Completes the 5-layer architecture (PG, ES, Qdrant, Neo4j, Redis)\n\nConcrete implementation plan:\n\n  Phase 2A: Neo4j Document Nodes (1-2 days)\n  ──────────────────────────────────────────\n  ✓ Create Document nodes for 375 Grupa Azoty PDFs\n  ✓ Link Document nodes to Context nodes (investigation context)\n  ✓ Add (Agent)-[:SEARCHED]->(Document) relationships\n  ✓ Update SearchOrchestrator to create/query Neo4j nodes\n  ✓ Test graph queries: \"Find all documents in investigation X\"\n\n  Phase 2B: Entity Extraction (3-4 days)\n  ───────────────────────────────────────\n  ✓ Implement NER pipeline (spaCy or Stanza for Polish + financial terms)\n  ✓ Extract Company, Person, FinancialEvent entities\n  ✓ Create entity nodes in Neo4j\n  ✓ Link entities to documents: (Document)-[:MENTIONS]->(Company)\n  ✓ Update agent contexts with entity information\n\n  Phase 2C: Relationship Extraction (2-3 days)\n  ─────────────────────────────────────────────\n  ✓ Detect document citations and references\n  ✓ Create (Document)-[:CITES]->(Document) relationships\n  ✓ Extract Person-Company relationships from text\n  ✓ Build entity relationship map\n\nExpected outcomes:\n  • Agents can query: \"Find all documents mentioning Grupa Azoty CEO\"\n  • Agents can query: \"What companies are mentioned in Q3 2023 reports?\"\n  • Agents can query: \"Show me the citation network for document X\"\n  • OSINT investigations become automated knowledge graph construction\n  • Search results include graph-based context (related docs, entities)\n\nTotal estimated time: 6-9 days\nRisk if delayed: System remains at 70% capability, missing critical features\n"
+}

@@ -34,3 +34,10 @@ test_output/
 tmp/
 temp/
 *.tmp
+
+# PDF files
+*.pdf
+
+# Investigation PDFs
+investigations/external/*/pdfs/
+investigations/**/*.pdf

@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/guides/HYBRID_SYSTEM_QUICK_START.md",
+  "document_type": "architecture",
+  "title": "\ud83d\ude80 HYBRID ON-PREM SYSTEM - Quick Start Guide",
+  "detected_at": "2025-11-04T19:35:55.091495",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\ude80 HYBRID ON-PREM SYSTEM - Quick Start Guide\n\n**Local LLM Worker + Cloud Supervisor = Professional Intelligence**\n\n---\n\n## \ud83c\udfaf What This System Does\n\n**Problem:** Cloud LLMs are expensive, raise privacy concerns, create dependencies\n\n**Solution:** Hybrid architecture\n- **Local LLM (LMStudio):** Executes investigations using on-prem tools (90% cost savings!)\n- **Aleksander (Claude):** Supervises quality, reviews output, ensures professional standards\n- **Local Tools:** Scraping, statistics, databa"
+}

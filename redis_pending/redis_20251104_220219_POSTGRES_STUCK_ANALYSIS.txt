@@ -1,0 +1,31 @@
+SET doc:POSTGRES_STUCK_ANALYSIS:title "PostgreSQL Stuck Analysis - November 4, 2025"
+SET doc:POSTGRES_STUCK_ANALYSIS:type "analysis"
+SET doc:POSTGRES_STUCK_ANALYSIS:path "POSTGRES_STUCK_ANALYSIS.md"
+SET doc:POSTGRES_STUCK_ANALYSIS:content "# PostgreSQL Stuck Analysis - November 4, 2025
+
+## Summary of Issue
+The PostgreSQL command `\d es_document_references` was stuck for 431+ seconds. This appears to be caused by multiple concurrent database operations and complex schema design.
+
+## Root Causes Identified
+
+### 1. Heavy Database Schema Complexity
+The `es_document_references` table has:
+- **6 indexes** including 3 GIN indexes (for arrays and JSONB)
+- **Foreign key constraints**
+- **Materialized view** that joins with usage logs
+- **Multiple PL/pgSQL functions**
+
+GIN indexes are particularly expensive to maintain during inserts/updates.
+
+### 2. Massive Concurrent Write Operations
+- **180+ SQL files** in `sql/realtime_updates/` directory (712KB total)
+- **2,022 lines of SQL updates** being processed
+- Multiple automated scripts running simultaneously:
+  - `helena_realtime_processor.py` - Processes .md files and writes to 4 databases
+  - Morning brief automation
+  - Various sync scripts
+
+### 3. Real-time Processing Architectur"
+EXPIRE doc:POSTGRES_STUCK_ANALYSIS:content 86400
+SADD docs:all "POSTGRES_STUCK_ANALYSIS"
+SADD docs:type:analysis "POSTGRES_STUCK_ANALYSIS"

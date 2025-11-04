@@ -189,8 +189,8 @@ class HelenaCore:
                 cur.execute("""
                     INSERT INTO messages 
                     (id, project_id, sender, recipient, message_type, 
-                     content, importance, timestamp)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                     content, context, timestamp, requires_response, response_to, importance, tags)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """, (
                     event_id,
                     self.project_id,
@@ -198,8 +198,12 @@ class HelenaCore:
                     additional_data.get("recipient", "Team"),
                     additional_data.get("message_type", "NOTIFICATION"),
                     content,
+                    json.dumps(additional_data),
+                    timestamp,
+                    bool(additional_data.get("requires_response", False)),
+                    additional_data.get("response_to"),
                     importance,
-                    timestamp
+                    additional_data.get("tags", [])
                 ))
                 
             elif event_type == "agent_context":
@@ -308,17 +312,34 @@ class HelenaCore:
                 'curl', '-s', f'{self.qdrant_url}/collections/{self.collection_name}'
             ], capture_output=True, text=True)
             
-            coll_data = json.loads(result.stdout)
-            
-            # Handle collection not found or API errors
-            if 'result' not in coll_data:
-                if 'status' in coll_data and 'error' in coll_data['status']:
-                    error_msg = coll_data['status']['error']
-                    return {"status": "failed", "error": f"Qdrant collection error: {error_msg}"}
-                else:
-                    return {"status": "failed", "error": "Unexpected Qdrant API response structure"}
-            
-            next_id = coll_data['result']['points_count'] + 1
+            coll_raw = result.stdout.strip()
+            coll_data = {}
+            if coll_raw:
+                try:
+                    coll_data = json.loads(coll_raw)
+                except Exception:
+                    coll_data = {}
+
+            # Ensure collection exists; create if missing
+            if not coll_data or 'result' not in coll_data:
+                create_payload = {
+                    "vectors": {"size": 1024, "distance": "Cosine"}
+                }
+                create_res = subprocess.run([
+                    'curl', '-s', '-X', 'PUT',
+                    f'{self.qdrant_url}/collections/{self.collection_name}',
+                    '-H', 'Content-Type: application/json',
+                    '-d', json.dumps(create_payload)
+                ], capture_output=True, text=True)
+                if create_res.returncode != 0:
+                    return {"status": "failed", "error": "failed to create Qdrant collection"}
+                next_id = 1
+            else:
+                points_count = coll_data.get('result', {}).get('points_count', 0)
+                try:
+                    next_id = int(points_count) + 1
+                except Exception:
+                    next_id = 1
             
             # Save to Qdrant
             payload = {

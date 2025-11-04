@@ -1,0 +1,20 @@
+SET doc:FINAL_OSINT_REPORT:title "Raport OSINT: Robert Telus — CPK (real data)"
+SET doc:FINAL_OSINT_REPORT:type "analysis"
+SET doc:FINAL_OSINT_REPORT:path "investigations/active/telus_cpk_real_001/FINAL_OSINT_REPORT.md"
+SET doc:FINAL_OSINT_REPORT:content "# Raport OSINT: Robert Telus — CPK (real data)
+
+- **Zakres**: przegląd publicznych doniesień dot. powiązania sprawy działki pod CPK z Robertem Telusem; identyfikacja osi faktów, kontrowersji, ryzyk prawnych i wątków finansowych; zarys linii czasu.
+- **Źródła (6)**:
+  - Onet: „Afera wokół działki pod CPK. Robert Telus odpiera zarzuty. Nie miałem wiedzy” (`onet_telus_cpk.html`)
+  - Business Insider: „Robert Telus i afera CPK. Co wiadomo o majątku i zobowiązaniach posła PiS?” (`businessinsider_telus.html`)
+  - TVN24: artykuł dot. sprawy działki pod CPK (`tvn24_telus_cpk.html`)
+  - Wikipedia: `Robert Telus` (`wikipedia_telus.html`)
+  - Wikipedia: `Centralny Port Komunikacyjny` (`cpk_wikipedia.html`)
+  - Strona oficjalna CPK (`cpk_official.html`)
+
+## Executive summary
+- **Kluczowy wątek**: transakcja dot. działki istotnej dla komponentu kolejowego CPK, krytyka decyzji i pytań o przejrzystość procesu oraz potencjalny konflikt interesów.
+- **Stanowisko Roberta Telusa**: w źródłach podkreśla, "
+EXPIRE doc:FINAL_OSINT_REPORT:content 86400
+SADD docs:all "FINAL_OSINT_REPORT"
+SADD docs:type:analysis "FINAL_OSINT_REPORT"

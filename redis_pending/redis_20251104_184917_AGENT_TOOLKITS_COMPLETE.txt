@@ -1,0 +1,39 @@
+SET doc:AGENT_TOOLKITS_COMPLETE:title "🛠️ Agent Toolkits - Complete Technical Specification"
+SET doc:AGENT_TOOLKITS_COMPLETE:type "team_documentation"
+SET doc:AGENT_TOOLKITS_COMPLETE:path "docs/technical/AGENT_TOOLKITS_COMPLETE.md"
+SET doc:AGENT_TOOLKITS_COMPLETE:content "# 🛠️ Agent Toolkits - Complete Technical Specification
+
+**Prepared by:** Alex Morgan (Technical Liaison) + Elena Volkov (OSINT)  
+**Date:** 2025-11-04  
+**Status:** 🔨 IMPLEMENTATION READY  
+**Focus:** Practical tools agenci mogą używać natychmiast  
+
+---
+
+## 🎯 Overview
+
+Każdy agent potrzebuje **zestawu narzędzi** do swojej pracy. Ten dokument definiuje:
+1. **Scraping Toolkit** - zbieranie danych z internetu
+2. **Mathematical Toolkit** - obliczenia, analiza, statystyka
+3. **Image Intelligence Toolkit** - analiza obrazów
+4. **Text Intelligence Toolkit** - analiza tekstu
+5. **Geolocation Toolkit** - lokalizacja geograficzna
+
+---
+
+## 📦 1. SCRAPING TOOLKIT
+
+### **Purpose:** Zbieranie danych z websites, APIs, social media
+
+### **Tech Stack:**
+
+```python
+# requirements.txt
+requests==2.31.0          # HTTP requests (podstawa)
+beautifulsoup4==4.12.2    # HTML parsing (proste)
+lxml==4.9.3               # XML/HTML parser (szybki)
+scrapy==2.11.0            # Full scraping framework (zaawansowane)
+"
+EXPIRE doc:AGENT_TOOLKITS_COMPLETE:content 86400
+SADD docs:all "AGENT_TOOLKITS_COMPLETE"
+SADD docs:type:team_documentation "AGENT_TOOLKITS_COMPLETE"

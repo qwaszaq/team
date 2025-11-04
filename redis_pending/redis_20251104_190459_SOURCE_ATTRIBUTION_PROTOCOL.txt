@@ -1,0 +1,53 @@
+SET doc:SOURCE_ATTRIBUTION_PROTOCOL:title "📚 SOURCE ATTRIBUTION PROTOCOL - Mandatory for All Investigations"
+SET doc:SOURCE_ATTRIBUTION_PROTOCOL:type "protocol"
+SET doc:SOURCE_ATTRIBUTION_PROTOCOL:path "docs/protocols/SOURCE_ATTRIBUTION_PROTOCOL.md"
+SET doc:SOURCE_ATTRIBUTION_PROTOCOL:content "# 📚 SOURCE ATTRIBUTION PROTOCOL - Mandatory for All Investigations
+
+**Status:** 🔴 MANDATORY - NO EXCEPTIONS  
+**Applies to:** ALL Investigative & Research Agents  
+**Standard:** Bellingcat-level source documentation  
+**Date:** 2025-11-04  
+**Version:** 1.0  
+
+---
+
+## 🎯 Core Principle
+
+**EVERY CLAIM MUST HAVE A SOURCE.**
+
+No exceptions. No "I think" or "probably" or "it seems".
+
+**If you can't cite a source, DON'T make the claim.**
+
+---
+
+## ⚖️ Why This Matters
+
+### **1. Credibility**
+Without sources, we're just opinions.  
+With sources, we're evidence-based intelligence.
+
+### **2. Verification**
+Others must be able to verify our findings.  
+Sources make this possible.
+
+### **3. Reproducibility**
+Science requires reproducibility.  
+Investigations do too.
+
+### **4. Legal Protection**
+Court cases require evidence chain.  
+Sources provide this.
+
+### **5. Bellingcat Standard**
+World-class investigations cite everything.  
+We meet world-class standards.
+
+---
+
+## 📋 MANDATORY RULES
+
+### **Rule"
+EXPIRE doc:SOURCE_ATTRIBUTION_PROTOCOL:content 86400
+SADD docs:all "SOURCE_ATTRIBUTION_PROTOCOL"
+SADD docs:type:protocol "SOURCE_ATTRIBUTION_PROTOCOL"

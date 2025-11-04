@@ -1,0 +1,43 @@
+SET doc:INVESTIGATION_STATUS:title "🔍 Investigation Status: Telus-CPK Real Data"
+SET doc:INVESTIGATION_STATUS:type "status_report"
+SET doc:INVESTIGATION_STATUS:path "investigations/active/telus_cpk_real_001/INVESTIGATION_STATUS.md"
+SET doc:INVESTIGATION_STATUS:content "# 🔍 Investigation Status: Telus-CPK Real Data
+
+**Investigation ID:** telus_cpk_real_001  
+**Date Started:** 2025-11-04  
+**Status:** Phase 1 Complete (OSINT Collection)  
+**Next:** Full Multi-Agent Analysis  
+
+---
+
+## ✅ COMPLETED: Phase 1 - OSINT Collection (Elena)
+
+**Sources Collected:** 6  
+**Total Content:** 1,832,836 characters  
+**Success Rate:** 100%  
+
+### Sources:
+1. TVN24 - "Afera z działką pod CPK" (574,521 chars) - HIGH credibility
+2. Business Insider - Telus CPK analiza (262,312 chars) - HIGH credibility  
+3. Onet.pl - "Afera wokół działki" (430,676 chars) - HIGH credibility
+4. Wikipedia - Robert Telus (118,696 chars) - MEDIUM-HIGH
+5. CPK Official Website (76,135 chars) - HIGH
+6. Wikipedia - CPK (370,496 chars) - MEDIUM-HIGH
+
+**Key Statistics:**
+- "działka": 138 mentions
+- "CPK": 1,086 mentions
+- "minister": 155 mentions
+- "afera": 109 mentions
+- Financial mentions: 74
+- Area mentions: 40
+
+---
+
+## 📋 PENDING PHASES
+
+### Phase 2: Financial Analysis (Marcus)
+- Extract transact"
+EXPIRE doc:INVESTIGATION_STATUS:content 86400
+SADD docs:all "INVESTIGATION_STATUS"
+SADD docs:type:status_report "INVESTIGATION_STATUS"

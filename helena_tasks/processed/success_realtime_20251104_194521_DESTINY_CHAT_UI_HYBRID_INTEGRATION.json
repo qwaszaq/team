@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/concepts/DESTINY_CHAT_UI_HYBRID_INTEGRATION.md",
+  "document_type": "general_documentation",
+  "title": "\ud83d\udcac DESTINY CHAT UI - Hybrid System Integration",
+  "detected_at": "2025-11-04T19:45:21.232286",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udcac DESTINY CHAT UI - Hybrid System Integration\n## Browser Interface dla On-Prem Intelligence System\n\n**Date:** 2025-11-04  \n**Status:** Concept (To Be Implemented Later)  \n**Priority:** High (User Requested)  \n**Reminder:** Artur poprosi\u0142 o przypomnienie tego zadania  \n\n---\n\n## \ud83c\udfaf KONCEPCJA\n\n**Pomys\u0142 Artura:**\n> \"Wykorzysta\u0107 destiny-chat-ui jako interfejs do hybrydowego systemu - podpi\u0105\u0107 lokalny LLM, \n> Aleksander widzia\u0142by wszystko przez logi LMStudio\"\n\n**Dlaczego to \u015aWIETNY pomys\u0142:**\n\n1. \u2705 **U"
+}

@@ -1,0 +1,41 @@
+SET doc:HYBRID_SYSTEM_COMPLETE_OVERVIEW:title "🔍 HYBRID ON-PREM INTELLIGENCE SYSTEM"
+SET doc:HYBRID_SYSTEM_COMPLETE_OVERVIEW:type "team_documentation"
+SET doc:HYBRID_SYSTEM_COMPLETE_OVERVIEW:path "docs/guides/HYBRID_SYSTEM_COMPLETE_OVERVIEW.md"
+SET doc:HYBRID_SYSTEM_COMPLETE_OVERVIEW:content "# 🔍 HYBRID ON-PREM INTELLIGENCE SYSTEM
+## Kompletny Przegląd Systemu: Local LLM + Cloud Supervisor + Data Hygiene
+
+**Date:** 2025-11-04  
+**Author:** Aleksander Nowak (Technical Orchestrator)  
+**Status:** Production-Ready Design  
+**Use Case:** Professional Investigations (e.g., Robert Telus - CPK Land Transaction)
+
+---
+
+## 📋 SPIS TREŚCI
+
+1. [Architektura Hybrydowa](#architektura-hybrydowa)
+2. [Komponenty Techniczne](#komponenty-techniczne)
+3. [Workflow Investigacji](#workflow-investigacji)
+4. [Higiena Danych](#higiena-danych)
+5. [Przykład: Sprawa Telusa](#przykład-sprawa-telusa)
+6. [Korzyści i Metryki](#korzyści-i-metryki)
+
+---
+
+## 🏗️ ARCHITEKTURA HYBRYDOWA
+
+### **Koncepcja: Best of Both Worlds**
+
+**Problem do rozwiązania:**
+- ❌ Cloud LLM drogie ($750-1500/miesiąc dla 100 investigacji)
+- ❌ Privacy concerns (wrażliwe dane wysyłane do chmury)
+- ❌ Dependency (uzależnienie od external API)
+- ❌ Rate limits (ograniczenia w intensywnym użyciu)
+
+**Rozwiązanie: Hybrid Architecture**
+
+```
+┌───"
+EXPIRE doc:HYBRID_SYSTEM_COMPLETE_OVERVIEW:content 86400
+SADD docs:all "HYBRID_SYSTEM_COMPLETE_OVERVIEW"
+SADD docs:type:team_documentation "HYBRID_SYSTEM_COMPLETE_OVERVIEW"

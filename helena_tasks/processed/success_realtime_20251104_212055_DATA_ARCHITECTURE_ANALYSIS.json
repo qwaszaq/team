@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/DATA_ARCHITECTURE_ANALYSIS.md",
+  "document_type": "analysis",
+  "title": "Data Architecture Analysis - ES vs PostgreSQL Separation",
+  "detected_at": "2025-11-04T21:20:55.053658",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Data Architecture Analysis - ES vs PostgreSQL Separation\n\n## Question: Why is \"no OSINT in PostgreSQL\" a problem?\n\n### Current State\n- **Elasticsearch**: 375 PDF documents (OSINT financial reports)\n- **PostgreSQL**: 0 messages with `osint` tag\n- **Observation**: Data is NOT propagated from ES \u2192 PG\n\n### Is this actually a problem? \ud83e\udd14\n\n## Architecture Philosophy: Separation of Concerns\n\n### Option 1: \u274c Full Replication (NOT RECOMMENDED)\n```\nElasticsearch (375 docs) \u2192 PostgreSQL (375 message recor"
+}

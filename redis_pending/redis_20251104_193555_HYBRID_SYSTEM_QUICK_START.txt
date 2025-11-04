@@ -1,0 +1,38 @@
+SET doc:HYBRID_SYSTEM_QUICK_START:title "🚀 HYBRID ON-PREM SYSTEM - Quick Start Guide"
+SET doc:HYBRID_SYSTEM_QUICK_START:type "architecture"
+SET doc:HYBRID_SYSTEM_QUICK_START:path "docs/guides/HYBRID_SYSTEM_QUICK_START.md"
+SET doc:HYBRID_SYSTEM_QUICK_START:content "# 🚀 HYBRID ON-PREM SYSTEM - Quick Start Guide
+
+**Local LLM Worker + Cloud Supervisor = Professional Intelligence**
+
+---
+
+## 🎯 What This System Does
+
+**Problem:** Cloud LLMs are expensive, raise privacy concerns, create dependencies
+
+**Solution:** Hybrid architecture
+- **Local LLM (LMStudio):** Executes investigations using on-prem tools (90% cost savings!)
+- **Aleksander (Claude):** Supervises quality, reviews output, ensures professional standards
+- **Local Tools:** Scraping, statistics, databases - all running locally
+- **Result:** Privacy + Cost Savings + Professional Quality
+
+---
+
+## 📋 Prerequisites
+
+### **1. LMStudio Installed**
+
+Download from: https://lmstudio.ai/
+
+**Recommended Models (choose one):**
+- **Mixtral 8x7B Instruct** (Q4 or Q5) - Best balance
+- **Llama 3 70B Instruct** (Q4) - High quality, needs more RAM
+- **Qwen 2.5 32B Instruct** (Q5) - Good Polish language support
+- **DeepSeek Coder 33B** (Q5) - If focus on code/technical
+
+**Model Requirements:**
+- Function calling"
+EXPIRE doc:HYBRID_SYSTEM_QUICK_START:content 86400
+SADD docs:all "HYBRID_SYSTEM_QUICK_START"
+SADD docs:type:architecture "HYBRID_SYSTEM_QUICK_START"

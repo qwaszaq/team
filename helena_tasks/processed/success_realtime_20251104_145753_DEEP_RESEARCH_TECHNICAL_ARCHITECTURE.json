@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/concepts/DEEP_RESEARCH_TECHNICAL_ARCHITECTURE.md",
+  "document_type": "architecture",
+  "title": "\ud83c\udfd7\ufe0f Deep Research System - Technical Architecture",
+  "detected_at": "2025-11-04T14:57:53.539853",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udfd7\ufe0f Deep Research System - Technical Architecture\n\n**Document Type:** Technical Implementation Specification  \n**Date:** 2025-11-04  \n**Lead:** Maria Wi\u015bniewska (Software Architect)  \n**Contributors:** Tomasz, Piotr, Micha\u0142 (Core Team)\n\n---\n\n## \ud83d\udccb Technical Overview\n\nThis document provides detailed technical specifications for implementing the Deep Research Agent system.\n\n---\n\n## \ud83c\udfaf System Requirements\n\n### **Functional Requirements:**\n- FR1: Process 1M+ tokens of input data\n- FR2: Generate 50k t"
+}

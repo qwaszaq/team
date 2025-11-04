@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-11-04T21:17:41.572708",
+  "summary": {
+    "total_tests": 8,
+    "passed": 8,
+    "failed": 0,
+    "partial": 0
+  },
+  "test_results": [
+    {
+      "test": "system_health",
+      "status": "PASS",
+      "details": {
+        "elasticsearch": true,
+        "qdrant": true,
+        "postgres": true,
+        "neo4j": true
+      }
+    },
+    {
+      "test": "elasticsearch_fulltext",
+      "status": "PASS",
+      "queries_tested": 6,
+      "results": [
+        {
+          "query": "sprawozdanie finansowe",
+          "description": "Financial statements",
+          "results_count": 5,
+          "top_score": 3.8051717,
+          "response_time": 0.10799789428710938,
+          "has_content": true
+        },
+        {
+          "query": "przychody ze sprzeda\u017cy",
+          "description": "Sales revenue",
+          "results_count": 5,
+          "top_score": 7.3471937,
+          "response_time": 0.11028814315795898,
+          "has_content": true
+        },
+        {
+          "query": "zad\u0142u\u017cenie kredyty",
+          "description": "Debt and loans",
+          "results_count": 5,
+          "top_score": 15.229346,
+          "response_time": 0.11059308052062988,
+          "has_content": true
+        },
+        {
+          "query": "zysk netto EBITDA",
+          "description": "Net profit EBITDA",
+          "results_count": 5,
+          "top_score": 9.601551,
+          "response_time": 0.06697797775268555,
+          "has_content": true
+        },
+        {
+          "query": "inwestycje capex",
+          "description": "Capital expenditure",
+          "results_count": 5,
+          "top_score": 17.881794,
+          "response_time": 0.08694338798522949,
+          "has_content": true
+        },
+        {
+          "query": "sustainability environment",
+          "description": "Environmental topics (English)",
+          "results_count": 5,
+          "top_score": 8.169592,
+          "response_time": 0.08569526672363281,
+          "has_content": true
+        }
+      ]
+    },
+    {
+      "test": "elasticsearch_aggregations",
+      "status": "PASS",
+      "aggregations_tested": 1
+    },
+    {
+      "test": "qdrant_semantic",
+      "status": "PASS",
+      "queries_tested": 3,
+      "results": [
+        {
+          "query": "financial performance analysis",
+          "description": "Financial analysis",
+          "results_count": 5,
+          "top_score": 0.8125454,
+          "response_time": 0.0751500129699707
+        },
+        {
+          "query": "system architecture and design",
+          "description": "Technical architecture",
+          "results_count": 5,
+          "top_score": 0.85667944,
+          "response_time": 0.03595590591430664
+        },
+        {
+          "query": "data quality and governance",
+          "description": "Data management",
+          "results_count": 5,
+          "top_score": 0.86406803,
+          "response_time": 0.030640125274658203
+        }
+      ]
+    },
+    {
+      "test": "postgres_structured",
+      "status": "PASS",
+      "messages_found": 18,
+      "osint_messages": 0
+    },
+    {
+      "test": "neo4j_graph",
+      "status": "PASS",
+      "decisions_found": 478
+    },
+    {
+      "test": "hybrid_search",
+      "status": "PASS",
+      "queries_tested": 3
+    },
+    {
+      "test": "performance",
+      "status": "PASS"
+    }
+  ],
+  "gaps_identified": [
+    "Cannot analyze metadata - no documents",
+    "Aggregation by issuer returned empty (field not indexed as keyword?)",
+    "No OSINT-tagged messages in PostgreSQL (data not propagated?)"
+  ],
+  "recommendations": [
+    {
+      "title": "Implement ES \u21c4 Qdrant Bidirectional Sync",
+      "priority": "MEDIUM",
+      "description": "OSINT data not propagated to PostgreSQL. Create sync mechanism between ES, Qdrant, and PG."
+    },
+    {
+      "title": "Build NER Pipeline for Financial Terms",
+      "priority": "HIGH",
+      "description": "Extract financial metrics (revenue, EBITDA, debt) from PDF content using spaCy/transformers."
+    },
+    {
+      "title": "Implement Audit Trail for Compliance",
+      "priority": "MEDIUM",
+      "description": "Log all ES queries with user, timestamp, query, results count for GDPR compliance."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+SET doc:DEEP_RESEARCH_AGENTS_CONCEPT:title "🔬 Deep Research Agents - Complete Concept"
+SET doc:DEEP_RESEARCH_AGENTS_CONCEPT:type "team_documentation"
+SET doc:DEEP_RESEARCH_AGENTS_CONCEPT:path "docs/concepts/DEEP_RESEARCH_AGENTS_CONCEPT.md"
+SET doc:DEEP_RESEARCH_AGENTS_CONCEPT:content "# 🔬 Deep Research Agents - Complete Concept
+
+**Project:** Multi-Agent Deep Research System  
+**Date:** 2025-11-04  
+**Teams:** Analytical Team + Core Team  
+**Status:** ✅ Concept Complete
+
+---
+
+## 📋 Executive Summary
+
+This document presents a comprehensive multi-agent architecture for conducting deep research on complex topics requiring analysis of millions of tokens and synthesis into professional 50+ page reports.
+
+### **Use Case Example:**
+"Why is public company X in financial trouble? Analyze 2015-2025."
+
+### **System Capabilities:**
+- ✅ Process ~1 million tokens of input data
+- ✅ Analyze multiple data sources (financial reports, market data, OSINT)
+- ✅ Generate 50k token comprehensive reports (~50 pages)
+- ✅ Multi-dimensional analysis
+- ✅ Full source attribution and citations
+- ✅ Quality assurance at every stage
+
+---
+
+## 🎯 Problem Statement
+
+**Traditional research limitations:**
+- ❌ Single LLM call limited by context window (200k max)
+- ❌ No systematic methodology
+- ❌ Poor source "
+EXPIRE doc:DEEP_RESEARCH_AGENTS_CONCEPT:content 86400
+SADD docs:all "DEEP_RESEARCH_AGENTS_CONCEPT"
+SADD docs:type:team_documentation "DEEP_RESEARCH_AGENTS_CONCEPT"

@@ -1,0 +1,43 @@
+SET doc:INSTITUTIONAL_API_ANALYSIS:title "🌐 Institutional API Analysis Capability"
+SET doc:INSTITUTIONAL_API_ANALYSIS:type "analysis"
+SET doc:INSTITUTIONAL_API_ANALYSIS:path "docs/capabilities/INSTITUTIONAL_API_ANALYSIS.md"
+SET doc:INSTITUTIONAL_API_ANALYSIS:content "# 🌐 Institutional API Analysis Capability
+
+**Date:** 2025-11-04  
+**Status:** ✅ VERIFIED IN PRODUCTION  
+**Evidence:** Sejm API Analysis (197 meetings analyzed)  
+
+---
+
+## 🎯 Overview
+
+Agenci Destiny Team potrafią **analizować otwarte API instytucji publicznych** - zbierać prawdziwe dane, przeprowadzać analizy statystyczne i generować kompleksowe raporty.
+
+---
+
+## ✅ Verified Capabilities
+
+### 1. **API Integration & Data Collection**
+- ✅ Komunikacja z publicznymi REST API
+- ✅ Rate limiting i graceful handling
+- ✅ Obsługa różnych formatów (JSON, HTML, XML)
+- ✅ Przetwarzanie dużych zbiorów danych (197+ rekordów)
+- ✅ Error handling i retry logic
+
+### 2. **Data Analysis**
+- ✅ Analiza czasowa (temporal analysis)
+- ✅ Ekstrakcja słów kluczowych
+- ✅ Analiza tematyczna
+- ✅ Statystyki opisowe
+- ✅ Trend analysis
+- ✅ Eksport do JSON/CSV
+
+### 3. **Report Generation**
+- ✅ Kompleksowe raporty analityczne (20+ stron)
+- ✅ Wizualizacja danych
+- ✅ Executive summaries
+- ✅ Markdown documentation
+- ✅ Actionab"
+EXPIRE doc:INSTITUTIONAL_API_ANALYSIS:content 86400
+SADD docs:all "INSTITUTIONAL_API_ANALYSIS"
+SADD docs:type:analysis "INSTITUTIONAL_API_ANALYSIS"

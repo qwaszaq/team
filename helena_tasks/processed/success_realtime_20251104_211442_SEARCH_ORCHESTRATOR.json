@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/SEARCH_ORCHESTRATOR.md",
+  "document_type": "architecture",
+  "title": "SearchOrchestrator - Unified Search Interface",
+  "detected_at": "2025-11-04T21:14:42.587327",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# SearchOrchestrator - Unified Search Interface\n\n## Overview\n\nSearchOrchestrator provides a unified API for querying across all Destiny framework data layers:\n- **Elasticsearch**: Full-text search, aggregations, time-series queries\n- **Qdrant**: Semantic/vector search using embeddings\n- **PostgreSQL**: Structured queries, metadata, relationships\n- **Neo4j**: Graph queries, decision chains, knowledge graphs\n\n## Architecture\n\n```\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n\u2502       "
+}

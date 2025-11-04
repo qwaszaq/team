@@ -1,0 +1,39 @@
+SET doc:DATA_SEPARATION_ARCHITECTURE:title "🏗️ DATA SEPARATION ARCHITECTURE"
+SET doc:DATA_SEPARATION_ARCHITECTURE:type "architecture"
+SET doc:DATA_SEPARATION_ARCHITECTURE:path "docs/architecture/DATA_SEPARATION_ARCHITECTURE.md"
+SET doc:DATA_SEPARATION_ARCHITECTURE:content "# 🏗️ DATA SEPARATION ARCHITECTURE
+## Separacja Danych Projektowych od Danych Investigacyjnych
+
+**Date:** 2025-11-04  
+**Critical Requirement:** Dane projektowe NIE MOGĄ mieszać się z danymi roboczymi agentów  
+**Status:** Design Complete - Ready for Implementation  
+
+---
+
+## 🎯 PROBLEM
+
+**Current State:**
+- Wszystkie dane w jednym folderze (`docs/`)
+- Bazy danych używają tych samych kolekcji/schematów
+- Ryzyko mieszania się danych projektowych z danymi investigacyjnymi
+- Brak czystej separacji między "system knowledge" a "investigation data"
+
+**Risk:**
+- 🔴 Investigation data zanieczyszcza project knowledge base
+- 🔴 Agenci mogą przeszukiwać project files zamiast investigation sources
+- 🔴 Backup/recovery complications (wszystko razem)
+- 🔴 Privacy concerns (investigation data może być wrażliwe)
+
+---
+
+## ✅ SOLUTION: Complete Data Separation
+
+### **Principle:** Two Completely Separate Data Universes
+
+```
+UNIVERSE 1: PROJECT DATA
+└── System knowledge, documentation, code, architecture
+    └──"
+EXPIRE doc:DATA_SEPARATION_ARCHITECTURE:content 86400
+SADD docs:all "DATA_SEPARATION_ARCHITECTURE"
+SADD docs:type:architecture "DATA_SEPARATION_ARCHITECTURE"

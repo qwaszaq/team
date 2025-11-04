@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/capabilities/DUCKDUCKGO_SEARCH_METHOD.md",
+  "document_type": "general_documentation",
+  "title": "\ud83d\udd0d DUCKDUCKGO SEARCH METHOD",
+  "detected_at": "2025-11-04T19:54:33.310951",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udd0d DUCKDUCKGO SEARCH METHOD\n## Reliable Web Search Without Consent Walls\n\n**Date:** 2025-11-04  \n**Status:** \u2705 VERIFIED WORKING  \n**Advantage:** Better than Google for automated research!  \n\n---\n\n## \ud83c\udfaf WHY DUCKDUCKGO?\n\n**Advantages over Google:**\n- \u2705 **No consent walls** (Google redirects to consent.google.com)\n- \u2705 **No anti-bot** (more permissive)\n- \u2705 **Simple HTML mode** (easy parsing)\n- \u2705 **Privacy-focused** (doesn't track/block as aggressively)\n- \u2705 **Clean results** (less ads, cleaner struct"
+}

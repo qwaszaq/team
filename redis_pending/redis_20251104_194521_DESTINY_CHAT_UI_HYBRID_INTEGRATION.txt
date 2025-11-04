@@ -1,0 +1,41 @@
+SET doc:DESTINY_CHAT_UI_HYBRID_INTEGRATION:title "💬 DESTINY CHAT UI - Hybrid System Integration"
+SET doc:DESTINY_CHAT_UI_HYBRID_INTEGRATION:type "general_documentation"
+SET doc:DESTINY_CHAT_UI_HYBRID_INTEGRATION:path "docs/concepts/DESTINY_CHAT_UI_HYBRID_INTEGRATION.md"
+SET doc:DESTINY_CHAT_UI_HYBRID_INTEGRATION:content "# 💬 DESTINY CHAT UI - Hybrid System Integration
+## Browser Interface dla On-Prem Intelligence System
+
+**Date:** 2025-11-04  
+**Status:** Concept (To Be Implemented Later)  
+**Priority:** High (User Requested)  
+**Reminder:** Artur poprosił o przypomnienie tego zadania  
+
+---
+
+## 🎯 KONCEPCJA
+
+**Pomysł Artura:**
+> "Wykorzystać destiny-chat-ui jako interfejs do hybrydowego systemu - podpiąć lokalny LLM, 
+> Aleksander widziałby wszystko przez logi LMStudio"
+
+**Dlaczego to ŚWIETNY pomysł:**
+
+1. ✅ **User-Friendly Interface** - Przeglądarkowy chat zamiast command line
+2. ✅ **Visual Progress** - Real-time widzisz co robi local LLM
+3. ✅ **Supervision Built-In** - Aleksander ma dostęp do logów
+4. ✅ **Existing Codebase** - destiny-chat-ui już istnieje (TSX/React)
+5. ✅ **LMStudio Compatible** - OpenAI-compatible API, łatwa integracja
+
+---
+
+## 🏗️ ARCHITEKTURA
+
+### **Current destiny-chat-ui Structure:**
+
+```
+destiny-chat-ui/
+├── src/
+│   ├── components/
+│   │   ├── Chat.tsx           # Main chat int"
+EXPIRE doc:DESTINY_CHAT_UI_HYBRID_INTEGRATION:content 86400
+SADD docs:all "DESTINY_CHAT_UI_HYBRID_INTEGRATION"
+SADD docs:type:general_documentation "DESTINY_CHAT_UI_HYBRID_INTEGRATION"

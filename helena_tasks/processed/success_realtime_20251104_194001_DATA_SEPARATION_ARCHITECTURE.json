@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/architecture/DATA_SEPARATION_ARCHITECTURE.md",
+  "document_type": "architecture",
+  "title": "\ud83c\udfd7\ufe0f DATA SEPARATION ARCHITECTURE",
+  "detected_at": "2025-11-04T19:40:01.589736",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udfd7\ufe0f DATA SEPARATION ARCHITECTURE\n## Separacja Danych Projektowych od Danych Investigacyjnych\n\n**Date:** 2025-11-04  \n**Critical Requirement:** Dane projektowe NIE MOG\u0104 miesza\u0107 si\u0119 z danymi roboczymi agent\u00f3w  \n**Status:** Design Complete - Ready for Implementation  \n\n---\n\n## \ud83c\udfaf PROBLEM\n\n**Current State:**\n- Wszystkie dane w jednym folderze (`docs/`)\n- Bazy danych u\u017cywaj\u0105 tych samych kolekcji/schemat\u00f3w\n- Ryzyko mieszania si\u0119 danych projektowych z danymi investigacyjnymi\n- Brak czystej separacji mi"
+}

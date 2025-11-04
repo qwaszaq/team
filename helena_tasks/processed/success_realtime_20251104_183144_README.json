@@ -1,0 +1,9 @@
+{
+  "file_path": "README.md",
+  "document_type": "protocol",
+  "title": "\ud83e\udd16 Destiny Team Framework - Helena Auto-Execution System",
+  "detected_at": "2025-11-04T18:31:44.158397",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83e\udd16 Destiny Team Framework - Helena Auto-Execution System\n\n**Multi-Agent AI Development Framework with Unlimited Context Memory**\n\nA complete AI software development team that automatically propagates knowledge across all databases in real-time.\n\n---\n\n## \ud83c\udfaf What is This?\n\n**Helena** - your AI Knowledge Manager - now **automatically detects, processes, and propagates** every change you make to `.md` files across **4 databases** in real-time:\n\n- \u2705 **Qdrant** - Semantic search (1024-dim vectors)\n- \u2705"
+}
