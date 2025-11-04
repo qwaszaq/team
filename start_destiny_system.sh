@@ -191,15 +191,20 @@ else
     echo -e "${RED}❌ Qdrant:    http://localhost:6333${NC} (nie odpowiada)"
 fi
 
-# PostgreSQL (skip interactive checks, just check port)
+# PostgreSQL (check port with nc)
 if command -v nc &> /dev/null; then
-    if timeout 2 nc -z localhost 5432 2>/dev/null; then
+    if nc -z localhost 5432 2>&1 | grep -q 'succeeded\|open'; then
         echo -e "${GREEN}✅ PostgreSQL: localhost:5432${NC}"
     else
         echo -e "${YELLOW}⚠️  PostgreSQL: localhost:5432${NC} (port nie odpowiada)"
     fi
 else
-    echo -e "${CYAN}ℹ️  PostgreSQL: localhost:5432${NC} (nc nie zainstalowany, zakładam że działa)"
+    # Fallback: Check if container is healthy
+    if docker ps --filter "name=postgres" --filter "status=running" --format "{{.Names}}" | grep -q postgres; then
+        echo -e "${GREEN}✅ PostgreSQL: localhost:5432${NC} (container healthy)"
+    else
+        echo -e "${YELLOW}⚠️  PostgreSQL: localhost:5432${NC}"
+    fi
 fi
 
 # Neo4j
@@ -209,15 +214,20 @@ else
     echo -e "${RED}❌ Neo4j:     http://localhost:7474${NC} (nie odpowiada)"
 fi
 
-# Redis (with timeout)
-if command -v redis-cli &> /dev/null; then
-    if timeout 2 redis-cli -h localhost -p 6379 ping > /dev/null 2>&1; then
+# Redis (check port with nc)
+if command -v nc &> /dev/null; then
+    if nc -z localhost 6379 2>&1 | grep -q 'succeeded\|open'; then
         echo -e "${GREEN}✅ Redis:     localhost:6379${NC}"
     else
-        echo -e "${YELLOW}⚠️  Redis:     localhost:6379${NC} (problem z połączeniem)"
+        echo -e "${YELLOW}⚠️  Redis:     localhost:6379${NC} (port nie odpowiada)"
     fi
 else
-    echo -e "${CYAN}ℹ️  Redis:     localhost:6379${NC} (redis-cli nie zainstalowany, zakładam że działa)"
+    # Fallback: Check if container is healthy
+    if docker ps --filter "name=redis" --filter "status=running" --format "{{.Names}}" | grep -q redis; then
+        echo -e "${GREEN}✅ Redis:     localhost:6379${NC} (container healthy)"
+    else
+        echo -e "${YELLOW}⚠️  Redis:     localhost:6379${NC}"
+    fi
 fi
 
 echo ""
