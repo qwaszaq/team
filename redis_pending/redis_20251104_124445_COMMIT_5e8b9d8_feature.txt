@@ -1,0 +1,45 @@
+SET doc:COMMIT_5e8b9d8_feature:title "Automatic documentation generation for ALL code changes"
+SET doc:COMMIT_5e8b9d8_feature:type "architecture"
+SET doc:COMMIT_5e8b9d8_feature:path "docs/auto-generated/2025-11-04/COMMIT_5e8b9d8_feature.md"
+SET doc:COMMIT_5e8b9d8_feature:content "# Automatic documentation generation for ALL code changes
+
+**Auto-Generated Documentation**
+
+**Date:** 2025-11-04 12:44:44
+**Commit:** `5e8b9d8`
+**Type:** Feature
+**Author:** artur
+
+---
+
+## 📝 Commit Message
+
+**feat: Automatic documentation generation for ALL code changes**
+
+## Revolutionary Feature: Close the Knowledge Loop
+
+**THE PROBLEM YOU IDENTIFIED:**
+Code changes (like the startup script fix) weren't being automatically
+documented and indexed. This created a knowledge gap - Helena only knew
+about manual documentation, not code evolution.
+
+**THE SOLUTION:**
+Complete automatic pipeline from code → documentation → knowledge base
+
+## Architecture (Multi-Agent Design)
+
+### Flow:
+```
+GIT COMMIT → Post-Commit Hook → Auto-Doc Generator → Markdown File
+    ↓
+Helena Watcher (2-3 sec) → Process to 4 Databases → Knowledge Available
+```
+
+### Components Built:
+
+1. **auto_doc_generator.py** (Tomasz + Katarzyna)
+   - Analyzes git commits automatically
+   - Extracts: message, files changed, diff "
+EXPIRE doc:COMMIT_5e8b9d8_feature:content 86400
+SADD docs:all "COMMIT_5e8b9d8_feature"
+SADD docs:type:architecture "COMMIT_5e8b9d8_feature"

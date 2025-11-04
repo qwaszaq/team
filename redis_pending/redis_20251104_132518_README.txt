@@ -1,0 +1,46 @@
+SET doc:README:title "🎯 Orchestration System"
+SET doc:README:type "general_documentation"
+SET doc:README:path "orchestration/README.md"
+SET doc:README:content "# 🎯 Orchestration System
+
+**Complete transparency and coordination tools for Destiny Team**
+
+---
+
+## What's This?
+
+Tools that help YOU (as orchestrator) coordinate Core Team + Analytical Team effectively.
+
+**Problem it solves:**
+```
+Before: "What is everyone doing? I don't know!"
+After:  Dashboard shows exactly who's doing what, progress %, handoffs, etc.
+```
+
+---
+
+## 📦 Components
+
+| File | Purpose | Use When |
+|------|---------|----------|
+| `team_status_tracker.py` | Track agent work real-time | "Who's available?" |
+| `team_briefing_generator.py` | Generate professional briefings | "Assign work to team" |
+| `cross_team_handoff.py` | Manage Core ↔ Analytical handoffs | "Transfer work between teams" |
+| `orchestration_dashboard.py` | Unified view of everything | "Show me everything" |
+| `test_transparency_integration.py` | Integration test/demo | "Does this work?" |
+
+---
+
+## ⚡ Quick Demo
+
+```bash
+python3 test_transparency_integration.py
+```
+
+Shows complete workflow in 10 seconds!
+
+---
+"
+EXPIRE doc:README:content 86400
+SADD docs:all "README"
+SADD docs:type:general_documentation "README"

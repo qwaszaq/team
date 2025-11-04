@@ -1,0 +1,9 @@
+{
+  "file_path": "orchestration/README.md",
+  "document_type": "general_documentation",
+  "title": "\ud83c\udfaf Orchestration System",
+  "detected_at": "2025-11-04T13:25:17.739048",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udfaf Orchestration System\n\n**Complete transparency and coordination tools for Destiny Team**\n\n---\n\n## What's This?\n\nTools that help YOU (as orchestrator) coordinate Core Team + Analytical Team effectively.\n\n**Problem it solves:**\n```\nBefore: \"What is everyone doing? I don't know!\"\nAfter:  Dashboard shows exactly who's doing what, progress %, handoffs, etc.\n```\n\n---\n\n## \ud83d\udce6 Components\n\n| File | Purpose | Use When |\n|------|---------|----------|\n| `team_status_tracker.py` | Track agent work real-time"
+}

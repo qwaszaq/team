@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/auto-generated/2025-11-04/COMMIT_5e8b9d8_feature.md",
+  "document_type": "architecture",
+  "title": "Automatic documentation generation for ALL code changes",
+  "detected_at": "2025-11-04T12:44:45.227340",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Automatic documentation generation for ALL code changes\n\n**Auto-Generated Documentation**\n\n**Date:** 2025-11-04 12:44:44\n**Commit:** `5e8b9d8`\n**Type:** Feature\n**Author:** artur\n\n---\n\n## \ud83d\udcdd Commit Message\n\n**feat: Automatic documentation generation for ALL code changes**\n\n## Revolutionary Feature: Close the Knowledge Loop\n\n**THE PROBLEM YOU IDENTIFIED:**\nCode changes (like the startup script fix) weren't being automatically\ndocumented and indexed. This created a knowledge gap - Helena only kne"
+}

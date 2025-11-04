@@ -1,0 +1,8 @@
+{
+  "file_path": "docs/auto-generated/2025-11-04/COMMIT_b23e0b5_feature.md",
+  "title": "Add demo feature for live demonstration",
+  "document_type": "general_documentation",
+  "content": "# Add demo feature for live demonstration\n\n**Auto-Generated Documentation**\n\n**Date:** 2025-11-04 12:57:45\n**Commit:** `b23e0b5`\n**Type:** Feature\n**Author:** artur\n\n---\n\n## \ud83d\udcdd Commit Message\n\n**feat: Add demo feature for live demonstration**\n\nThis is a test commit to show the automatic documentation system.\nWhen this commits, the post-commit hook will:\n1. Generate markdown documentation\n2. Helena will detect it\n3. It will be indexed in all 4 databases\n4. Become searchable immediately\n\n\n## \ud83d\udcc1 Files Changed\n\n**Total:** 1 file(s)\n\n### Other Files (1)\n\n- `demo_file.txt`\n\n\n## \ud83d\udcca Statistics\n\n```\nb23e0b5 feat: Add demo feature for live demonstration\n demo_file.txt | 1 +\n 1 file changed, 1 insertion(+)\n```\n\n## \ud83e\udd16 Metadata\n\n```json\n{\n  \"commit_hash\": \"b23e0b5ce5cb10d65e3db0b2c6f274827c9b0021\",\n  \"commit_type\": \"feature\",\n  \"timestamp\": 1762257465,\n  \"files_changed\": [\n    \"demo_file.txt\"\n  ],\n  \"auto_generated\": true\n}\n```\n\n---\n*This document was automatically generated from a git commit.*\n*Helena will process this and add to all 4 databases (PostgreSQL, Neo4j, Qdrant, Redis).*",
+  "indexed_at": "2025-11-04T12:57:46.558330",
+  "source": "realtime_watcher"
+}

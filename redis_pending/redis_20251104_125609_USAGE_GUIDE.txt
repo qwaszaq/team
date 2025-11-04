@@ -1,0 +1,53 @@
+SET doc:USAGE_GUIDE:title "🚀 Destiny System - Przewodnik Użycia"
+SET doc:USAGE_GUIDE:type "guide"
+SET doc:USAGE_GUIDE:path "docs/USAGE_GUIDE.md"
+SET doc:USAGE_GUIDE:content "# 🚀 Destiny System - Przewodnik Użycia
+
+**Data utworzenia:** 2025-11-04  
+**Status systemu:** ✅ Operational  
+**Wersja:** 1.0
+
+---
+
+## 📋 Spis Treści
+
+1. [Szybki Start](#szybki-start)
+2. [Podstawowe Użycie](#podstawowe-użycie)
+3. [Praca z Dokumentacją](#praca-z-dokumentacją)
+4. [Praca z Kodem](#praca-z-kodem)
+5. [Wyszukiwanie Wiedzy](#wyszukiwanie-wiedzy)
+6. [Praca z Agentami](#praca-z-agentami)
+7. [Dashboardy i Monitoring](#dashboardy-i-monitoring)
+8. [Przykłady Praktyczne](#przykłady-praktyczne)
+
+---
+
+## 🚀 Szybki Start
+
+### Uruchomienie Systemu
+
+```bash
+# Jedna komenda uruchamia wszystko
+./start_destiny_system.sh
+```
+
+**Co się dzieje:**
+- ✅ Docker sprawdzony
+- ✅ 4 bazy danych uruchomione (Qdrant, PostgreSQL, Neo4j, Redis)
+- ✅ Helena Watcher aktywowana (auto-processing)
+- ✅ Wszystko zweryfikowane i gotowe
+
+### Sprawdzenie Statusu
+
+```bash
+# Zobacz logi Heleny (real-time monitoring)
+tail -f logs/watcher.log
+
+# Status kontenerów Docker
+docker ps
+
+# Ile punktów w Qdrant
+curl -s http://loc"
+EXPIRE doc:USAGE_GUIDE:content 86400
+SADD docs:all "USAGE_GUIDE"
+SADD docs:type:guide "USAGE_GUIDE"

@@ -1,0 +1,50 @@
+SET doc:QUICK_START:title "🚀 Quick Start: Transparency System"
+SET doc:QUICK_START:type "general_documentation"
+SET doc:QUICK_START:path "docs/orchestration/QUICK_START.md"
+SET doc:QUICK_START:content "# 🚀 Quick Start: Transparency System
+
+**5-minute guide to using the new orchestration tools**
+
+---
+
+## ⚡ Instant Demo
+
+```bash
+cd /Users/artur/coursor-agents-destiny-folder/orchestration
+python3 test_transparency_integration.py
+```
+
+**This runs a complete simulation** showing:
+- User request
+- Team briefing
+- Task assignment
+- Progress tracking
+- Cross-team handoff
+- Final delivery
+
+**Takes ~10 seconds, shows everything! 🎯**
+
+---
+
+## 🎯 Common Use Cases
+
+### **Use Case 1: "I need research from Analytical Team"**
+
+```python
+from orchestration.orchestration_dashboard import OrchestrationDashboard
+from orchestration.team_briefing_generator import BriefingPriority, TeamMember
+
+dashboard = OrchestrationDashboard()
+
+# 1. Check if team is available
+dashboard.show_team_status()
+# See: "Analytical Team: 4/6 available"
+
+# 2. Create briefing
+briefing = dashboard.briefing_gen.create_briefing(
+    task_id="RESEARCH-XYZ",
+    title="Research competitor product X",
+    description="Need complete compe"
+EXPIRE doc:QUICK_START:content 86400
+SADD docs:all "QUICK_START"
+SADD docs:type:general_documentation "QUICK_START"

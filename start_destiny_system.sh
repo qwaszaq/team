@@ -110,9 +110,23 @@ if check_container "sms-neo4j"; then
     NEO4J_OK=true
 fi
 
-# Redis
-if check_container "sms-redis" || check_container "hercules-redis" || check_container "kg-redis"; then
+# Redis (check all possible Redis containers quietly)
+REDIS_CONTAINER=""
+if docker ps --format '{{.Names}}' | grep -q "^kg-redis$"; then
+    REDIS_CONTAINER="kg-redis"
     REDIS_OK=true
+    echo -e "${GREEN}✅ kg-redis - RUNNING${NC}"
+elif docker ps --format '{{.Names}}' | grep -q "^hercules-redis$"; then
+    REDIS_CONTAINER="hercules-redis"
+    REDIS_OK=true
+    echo -e "${GREEN}✅ hercules-redis - RUNNING${NC}"
+elif docker ps --format '{{.Names}}' | grep -q "^sms-redis$"; then
+    REDIS_CONTAINER="sms-redis"
+    REDIS_OK=true
+    echo -e "${GREEN}✅ sms-redis - RUNNING${NC}"
+else
+    echo -e "${RED}❌ Redis - NIE ZNALEZIONY (żaden kontener)${NC}"
+    REDIS_OK=false
 fi
 
 echo ""

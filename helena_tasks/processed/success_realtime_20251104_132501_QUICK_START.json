@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/orchestration/QUICK_START.md",
+  "document_type": "general_documentation",
+  "title": "\ud83d\ude80 Quick Start: Transparency System",
+  "detected_at": "2025-11-04T13:25:01.255518",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\ude80 Quick Start: Transparency System\n\n**5-minute guide to using the new orchestration tools**\n\n---\n\n## \u26a1 Instant Demo\n\n```bash\ncd /Users/artur/coursor-agents-destiny-folder/orchestration\npython3 test_transparency_integration.py\n```\n\n**This runs a complete simulation** showing:\n- User request\n- Team briefing\n- Task assignment\n- Progress tracking\n- Cross-team handoff\n- Final delivery\n\n**Takes ~10 seconds, shows everything! \ud83c\udfaf**\n\n---\n\n## \ud83c\udfaf Common Use Cases\n\n### **Use Case 1: \"I need research from An"
+}

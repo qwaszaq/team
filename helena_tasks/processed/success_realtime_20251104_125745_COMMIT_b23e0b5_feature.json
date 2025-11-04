@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/auto-generated/2025-11-04/COMMIT_b23e0b5_feature.md",
+  "document_type": "general_documentation",
+  "title": "Add demo feature for live demonstration",
+  "detected_at": "2025-11-04T12:57:45.997244",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# Add demo feature for live demonstration\n\n**Auto-Generated Documentation**\n\n**Date:** 2025-11-04 12:57:45\n**Commit:** `b23e0b5`\n**Type:** Feature\n**Author:** artur\n\n---\n\n## \ud83d\udcdd Commit Message\n\n**feat: Add demo feature for live demonstration**\n\nThis is a test commit to show the automatic documentation system.\nWhen this commits, the post-commit hook will:\n1. Generate markdown documentation\n2. Helena will detect it\n3. It will be indexed in all 4 databases\n4. Become searchable immediately\n\n\n## \ud83d\udcc1 File"
+}
