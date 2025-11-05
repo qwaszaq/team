@@ -1,6 +1,6 @@
 # 👥 Destiny Team - Complete Structure
 
-## 🎯 Full Team (9 Agents)
+## 🎯 Full Team (10 Agents)
 
 ### **Coordination Layer**
 
@@ -14,7 +14,7 @@
   - Resolves conflicts
   - Strategic decisions
 
-#### 9. **Dr. Helena Kowalczyk** - Knowledge Manager 📚 ← **NEW!**
+#### 10. **Dr. Helena Kowalczyk** - Knowledge Manager 📚
 - **Model:** Claude Sonnet 4.5
 - **Role:** Documentation, summaries, knowledge organization
 - **Responsibilities:**
@@ -69,7 +69,17 @@
 
 ### **Specialized Layer**
 
-#### 8. **Dr. Joanna Wójcik** - Data Scientist 📊
+#### 8. **Paweł Kowalski** - Data Engineer 🔧
+- **Model:** Claude Sonnet 4.5
+- **Responsibilities:** ETL pipelines, data formats, data quality, transformations
+- **Specialization:**
+  - Multiple data formats (CSV, JSON, Parquet, Excel, XML, PDF)
+  - Data quality and validation
+  - Schema design and normalization
+  - Data integration and migration
+  - Performance optimization
+
+#### 9. **Dr. Joanna Wójcik** - Data Scientist 📊
 - **Model:** Gemini Pro 2.5
 - **Responsibilities:** Data analysis, ML pipelines (when needed)
 
@@ -341,9 +351,9 @@ python3 full_team_integration.py
 
 ## 🎉 **Podsumowanie**
 
-**Nowy Zespół:**
-- 8 agentów (było) → **9 agentów (jest)**
-- + Dr. Helena Kowalczyk (Knowledge Manager)
+**Zespół:**
+- **10 agentów** operacyjnych
+- Najnowszy: Paweł Kowalski (Data Engineer)
 
 **Co To Daje:**
 - ✅ Automatic documentation

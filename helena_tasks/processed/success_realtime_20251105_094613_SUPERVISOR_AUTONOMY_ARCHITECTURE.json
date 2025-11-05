@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/architecture/SUPERVISOR_AUTONOMY_ARCHITECTURE.md",
+  "document_type": "architecture",
+  "title": "\ud83c\udfaf ARCHITEKTURA NADZORU I AUTONOMII - HYBRID SUPERVISION",
+  "detected_at": "2025-11-05T09:46:13.714998",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83c\udfaf ARCHITEKTURA NADZORU I AUTONOMII - HYBRID SUPERVISION\n\n**Data:** 2025-11-05  \n**Architekt:** Aleksander Nowak + Katarzyna Wi\u015bniewska  \n**Cel:** System z progresywn\u0105 autonomi\u0105 pod nadzorem Claude\n\n---\n\n## \ud83c\udfad KONCEPCJA KLUCZOWA\n\n```\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551  PROGRESSIVE AUTONOMY PATTERN                                  \u2551\n\u2551                                                                \u2551\n\u2551  Start: Claude supervises every decision                       "
+}

@@ -1,0 +1,49 @@
+SET doc:CONTEXT_LIMITATION_STRATEGIES:title "⚠️ CONTEXT LIMITATION - STRATEGIE I ROZWIĄZANIA"
+SET doc:CONTEXT_LIMITATION_STRATEGIES:type "architecture"
+SET doc:CONTEXT_LIMITATION_STRATEGIES:path "docs/architecture/CONTEXT_LIMITATION_STRATEGIES.md"
+SET doc:CONTEXT_LIMITATION_STRATEGIES:content "# ⚠️ CONTEXT LIMITATION - STRATEGIE I ROZWIĄZANIA
+
+**Problem:** Local Agent (44k) vs Claude (200k)  
+**Data:** 2025-11-05  
+**Autorzy:** Katarzyna Wiśniewska (Architect) + Aleksander Nowak
+
+---
+
+## 📊 SKALĘ PROBLEMU
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║  44,000 tokens (local) vs 200,000 tokens (Claude)             ║
+║  Claude ma 4.5x WIĘKSZE okno kontekstu                         ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+### Konkretny Przykład:
+
+**Sprawa: 100 dokumentów PDF/DOC, 4M zdań**
+
+```
+Total tokens: ~20,000,000
+
+Local Agent (44k):
+  - Potrzeba: ~455 przebiegów
+  - Ryzyko: Utrata kontekstu między przebiegami
+  - Strategia: MUSI dzielić i sumaryzować
+
+Claude Supervisor (200k):
+  - Potrzeba: ~100 przebiegów  
+  - Przewaga: 4.5x mniej przebiegów
+  - Może: Widzieć szerszy kontekst naraz
+```
+
+---
+
+## 🎯 5 STRATEGII DLA LOKALNYCH AGENTÓW
+
+### Strategy 1: Hierarchical Summarization (Piramida)
+
+```python
+class Hierarchica"
+EXPIRE doc:CONTEXT_LIMITATION_STRATEGIES:content 86400
+SADD docs:all "CONTEXT_LIMITATION_STRATEGIES"
+SADD docs:type:architecture "CONTEXT_LIMITATION_STRATEGIES"

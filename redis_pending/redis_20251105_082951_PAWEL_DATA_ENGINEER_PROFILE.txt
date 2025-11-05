@@ -1,0 +1,40 @@
+SET doc:PAWEL_DATA_ENGINEER_PROFILE:title "🔧 Paweł Kowalski - Data Engineer"
+SET doc:PAWEL_DATA_ENGINEER_PROFILE:type "team_documentation"
+SET doc:PAWEL_DATA_ENGINEER_PROFILE:path "docs/team/PAWEL_DATA_ENGINEER_PROFILE.md"
+SET doc:PAWEL_DATA_ENGINEER_PROFILE:content "# 🔧 Paweł Kowalski - Data Engineer
+
+**Date:** 2025-11-05  
+**Status:** ✅ Operational  
+**Team:** Destiny Team Framework (Agent #8)
+
+---
+
+## 🎯 Role & Specialization
+
+**Paweł Kowalski** is the **Data Engineer** in the Destiny Team, specializing in:
+
+- **ETL Pipelines** - Extract, Transform, Load workflows
+- **Data Formats** - CSV, JSON, Parquet, Excel, XML, PDF, YAML, Avro
+- **Data Quality** - Validation, cleaning, normalization
+- **Schema Design** - Database modeling, indexing, partitioning
+- **Data Integration** - System-to-system data flows, migrations
+
+---
+
+## 💡 Why This Agent?
+
+### Problem Identified
+Projects frequently encounter:
+- ❌ Different data formats (CSV, JSON, Excel, PDF, etc.)
+- ❌ Data quality issues (duplicates, missing values, inconsistencies)
+- ❌ Complex ETL requirements
+- ❌ Schema design challenges
+- ❌ Integration between systems
+
+### Solution: Data Engineer Agent
+Paweł fills the gap between:
+- **Joanna (Data Scientist)** - Focuses on analysis, ML, insights
+- **Paweł ("
+EXPIRE doc:PAWEL_DATA_ENGINEER_PROFILE:content 86400
+SADD docs:all "PAWEL_DATA_ENGINEER_PROFILE"
+SADD docs:type:team_documentation "PAWEL_DATA_ENGINEER_PROFILE"

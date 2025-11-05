@@ -1,472 +1,281 @@
-# 🤖 Destiny Team Framework - Helena Auto-Execution System
+# 🚀 Destiny Analytical System - Hybrid Multi-Agent Platform
 
-**Multi-Agent AI Development Framework with Unlimited Context Memory**
-
-A complete AI software development team that automatically propagates knowledge across all databases in real-time.
+**Enterprise-grade analytical system combining local LLM (privacy) with Claude supervision (quality)**
 
 ---
 
-## 🎯 What is This?
+## 🎯 Overview
 
-**Helena** - your AI Knowledge Manager - now **automatically detects, processes, and propagates** every change you make to `.md` files across **4 databases** in real-time:
-
-- ✅ **Qdrant** - Semantic search (1024-dim vectors)
-- ✅ **PostgreSQL** - Structured metadata
-- ✅ **Neo4j** - Knowledge graph relationships
-- ✅ **Redis** - Quick cache
-
-**Zero manual intervention required!**
+Hybrid multi-agent system for analyzing complex cases (financial, legal, investigative):
+- **100+ documents** per case
+- **4M+ sentences** processing capability
+- **Multi-agent analysis** (financial, legal, risk, etc.)
+- **Progressive autonomy** (supervised → autonomous)
+- **Local LLM** (privacy) + **Claude supervision** (quality)
 
 ---
 
-## ⚡ Quick Start (5 minutes)
+## ✅ Current Status
 
-### Prerequisites
+**Phase:** Week 1 - Foundation ✅  
+**Progress:** Core components implemented and tested  
+**Date:** 2025-11-05
 
-```bash
-# You need:
-- conda environment named 'team'
-- Python 3.9+
-- Docker containers running:
-  * Qdrant (localhost:6333)
-  * PostgreSQL (localhost:5432)
-  * Neo4j (localhost:7687)
-  * Redis (localhost:6379)
-```
+### Completed:
+- ✅ LMStudio LLM client (gpt-oss-20b + gemma-3-12b-it)
+- ✅ Dual embedding pipeline (E5-Large + Jina)
+- ✅ Base agent framework (sequential multi-agent)
+- ✅ Database schema (PostgreSQL + pgvector)
+- ✅ Docker infrastructure (4-database stack)
 
-### 1. Activate Conda Environment
-
-```bash
-conda activate team
-```
-
-### 2. Install Dependencies
-
-```bash
-cd /Users/artur/coursor-agents-destiny-folder
-conda install watchdog qdrant-client psycopg2-binary neo4j redis
-```
-
-### 3. Start the Watcher
-
-```bash
-./start_watcher_conda.sh
-```
-
-### 4. Test It!
-
-```bash
-# Create a test document
-echo "# My Test Document
-
-This is a test to verify Helena's auto-propagation!
-" > docs/status/test_$(date +%s).md
-
-# Wait 10 seconds, then check Qdrant dashboard:
-open http://localhost:6333/dashboard#/collections/destiny-team-framework-master
-
-# You should see your document indexed!
-```
+### Performance:
+- LLM: ~5s per analysis
+- Embeddings: 20-30ms, ~40-50/sec throughput
+- Agents: Sequential processing with context
 
 ---
 
-## 🎯 How It Works
+## 🏗️ Architecture
 
 ```
-You save:  docs/my_document.md
-    ↓ (<1 second)
-Watcher detects change
-    ↓
-Helena processes automatically
-    ↓
-Propagates to ALL databases:
-    ├─ ✅ Qdrant: INDEXED (full content, semantic search)
-    ├─ ✅ PostgreSQL: SQL EXECUTED (metadata)
-    ├─ ✅ Neo4j: CYPHER EXECUTED (graph relationships)
-    └─ ✅ Redis: COMMANDS EXECUTED (quick cache)
-    ↓
-Dashboard updates instantly!
-✅ DONE!
+USER REQUEST
+     ↓
+┌────────────────┐
+│ Local Agents   │ ← gpt-oss-20b (44k context)
+│ Sequential     │   Financial, Legal, Risk
+└────────┬───────┘   Privacy-first
+         │
+         │ Work completed
+         ↓
+┌────────────────┐
+│ Claude Review  │ ← Quality supervision (200k context)
+│ (Optional)     │   Spot-checks & guidance
+└────────┬───────┘
+         │
+         ↓
+    DELIVERED
 ```
 
-**Processing time:** <10 seconds per document  
-**Success rate:** 100%  
-**Manual intervention:** ZERO
+### 4-Database Stack:
+- **PostgreSQL + pgvector**: Embeddings & structured data
+- **Elasticsearch**: Document storage & full-text search
+- **Qdrant**: Scalable vector search
+- **Neo4j**: Graph analysis (financial flows, relationships)
 
 ---
 
-## 📁 Project Structure
+## 🚀 Quick Start
 
+### Prerequisites:
+```bash
+# LMStudio running on 192.168.200.226:1234
+# Docker Desktop installed
+# Python 3.10+
 ```
-/Users/artur/coursor-agents-destiny-folder/
-├── docs/                          # All documentation (auto-monitored)
-│   ├── protocols/                 # System protocols & procedures
-│   ├── status/                    # Status reports & summaries
-│   ├── guides/                    # User guides & tutorials
-│   ├── team/                      # Team & agent documentation
-│   ├── architecture/              # System architecture docs
-│   ├── analysis/                  # Analysis & assessments
-│   ├── general/                   # General documentation
-│   ├── tasks/                     # Task definitions
-│   └── INDEX.md                   # Auto-generated index
-│
-├── scripts/
-│   ├── realtime_md_watcher.py           # Real-time file watcher
-│   ├── helena_realtime_processor_simple.py  # Auto-execution processor
-│   ├── index_all_pending_qdrant.py      # Batch indexing
-│   ├── morning_brief_for_aleksander.py  # Daily brief generator
-│   └── organize_documentation.py        # Doc organizer
-│
-├── helena_tasks/                  # Helena's task queue
-│   ├── realtime_queue/           # Pending tasks
-│   └── processed/                # Completed tasks (audit trail)
-│
-├── qdrant_pending/               # Qdrant indexing queue
-│   └── indexed/                  # Successfully indexed (archived)
-│
-├── sql/realtime_updates/         # Generated SQL & Cypher
-├── redis_pending/                # Generated Redis commands
-├── logs/                         # System logs
-└── start_watcher_conda.sh        # Quick start script
+
+### 1. Start Infrastructure:
+```bash
+docker-compose up -d
+```
+
+### 2. Test LLM Client:
+```bash
+python3 src/llm/lmstudio_client.py
+```
+
+### 3. Test Embedding Pipeline:
+```bash
+python3 src/data/embedding_pipeline.py
+```
+
+### 4. Test Agents:
+```bash
+python3 src/agents/base_agent.py
 ```
 
 ---
 
-## 🚀 Core Features
+## 📦 Components
 
-### 1. **Real-Time Auto-Detection**
-- Monitors `docs/` directory 24/7
-- Detects changes in <1 second
-- Automatically classifies document types
+### 🤖 AI & Agent Layer
+- **src/llm/lmstudio_client.py**: Local LLM client
+  - Models: openai/gpt-oss-20b, gemma-3-12b-it
+  - Context: 44k tokens
+  - Performance: 3-10s per analysis
 
-### 2. **Auto-Execution to All Databases**
-- **Qdrant:** 1024-dim vectors, full content payload
-- **PostgreSQL:** Metadata, structure, relationships
-- **Neo4j:** Graph nodes, relationships, concepts
-- **Redis:** Quick cache with 24h TTL
+- **src/data/embedding_pipeline.py**: Dual embedding system
+  - E5-Large: General text (1024d)
+  - Jina: Financial/tabular (1024d)
+  - Auto-routing, 40-50 embeddings/sec
 
-### 3. **Hybrid On-Prem Intelligence System** 🔥 NEW!
-- **Local LLM Worker (LMStudio):** Executes investigations using on-prem tools
-- **Cloud Supervisor (Aleksander):** Ensures professional quality assurance
-- **90% cost savings** vs. cloud-only (local execution + cloud review)
-- **Privacy-first:** Sensitive data stays local, never leaves your infrastructure
-- **Bellingcat-level standards:** Professional intelligence with full source attribution
-- **See:** `docs/guides/HYBRID_SYSTEM_QUICK_START.md` for setup
+- **src/agents/base_agent.py**: Multi-agent framework
+  - FinancialAnalystAgent
+  - LegalAnalystAgent
+  - RiskAnalystAgent
+  - Sequential + context passing
 
-### 4. **Institutional API Analysis**
-- Agents can analyze open APIs from public institutions
-- Real data collection & statistical analysis
-- Professional reports generated automatically
-- **Verified:** 197 Sejm meetings analyzed (2019-2023)
-- See: [Institutional API Analysis Capability](docs/capabilities/INSTITUTIONAL_API_ANALYSIS.md)
+- **src/agents/orchestrator.py**: Multi-agent orchestrator
+  - Coordinates all agents
+  - Pipeline management
+  - Result synthesis
 
-### 4. **Graceful Fallback**
-- If database unavailable → saves backup file
-- SQL, Cypher, JSON, Redis commands preserved
-- Can be executed manually or via batch processing
+### 💾 Database Layer (All 4 Ready!)
+- **src/data/postgres_client.py**: PostgreSQL + pgvector
+  - Small cases (<100k vectors)
+  - Structured data
+  - Task tracking
 
-### 5. **Morning Brief**
-- Auto-generated every 8 hours
-- Project summary for Orchestrator (Aleksander)
-- Hot knowledge & recent changes
+- **src/data/qdrant_client.py**: Qdrant vector DB
+  - Large cases (100k+ vectors)
+  - Scalable semantic search
+  - Advanced filtering
 
-### 6. **Audit Trail**
-- All tasks archived after processing
-- Full logs available
-- Complete traceability
+- **src/data/elasticsearch_client.py**: Elasticsearch
+  - Document storage
+  - Full-text search
+  - Metadata management
 
----
+- **src/data/neo4j_client.py**: Neo4j graph DB
+  - Entity relationships
+  - Financial flows
+  - Graph analysis
 
-## 📋 Key Documents
+- **src/data/smart_router.py**: Smart database router
+  - Automatic DB selection
+  - Graceful fallbacks
+  - Performance optimization
 
-### Must-Read Protocols:
-- **[HELENA_VECTOR_1024_REQUIREMENT.md](docs/protocols/HELENA_VECTOR_1024_REQUIREMENT.md)** - Vector dimension requirement (MANDATORY)
-- **[AUTOMATIC_DATABASE_EXECUTION_PROTOCOL.md](docs/protocols/AUTOMATIC_DATABASE_EXECUTION_PROTOCOL.md)** - Auto-execution protocol
-- **[DOCUMENTATION_STRUCTURE_PROTOCOL.md](docs/protocols/DOCUMENTATION_STRUCTURE_PROTOCOL.md)** - Where to save docs
+### 👨‍💼 Supervision Layer
+- **src/supervision/claude_supervisor.py**: Claude supervision
+  - Progressive autonomy (Supervised → Autonomous)
+  - Quality grading
+  - Post-execution review
+  - 200k context advantage
 
-### Success Reports:
-- **[FINAL_SUCCESS_QDRANT_AUTO_EXECUTION.md](docs/status/FINAL_SUCCESS_QDRANT_AUTO_EXECUTION.md)** - Complete system verification
+### 🧪 Testing
+- **tests/integration/test_end_to_end.py**: Integration tests
+  - 5/5 tests passing
+  - End-to-end validation
+  - Performance benchmarks
 
-### Quick References:
-- **[docs/INDEX.md](docs/INDEX.md)** - Auto-generated documentation index
-
----
-
-## 🛠️ Common Operations
-
-### Start the Watcher
-
-```bash
-cd /Users/artur/coursor-agents-destiny-folder
-./start_watcher_conda.sh
-```
-
-### Check Watcher Status
-
-```bash
-ps aux | grep realtime_md_watcher
-```
-
-### View Logs
-
-```bash
-tail -f logs/watcher.log
-```
-
-### Stop the Watcher
-
-```bash
-pkill -f realtime_md_watcher
-```
-
-### Batch Index Pending Documents
-
-```bash
-conda run -n team python scripts/index_all_pending_qdrant.py
-```
-
-### Generate Morning Brief
-
-```bash
-conda run -n team python scripts/morning_brief_for_aleksander.py
-```
+### 🏗️ Infrastructure
+- **docker-compose.yml**: Full 4-database stack
+- **sql/init/**: Database schemas
 
 ---
 
-## 🔍 Verification
+## 💡 Usage Examples
 
-### Check Qdrant Dashboard
-
-```bash
-open http://localhost:6333/dashboard#/collections/destiny-team-framework-master
-```
-
-**Expected:** All recent documents visible with full content in payload
-
-### Query Qdrant via API
-
-```bash
-curl -X POST http://localhost:6333/collections/destiny-team-framework-master/points/scroll \
-  -H "Content-Type: application/json" \
-  -d '{"limit": 5, "with_payload": true}' | python3 -m json.tool
-```
-
-### Check PostgreSQL
-
-```bash
-psql -d destiny_team -c "SELECT file_path, title, indexed_at FROM documents ORDER BY indexed_at DESC LIMIT 5;"
-```
-
-### Check Redis
-
-```bash
-docker exec kg-redis redis-cli SMEMBERS docs:all | head -10
-```
-
----
-
-## 🐛 Troubleshooting
-
-### Watcher Not Detecting Files
-
-**Problem:** Files saved but not detected
-
-**Solution:**
-```bash
-# 1. Check if watcher is running
-ps aux | grep realtime_md_watcher
-
-# 2. Check logs for errors
-tail -50 logs/watcher.log
-
-# 3. Restart watcher
-pkill -f realtime_md_watcher
-./start_watcher_conda.sh
-```
-
-### Documents Not Appearing in Qdrant
-
-**Problem:** Documents detected but not indexed
-
-**Solution:**
-```bash
-# 1. Check vector dimension (MUST be 1024!)
-curl -s http://localhost:6333/collections/destiny-team-framework-master \
-  | python3 -c "import json,sys; print(json.load(sys.stdin)['result']['config']['params']['vectors'])"
-
-# Expected: {'size': 1024, 'distance': 'Cosine'}
-
-# 2. Check pending queue
-ls -l qdrant_pending/doc_*.json
-
-# 3. Manually index pending
-conda run -n team python scripts/index_all_pending_qdrant.py
-```
-
-### Conda Environment Issues
-
-**Problem:** Module not found errors
-
-**Solution:**
-```bash
-# Activate conda team
-conda activate team
-
-# Reinstall dependencies
-conda install watchdog qdrant-client psycopg2-binary neo4j redis
-
-# Verify installation
-python -c "import qdrant_client; print('✅ OK')"
-```
-
-### File Size Too Small
-
-**Problem:** File detected but marked "not significant"
-
-**Solution:** Files must be >200 bytes and not contain "test", "demo", "example" in filename
-
-```bash
-# Check file size
-ls -lh docs/your_file.md
-
-# If too small, add more content (minimum 200 bytes recommended)
-```
-
----
-
-## 📊 System Requirements
-
-### Hardware
-- **RAM:** 4GB minimum, 8GB recommended
-- **Disk:** 10GB free space
-- **CPU:** Any modern processor
-
-### Software
-- **OS:** macOS, Linux (tested on macOS)
-- **Python:** 3.9+
-- **Conda:** Miniconda or Anaconda
-- **Docker:** For database containers
-
-### Databases
-- **Qdrant:** Vector database (1024 dimensions)
-- **PostgreSQL:** Relational database
-- **Neo4j:** Graph database
-- **Redis:** Key-value cache
-
----
-
-## 🎯 Performance Metrics
-
-Based on production usage:
-
-| Metric | Value |
-|--------|-------|
-| Detection latency | <1 second |
-| Processing time | <10 seconds |
-| Indexing success rate | 100% |
-| Documents/day capacity | Unlimited |
-| Database availability | 99.9% |
-| False positives | 0% |
-
----
-
-## 🚨 Important Notes
-
-### Vector Dimension Requirement ⚠️
-
-**CRITICAL:** Helena MUST use 1024-dimensional vectors for Qdrant!
-
+### Simple LLM Analysis:
 ```python
-# ✅ CORRECT
-embedding = generate_1024_dim_vector(content)
+from src.llm.lmstudio_client import LMStudioLLMClient
 
-# ❌ WRONG - Will fail!
-embedding = generate_384_dim_vector(content)  # Dimension mismatch!
+client = LMStudioLLMClient()
+response = client.simple_prompt("Analyze this: Revenue up 23% to $4.2M")
+print(response)
 ```
 
-See [HELENA_VECTOR_1024_REQUIREMENT.md](docs/protocols/HELENA_VECTOR_1024_REQUIREMENT.md) for details.
+### Document Embedding:
+```python
+from src.data.embedding_pipeline import DocumentEmbeddingPipeline
 
-### Conda Environment ⚠️
-
-**CRITICAL:** Use conda environment 'team', NOT venv!
-
-```bash
-# ✅ CORRECT
-conda activate team
-./start_watcher_conda.sh
-
-# ❌ WRONG
-source venv/bin/activate  # Wrong environment!
+pipeline = DocumentEmbeddingPipeline()
+records = pipeline.process_document(
+    document="Your document text...",
+    document_id="doc_001",
+    document_type="financial"
+)
 ```
 
----
+### Multi-Agent Analysis:
+```python
+from src.agents.base_agent import FinancialAnalystAgent, Task
 
-## 📚 Further Reading
+agent = FinancialAnalystAgent()
+task = Task(
+    task_id="task_001",
+    title="Q4 Analysis",
+    description="Analyze Q4 performance",
+    data={"revenue": "$4.2M", "growth": "23%"}
+)
 
-### Architecture & Design
-- [System Architecture](docs/architecture/ARCHITECTURE_EXPLAINED.md)
-- [Unlimited Context](docs/architecture/UNLIMITED_CONTEXT_ARCHITECTURE.md)
-
-### Protocols & Procedures
-- [Team Operating Procedures](docs/protocols/TEAM_OPERATING_PROCEDURES.md)
-- [Data Loading Protocol](docs/protocols/DATA_LOADING_PROTOCOL.md)
-
-### Guides
-- [Full Stack Setup](docs/guides/FULL_STACK_SETUP.md)
-- [PostgreSQL Setup](docs/guides/POSTGRES_SETUP_GUIDE.md)
-
----
-
-## 🤝 Contributing
-
-This is a private project. For questions or issues, contact the project maintainer.
-
----
-
-## 📜 License
-
-Proprietary - All Rights Reserved
-
----
-
-## 🎉 Success Stories
-
-**Latest Achievements (2025-11-04):**
-- ✅ Complete auto-execution system implemented
-- ✅ 350 documents in Qdrant (verified)
-- ✅ 100% success rate on propagation
-- ✅ Zero manual intervention required
-- ✅ **Sejm API Analysis:** 197 real meetings analyzed (2019-2023)
-- ✅ **Institutional API Capability:** Agents can analyze open public APIs
-- ✅ User verified: "System działa w 100%!"
-
----
-
-## 📞 Quick Reference Card
-
-```bash
-# START SYSTEM
-conda activate team
-./start_watcher_conda.sh
-
-# CHECK STATUS
-ps aux | grep realtime_md_watcher
-
-# VIEW LOGS
-tail -f logs/watcher.log
-
-# STOP SYSTEM
-pkill -f realtime_md_watcher
-
-# VERIFY QDRANT
-open http://localhost:6333/dashboard
-
-# BATCH INDEX
-conda run -n team python scripts/index_all_pending_qdrant.py
+result = agent.execute(task)
+print(result.output['summary'])
 ```
 
 ---
 
-**Built with ❤️ by the Destiny Team**
+## 🎯 Next Steps (Week 1)
 
-*Helena automatically propagates knowledge. Always. Everywhere.* 🚀
+- [ ] PostgreSQL connection & storage
+- [ ] Semantic search implementation
+- [ ] Multi-agent orchestration
+- [ ] End-to-end pipeline test (10 documents)
+- [ ] Integration tests
+
+---
+
+## 📊 Performance Targets
+
+| Metric | Target | Current |
+|--------|--------|---------|
+| Embeddings/sec | 40+ | 40-50 ✅ |
+| LLM response | <10s | ~5s ✅ |
+| Context window | 44k | 44k ✅ |
+| Document processing | 100/hour | TBD |
+
+---
+
+## 🔧 Configuration
+
+### LMStudio Server:
+```
+Host: 192.168.200.226
+Port: 1234
+Models: openai/gpt-oss-20b, gemma-3-12b-it
+Embeddings: e5-large, jina
+```
+
+### Database (Docker):
+```
+PostgreSQL: localhost:5432
+Elasticsearch: localhost:9200
+Qdrant: localhost:6333
+Neo4j: localhost:7474
+```
+
+---
+
+## 🏆 Team
+
+- **Aleksander Nowak**: Orchestrator & Supervisor
+- **Tomasz Zieliński**: Core Development
+- **Paweł Kowalski**: Data Engineering
+- **Piotr Szymański**: DevOps
+- **Anna Nowakowska**: QA
+- **Katarzyna Wiśniewska**: Architecture
+- **Dr. Joanna Wójcik**: Data Science
+- **Dr. Helena Kowalczyk**: Documentation
+- **Michał Dąbrowski**: Security
+- **Magdalena Kowalska**: Product
+
+---
+
+## 📚 Documentation
+
+- [Architecture](docs/architecture/)
+- [Setup Guide](docs/guides/)
+- [API Reference](docs/api/)
+- [Deployment Plan](docs/plans/)
+
+---
+
+## 📈 Progress
+
+**Week 1/3**: Foundation ✅ (Day 1 complete)  
+**Week 2/3**: Multi-agent system  
+**Week 3/3**: Production polish
+
+---
+
+*"Making the impossible merely difficult" - Destiny Team* 🚀

@@ -1,0 +1,38 @@
+SET doc:COMMIT_bc582cf_feature:title "Implement batch processing system to resolve PostgreSQL performance crisis"
+SET doc:COMMIT_bc582cf_feature:type "architecture"
+SET doc:COMMIT_bc582cf_feature:path "docs/auto-generated/2025-11-04/COMMIT_bc582cf_feature.md"
+SET doc:COMMIT_bc582cf_feature:content "# Implement batch processing system to resolve PostgreSQL performance crisis
+
+**Auto-Generated Documentation**
+
+**Date:** 2025-11-04 22:14:36
+**Commit:** `bc582cf`
+**Type:** Feature
+**Author:** artur
+
+---
+
+## 📝 Commit Message
+
+**feat: Implement batch processing system to resolve PostgreSQL performance crisis**
+
+CRITICAL FIX: Database was experiencing 431+ second hangs due to real-time processing overload
+
+Changes:
+- Added intelligent batch processing system with 5-second and hourly options
+- Implemented connection pooling (max 3 connections vs unlimited before)
+- Created emergency fix scripts for immediate database recovery
+- Set up hourly batch processor as macOS service (com.destiny.hourly-batch)
+- Added comprehensive migration plan from real-time to batch processing
+
+Performance improvements:
+- 95% reduction in database writes
+- 25x throughput increase (from 20 to 500+ ops/sec)
+- Eliminated lock contention issues
+- Reduced GIN index maintenance overhead
+
+New tools:
+- batch_processin"
+EXPIRE doc:COMMIT_bc582cf_feature:content 86400
+SADD docs:all "COMMIT_bc582cf_feature"
+SADD docs:type:architecture "COMMIT_bc582cf_feature"

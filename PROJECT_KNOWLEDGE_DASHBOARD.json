@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-11-05T07:59:16.423095",
+  "index": "project_knowledge",
+  "categories": {},
+  "search_tips": [
+    "Use agent names (Helena, Aleksander, etc.) to find agent-specific docs",
+    "Use 'protocol' to find system protocols and procedures",
+    "Use 'architecture' to find technical architecture documents",
+    "Use 'analysis' to find technical analysis and evaluations",
+    "Use date ranges to find time-specific documentation"
+  ],
+  "key_documents": [
+    "README.md - Project overview",
+    "MORNING_BRIEF_*.md - Daily status updates",
+    "COMPREHENSIVE_OSINT_SYSTEM.md - OSINT architecture",
+    "BATCH_MIGRATION_PLAN.md - Batch processing design",
+    "SOURCE_ATTRIBUTION_PROTOCOL.md - Attribution rules"
+  ]
+}

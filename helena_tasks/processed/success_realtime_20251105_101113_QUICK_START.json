@@ -1,0 +1,9 @@
+{
+  "file_path": "QUICK_START.md",
+  "document_type": "architecture",
+  "title": "\ud83d\ude80 QUICK START - Destiny Analytical System",
+  "detected_at": "2025-11-05T10:11:13.144140",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\ude80 QUICK START - Destiny Analytical System\n\nGet up and running in 5 minutes!\n\n---\n\n## \u2705 Prerequisites\n\n```bash\n# 1. LMStudio running on 192.168.200.226:1234\n#    - Model: openai/gpt-oss-20b OR gemma-3-12b-it\n#    - Embeddings: e5-large AND jina\n\n# 2. Python 3.10+\npython3 --version\n\n# 3. (Optional) PostgreSQL for persistence\n```\n\n---\n\n## \ud83c\udfaf Run Your First Analysis\n\n### Option 1: Quick Test (No Installation)\n\n```bash\ncd /Users/artur/coursor-agents-destiny-folder\n\n# Test LLM\npython3 src/llm/lmstudi"
+}

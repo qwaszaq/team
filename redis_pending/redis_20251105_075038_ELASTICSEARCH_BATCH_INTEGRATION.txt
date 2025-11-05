@@ -1,0 +1,43 @@
+SET doc:ELASTICSEARCH_BATCH_INTEGRATION:title "🔍 Elasticsearch Batch Integration"
+SET doc:ELASTICSEARCH_BATCH_INTEGRATION:type "architecture"
+SET doc:ELASTICSEARCH_BATCH_INTEGRATION:path "docs/ELASTICSEARCH_BATCH_INTEGRATION.md"
+SET doc:ELASTICSEARCH_BATCH_INTEGRATION:content "# 🔍 Elasticsearch Batch Integration
+
+**Status:** ✅ COMPLETE  
+**Created:** 2025-11-04  
+**Type:** Technical Documentation  
+
+## Overview
+
+Complete batch-friendly Elasticsearch integration replacing problematic real-time processing. Designed to handle large volumes of documents (PDFs, reports) without overwhelming the database.
+
+## Architecture
+
+### Components
+
+1. **ElasticsearchBatchProcessor** (`elasticsearch_batch_processor.py`)
+   - Queues documents for batch processing
+   - Flushes to ES every 50-100 documents
+   - Creates PostgreSQL references for tracking
+   - Handles errors gracefully
+
+2. **PDFTextExtractor** (`process_pdfs_to_elasticsearch.py`)
+   - Extracts text from PDFs using PyMuPDF
+   - Identifies OCR requirements
+   - Extracts financial metrics
+   - Generates metadata
+
+3. **SearchOrchestrator** 
+   - Unified search interface
+   - Full-text search with highlighting
+   - Time-series aggregations
+   - Cross-index queries
+
+## Key Features
+
+### 1. Batch Processing
+```python
+# "
+EXPIRE doc:ELASTICSEARCH_BATCH_INTEGRATION:content 86400
+SADD docs:all "ELASTICSEARCH_BATCH_INTEGRATION"
+SADD docs:type:architecture "ELASTICSEARCH_BATCH_INTEGRATION"

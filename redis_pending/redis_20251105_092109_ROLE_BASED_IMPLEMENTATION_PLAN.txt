@@ -1,0 +1,53 @@
+SET doc:ROLE_BASED_IMPLEMENTATION_PLAN:title "📋 PLAN IMPLEMENTACJI - PODZIAŁ NA ROLE"
+SET doc:ROLE_BASED_IMPLEMENTATION_PLAN:type "team_documentation"
+SET doc:ROLE_BASED_IMPLEMENTATION_PLAN:path "docs/plans/ROLE_BASED_IMPLEMENTATION_PLAN.md"
+SET doc:ROLE_BASED_IMPLEMENTATION_PLAN:content "# 📋 PLAN IMPLEMENTACJI - PODZIAŁ NA ROLE
+
+**Data:** 2025-11-05  
+**Koordynator:** Aleksander Nowak  
+**Cel:** Jasny podział zadań dla systemu multiagentowego
+
+---
+
+## 🎯 OVERVIEW - 3 TYGODNIE DO MVP
+
+```
+Week 1: Foundation (Infrastructure + Basic Flow)
+Week 2: Intelligence (Multi-agent + Embeddings)  
+Week 3: Integration (Testing + Polish)
+```
+
+---
+
+## 👥 ROLE I ZADANIA
+
+### 🚀 PIOTR SZYMAŃSKI (DevOps) - Infrastructure Lead
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║  ODPOWIEDZIALNOŚĆ: Infrastruktura & Deployment                ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+#### Week 1: Foundation
+```yaml
+Day 1-2:
+  - [ ] Setup LMStudio z Mistral-7B
+  - [ ] Create startup scripts
+  - [ ] Configure auto-restart
+  
+Day 3-4:
+  - [ ] Setup PostgreSQL + pgvector
+  - [ ] Configure Elasticsearch  
+  - [ ] Basic Docker compose
+  
+Day 5:
+  - [ ] Health monitoring scripts
+  - [ ] Backup procedures
+  - [ ] Documentation
+```
+
+#### Week 2: Scali"
+EXPIRE doc:ROLE_BASED_IMPLEMENTATION_PLAN:content 86400
+SADD docs:all "ROLE_BASED_IMPLEMENTATION_PLAN"
+SADD docs:type:team_documentation "ROLE_BASED_IMPLEMENTATION_PLAN"

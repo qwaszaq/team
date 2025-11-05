@@ -1,0 +1,50 @@
+SET doc:ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE:title "🎯 ARCHITEKTURA DLA ENTERPRISE ANALYTICAL SYSTEM - WYCOFANIE KRYTYKI"
+SET doc:ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE:type "architecture"
+SET doc:ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE:path "docs/strategy/ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE.md"
+SET doc:ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE:content "# 🎯 ARCHITEKTURA DLA ENTERPRISE ANALYTICAL SYSTEM - WYCOFANIE KRYTYKI
+
+**Data:** 2025-11-05  
+**Prowadzący:** Aleksander Nowak (Orchestrator)  
+**Status:** KOREKTA STRATEGII
+
+---
+
+## ⚠️ ALEKSANDER NOWAK - PRZEPRASZAM, BYŁEM W BŁĘDZIE
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║  KOREKTA: "OVERENGINEERING" BYŁ NIEPOPRAWNY                   ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+**Dopiero teraz rozumiem pełny kontekst!**
+
+## 📊 RZECZYWISTE WYMAGANIA:
+
+### Case Study: Sprawa Analityczna
+```
+Input:
+├─ 100 dokumentów (PDF + DOC)
+├─ ~4 miliony zdań tekstu
+├─ Tysiące plików docelowo
+└─ Wielomiesięczna analiza
+
+Proces:
+├─ Plan sprawy
+├─ Projekt analityczny  
+├─ Analiza wieloaspektowa:
+│   ├─ Strategiczna
+│   ├─ Finansowa
+│   ├─ Audyt prawny
+│   ├─ Analiza ryzyka
+│   └─ Compliance
+├─ Traversing grafu przepływów
+└─ Długotrwała koordynacja agentów
+
+Scale: ENTERPRISE, nie MVP!
+```
+
+**To nie jest "simple text processing" - to profesjona"
+EXPIRE doc:ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE:content 86400
+SADD docs:all "ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE"
+SADD docs:type:architecture "ENTERPRISE_ANALYTICAL_SYSTEM_ARCHITECTURE"

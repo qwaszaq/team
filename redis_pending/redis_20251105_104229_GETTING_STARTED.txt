@@ -1,0 +1,62 @@
+SET doc:GETTING_STARTED:title "🚀 GETTING STARTED - Destiny Analytical System"
+SET doc:GETTING_STARTED:type "team_documentation"
+SET doc:GETTING_STARTED:path "GETTING_STARTED.md"
+SET doc:GETTING_STARTED:content "# 🚀 GETTING STARTED - Destiny Analytical System
+
+**Quick guide to get up and running in 5 minutes!**
+
+---
+
+## ⚡ FASTEST START (Recommended)
+
+```bash
+# 1. Run automated setup
+./setup.sh
+
+# 2. Add your Claude API key (optional, for real supervision)
+nano .env  # Add ANTHROPIC_API_KEY=your-key-here
+
+# 3. Check system health
+python3 health_check.py
+
+# 4. Run live demo
+python3 demo.py
+```
+
+**Done! System is operational! 🎉**
+
+---
+
+## 📋 MANUAL SETUP (Step by Step)
+
+### **Step 1: Prerequisites**
+
+Check you have:
+```bash
+python3 --version  # Need 3.10+
+docker --version   # Optional, for databases
+```
+
+### **Step 2: Install Dependencies**
+
+```bash
+pip3 install -r requirements.txt --break-system-packages
+# or
+pip3 install -r requirements.txt
+```
+
+### **Step 3: Configure Environment**
+
+```bash
+# Copy environment template
+cp .env.example .env
+
+# Edit .env
+nano .env
+
+# Add at minimum:
+ANTHROPIC_API_KEY=your-key-here  # For real Claude supervision
+LMSTUDIO_HOST=192.168.200.226    # Your LMStudio host"
+EXPIRE doc:GETTING_STARTED:content 86400
+SADD docs:all "GETTING_STARTED"
+SADD docs:type:team_documentation "GETTING_STARTED"

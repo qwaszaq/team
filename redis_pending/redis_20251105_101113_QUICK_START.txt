@@ -1,0 +1,67 @@
+SET doc:QUICK_START:title "🚀 QUICK START - Destiny Analytical System"
+SET doc:QUICK_START:type "architecture"
+SET doc:QUICK_START:path "QUICK_START.md"
+SET doc:QUICK_START:content "# 🚀 QUICK START - Destiny Analytical System
+
+Get up and running in 5 minutes!
+
+---
+
+## ✅ Prerequisites
+
+```bash
+# 1. LMStudio running on 192.168.200.226:1234
+#    - Model: openai/gpt-oss-20b OR gemma-3-12b-it
+#    - Embeddings: e5-large AND jina
+
+# 2. Python 3.10+
+python3 --version
+
+# 3. (Optional) PostgreSQL for persistence
+```
+
+---
+
+## 🎯 Run Your First Analysis
+
+### Option 1: Quick Test (No Installation)
+
+```bash
+cd /Users/artur/coursor-agents-destiny-folder
+
+# Test LLM
+python3 src/llm/lmstudio_client.py
+
+# Test embeddings
+python3 src/data/embedding_pipeline.py
+
+# Test agents
+python3 src/agents/base_agent.py
+```
+
+### Option 2: Full Integration Test
+
+```bash
+# Run complete integration test suite
+python3 tests/integration/test_end_to_end.py
+```
+
+**Expected Result:**
+```
+🎉 ALL TESTS PASSED! SYSTEM IS OPERATIONAL! 🎉
+```
+
+---
+
+## 📝 Your First Analysis Script
+
+Create `my_analysis.py`:
+
+```python
+from src.agents.orchestrator import MultiAgentOrchestrator
+
+# Initialize orchestrator
+orchestra"
+EXPIRE doc:QUICK_START:content 86400
+SADD docs:all "QUICK_START"
+SADD docs:type:architecture "QUICK_START"

@@ -1,0 +1,9 @@
+{
+  "file_path": "GETTING_STARTED.md",
+  "document_type": "team_documentation",
+  "title": "\ud83d\ude80 GETTING STARTED - Destiny Analytical System",
+  "detected_at": "2025-11-05T10:42:28.940311",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\ude80 GETTING STARTED - Destiny Analytical System\n\n**Quick guide to get up and running in 5 minutes!**\n\n---\n\n## \u26a1 FASTEST START (Recommended)\n\n```bash\n# 1. Run automated setup\n./setup.sh\n\n# 2. Add your Claude API key (optional, for real supervision)\nnano .env  # Add ANTHROPIC_API_KEY=your-key-here\n\n# 3. Check system health\npython3 health_check.py\n\n# 4. Run live demo\npython3 demo.py\n```\n\n**Done! System is operational! \ud83c\udf89**\n\n---\n\n## \ud83d\udccb MANUAL SETUP (Step by Step)\n\n### **Step 1: Prerequisites**\n\nCheck "
+}

@@ -1,45 +1,36 @@
-# Requirements for Destiny Development Team
-# Full Stack Multi-Layer Memory System
+# Destiny Analytical System - Python Dependencies
 
-# === Core Storage Layers ===
-psycopg2-binary>=2.9.9  # PostgreSQL (structured data)
-neo4j>=5.14.0           # Neo4j (knowledge graph)
-qdrant-client>=1.7.0    # Qdrant (semantic search)
-redis>=5.0.0            # Redis (hot cache)
+# Core AI/ML
+anthropic>=0.7.0          # Claude API for supervision
+numpy>=1.24.0             # Numerical operations
 
-# === Utilities ===
-requests>=2.31.0        # HTTP client for LM Studio
-numpy>=1.24.0           # Vector operations
+# Database Clients
+psycopg2-binary>=2.9.9    # PostgreSQL
+redis>=5.0.0              # Redis cache
 
-# === Future: AI Model Integration ===
-# openai>=1.0.0  # For GPT-5
-# anthropic>=0.18.0  # For Claude Sonnet 4.5 and Claude Codex
-# google-generativeai>=0.3.0  # For Gemini Pro 2.5
+# Environment & Configuration
+python-dotenv>=1.0.0      # Environment variables
 
-# === Future: Enhanced Features ===
-# tiktoken>=0.5.0  # Accurate token counting
-# numpy>=1.24.0  # For semantic search
-# scikit-learn>=1.3.0  # For relevance scoring
+# HTTP & Networking (for custom clients)
+urllib3>=2.0.0            # HTTP client
 
-# === Future: Vector Search (Semantic) ===
-# pgvector  # PostgreSQL extension for vector similarity
-# openai  # For generating embeddings
+# Data Processing
+dataclasses-json>=0.6.0   # JSON serialization
 
-# === Future: Web Interface ===
-# flask>=3.0.0
-# websockets>=12.0
+# Testing
+pytest>=7.4.0             # Testing framework
+pytest-asyncio>=0.21.0    # Async testing
 
-# === Installation Instructions ===
-# 1. Install PostgreSQL:
-#    macOS: brew install postgresql@15
-#    Ubuntu: sudo apt install postgresql
-#
-# 2. Create database:
-#    createdb destiny_team
-#
-# 3. Install Python requirements:
-#    pip install -r requirements.txt
-#
-# 4. Run setup:
-#    python postgres_context_store.py
-schedule==1.2.0
+# Optional: If you want to install packages for direct integration
+# elasticsearch>=8.0.0    # Elasticsearch client
+# py2neo>=2021.2.3        # Neo4j client (alternative)
+
+# Development
+black>=23.0.0             # Code formatting
+flake8>=6.0.0            # Linting
+mypy>=1.0.0              # Type checking
+
+# Note: Some packages intentionally NOT included to avoid conflicts
+# - We use urllib for HTTP to avoid aiohttp installation issues
+# - Qdrant uses standard HTTP endpoints (no special client needed)
+# - Neo4j uses HTTP API (no driver needed for basic ops)

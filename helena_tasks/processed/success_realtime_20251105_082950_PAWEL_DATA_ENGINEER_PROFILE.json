@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/team/PAWEL_DATA_ENGINEER_PROFILE.md",
+  "document_type": "team_documentation",
+  "title": "\ud83d\udd27 Pawe\u0142 Kowalski - Data Engineer",
+  "detected_at": "2025-11-05T08:29:50.496643",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udd27 Pawe\u0142 Kowalski - Data Engineer\n\n**Date:** 2025-11-05  \n**Status:** \u2705 Operational  \n**Team:** Destiny Team Framework (Agent #8)\n\n---\n\n## \ud83c\udfaf Role & Specialization\n\n**Pawe\u0142 Kowalski** is the **Data Engineer** in the Destiny Team, specializing in:\n\n- **ETL Pipelines** - Extract, Transform, Load workflows\n- **Data Formats** - CSV, JSON, Parquet, Excel, XML, PDF, YAML, Avro\n- **Data Quality** - Validation, cleaning, normalization\n- **Schema Design** - Database modeling, indexing, partitioning\n- **D"
+}

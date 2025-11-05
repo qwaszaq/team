@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/strategy/VECTOR_DATABASE_NECESSITY_DISCUSSION.md",
+  "document_type": "general_documentation",
+  "title": "\ud83d\udd0d DYSKUSJA: CZY NAPRAWD\u0118 POTRZEBUJEMY QDRANT?",
+  "detected_at": "2025-11-05T08:58:12.153809",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udd0d DYSKUSJA: CZY NAPRAWD\u0118 POTRZEBUJEMY QDRANT?\n\n**Data:** 2025-11-05  \n**Prowadz\u0105cy:** Aleksander Nowak  \n**Temat:** Wektory, embeddingi i semantyczne wyszukiwanie\n\n---\n\n## \u2753 PYTANIE KLUCZOWE\n\nCzy porzucenie Qdrant oznacza rezygnacj\u0119 z semantycznego wyszukiwania?\n\n**ODPOWIED\u0179: NIE!** Ale wymaga przemy\u015blenia strategii.\n\n---\n\n## \ud83d\udcac DYSKUSJA ZESPO\u0141OWA\n\n### \ud83c\udfd7\ufe0f KATARZYNA WI\u015aNIEWSKA (Architect) - Przyznaje Racj\u0119\n\n```\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551  REWIZJA: QDRANT"
+}

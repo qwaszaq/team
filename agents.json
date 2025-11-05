@@ -11,6 +11,7 @@
     {"name": "Anna Nowakowska", "slug": "anna-nowakowska", "role": "QA Engineer"},
     {"name": "Piotr Szymański", "slug": "piotr-szymanski", "role": "DevOps Engineer"},
     {"name": "Michał Dąbrowski", "slug": "michal-dabrowski", "role": "Security Specialist"},
+    {"name": "Paweł Kowalski", "slug": "pawel-kowalski", "role": "Data Engineer"},
     {"name": "Dr. Joanna Wójcik", "slug": "dr-joanna-wojcik", "role": "Data Scientist"},
     {"name": "Dr. Helena Kowalczyk", "slug": "helena-kowalczyk", "role": "Knowledge Manager"}
   ]

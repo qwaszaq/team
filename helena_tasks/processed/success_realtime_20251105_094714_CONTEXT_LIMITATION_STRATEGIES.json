@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/architecture/CONTEXT_LIMITATION_STRATEGIES.md",
+  "document_type": "architecture",
+  "title": "\u26a0\ufe0f CONTEXT LIMITATION - STRATEGIE I ROZWI\u0104ZANIA",
+  "detected_at": "2025-11-05T09:47:14.809072",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \u26a0\ufe0f CONTEXT LIMITATION - STRATEGIE I ROZWI\u0104ZANIA\n\n**Problem:** Local Agent (44k) vs Claude (200k)  \n**Data:** 2025-11-05  \n**Autorzy:** Katarzyna Wi\u015bniewska (Architect) + Aleksander Nowak\n\n---\n\n## \ud83d\udcca SKAL\u0118 PROBLEMU\n\n```\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551  44,000 tokens (local) vs 200,000 tokens (Claude)             \u2551\n\u2551  Claude ma 4.5x WI\u0118KSZE okno kontekstu                         \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\n```\n\n### Konk"
+}

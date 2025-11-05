@@ -1,0 +1,39 @@
+SET doc:SUPERVISOR_AUTONOMY_ARCHITECTURE:title "🎯 ARCHITEKTURA NADZORU I AUTONOMII - HYBRID SUPERVISION"
+SET doc:SUPERVISOR_AUTONOMY_ARCHITECTURE:type "architecture"
+SET doc:SUPERVISOR_AUTONOMY_ARCHITECTURE:path "docs/architecture/SUPERVISOR_AUTONOMY_ARCHITECTURE.md"
+SET doc:SUPERVISOR_AUTONOMY_ARCHITECTURE:content "# 🎯 ARCHITEKTURA NADZORU I AUTONOMII - HYBRID SUPERVISION
+
+**Data:** 2025-11-05  
+**Architekt:** Aleksander Nowak + Katarzyna Wiśniewska  
+**Cel:** System z progresywną autonomią pod nadzorem Claude
+
+---
+
+## 🎭 KONCEPCJA KLUCZOWA
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║  PROGRESSIVE AUTONOMY PATTERN                                  ║
+║                                                                ║
+║  Start: Claude supervises every decision                       ║
+║  Middle: Claude spot-checks quality                            ║
+║  End: Local agents autonomous, Claude on-demand                ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+### Analogia:
+**Jak prawdziwe zespoły:**
+- Nowy zespół: Manager (Claude) sprawdza każdy deliverable
+- Doświadczony zespół: Manager sprawdza kluczowe milestones
+- Zaufany zespół: Manager tylko gdy jest problem
+
+---
+
+## 🏗️ ARCHITEKTURA 3-POZIOMOWA
+
+### Level 1: SUPERVISED MODE (Początek)
+```
+┌"
+EXPIRE doc:SUPERVISOR_AUTONOMY_ARCHITECTURE:content 86400
+SADD docs:all "SUPERVISOR_AUTONOMY_ARCHITECTURE"
+SADD docs:type:architecture "SUPERVISOR_AUTONOMY_ARCHITECTURE"

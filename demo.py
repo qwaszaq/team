@@ -1,267 +1,279 @@
+#!/usr/bin/env python3
 """
-Interactive Demo - Destiny Development Team
-Shows how the team collaborates on a project
+Destiny Analytical System - Live Demo
+Team Destiny - 2025-11-05
+
+Demonstrates the complete system with real analysis
 """
 
-from destiny_team import (
-    DestinyTeam, ProjectPhase, MessageType, 
-    ProductManager, Architect, Developer, QAEngineer,
-    DevOpsEngineer, SecuritySpecialist
-)
-import time
+import sys
+import os
+from datetime import datetime
+
+# Add to path
+sys.path.insert(0, os.path.dirname(__file__))
+
+from src.agents.orchestrator import MultiAgentOrchestrator
+from src.agents.additional_agents import get_agent
+from src.supervision.claude_supervisor import ClaudeSupervisor
 
 
-def simulate_project_lifecycle():
-    """Simulate a complete project lifecycle"""
-    
-    print("=" * 70)
-    print("🎯 THE DESTINY DEVELOPMENT TEAM")
-    print("   A Multidisciplinary AI Agent System")
-    print("=" * 70)
+def print_banner():
+    """Print demo banner"""
+    print("="*70)
+    print("     DESTINY ANALYTICAL SYSTEM - LIVE DEMO")
+    print("="*70)
     print()
+
+
+def demo_simple_analysis():
+    """Demo 1: Simple analysis with one agent"""
+    print("DEMO 1: Simple Financial Analysis")
+    print("-" * 70)
     
-    # Initialize team
-    team = DestinyTeam()
+    from src.agents.base_agent import Task, FinancialAnalystAgent
     
-    # User (Artur) describes project
-    print("👤 USER (Artur): 'I want to build a social media app for photographers'")
-    print()
-    time.sleep(1)
+    # Create agent
+    agent = FinancialAnalystAgent()
     
-    # Start project
-    project_state = team.start_project(
-        "PhotoShare - Social Media for Photographers",
-        "A platform where photographers can share their work, get feedback, and connect with clients"
+    # Create task
+    task = Task(
+        task_id="demo_task_001",
+        title="Q4 2024 Financial Analysis",
+        description="Analyze quarterly financial performance",
+        task_type="financial",
+        data={
+            "revenue": "$5.2M",
+            "growth_yoy": "28%",
+            "profit_margin": "34%",
+            "expenses": "$3.4M",
+            "cash": "$12M",
+            "period": "Q4 2024"
+        },
+        created_at=datetime.now()
     )
     
-    print(f"📋 Project initialized: {project_state.project_name}")
-    print()
-    time.sleep(1)
-    
-    # Phase 1: Requirements Gathering
-    print("=" * 70)
-    print("PHASE 1: DISCOVERY & REQUIREMENTS")
-    print("=" * 70)
+    print(f"Task: {task.title}")
+    print(f"Data: {task.data}")
     print()
     
-    print("🎯 Alex Morgan (Orchestrator):")
-    print("   'Team, we have a new project. Lisa, let's start with understanding ")
-    print("   what Artur needs. Can you gather the requirements?'")
-    print()
-    time.sleep(1)
+    # Execute
+    print("Executing analysis...")
+    result = agent.execute(task)
     
-    print("👩 Lisa Anderson (Product Manager):")
-    print("   'Absolutely! Artur, I have a few questions to make sure we build ")
-    print("   exactly what you need:'")
+    # Display results
+    print(f"\n✅ Analysis Complete!")
+    print(f"Status: {result.status.value}")
+    print(f"Confidence: {result.confidence:.2f}")
+    print(f"Time: {result.time_taken:.2f}s")
+    print(f"Tokens: {result.tokens_used['total']}")
+    print(f"\nSummary:")
+    print(result.output['summary'])
     print()
-    print("   • Who will use this app? Professional photographers, hobbyists, or both?")
-    print("   • What's the main goal? Sharing work, finding clients, or both?")
-    print("   • Do you need image upload, galleries, comments, likes?")
-    print("   • What's the expected user scale? Hundreds, thousands, or millions?")
-    print()
-    time.sleep(2)
+
+
+def demo_multi_agent():
+    """Demo 2: Multi-agent orchestration"""
+    print("\n" + "="*70)
+    print("DEMO 2: Multi-Agent Orchestration")
+    print("-" * 70)
     
-    # Simulate user responses
-    print("👤 USER (Artur):")
-    print("   'Mainly professional photographers, goal is sharing work and finding")
-    print("   clients. Need image upload, galleries, comments, likes. Expecting")
-    print("   maybe 10,000 users initially, but could grow.'")
-    print()
-    time.sleep(1)
+    # Initialize orchestrator
+    orchestrator = MultiAgentOrchestrator()
     
-    print("👩 Lisa Anderson (Product Manager):")
-    print("   'Perfect! Based on this, I'll create user stories:'")
-    print()
-    print("   • As a photographer, I want to upload high-quality images")
-    print("   • As a photographer, I want to organize photos into galleries")
-    print("   • As a user, I want to comment and like photos")
-    print("   • As a photographer, I want a portfolio/profile page")
-    print("   • As a client, I want to contact photographers")
-    print()
-    print("   'Alex, requirements are ready. Sarah, can you think about the")
-    print("   architecture?'")
-    print()
-    time.sleep(2)
+    # Test documents
+    documents = [
+        {
+            "id": "financial_report",
+            "content": """
+            Q4 2024 Financial Performance
+            
+            Revenue: Company achieved $5.2M in quarterly revenue, representing 
+            a 28% year-over-year increase. Enterprise segment contributed 65% 
+            of total revenue, up from 58% in Q3.
+            
+            Profitability: EBITDA margin improved to 34%, compared to 31% in 
+            the previous quarter. Operating expenses were controlled at $3.4M.
+            
+            Cash Position: Strong cash position of $12M provides excellent 
+            runway for planned expansion into European markets.
+            
+            Outlook: Management projects 25-30% growth for 2025, driven by 
+            enterprise segment expansion and new product launches.
+            """,
+            "type": "financial"
+        },
+        {
+            "id": "risk_assessment",
+            "content": """
+            Q4 2024 Risk Review
+            
+            Operational Risks: Supply chain stability improved. Key vendor 
+            relationships strengthened through long-term contracts.
+            
+            Market Risks: Increased competition in enterprise segment. Three 
+            new competitors entered the market in Q4.
+            
+            Financial Risks: Currency exposure limited to 15% of revenue. 
+            Strong balance sheet mitigates short-term risks.
+            
+            Compliance: All regulatory requirements met. Data privacy audit 
+            completed successfully.
+            """,
+            "type": "general"
+        }
+    ]
     
-    # Phase 2: Architecture
-    print("=" * 70)
-    print("PHASE 2: ARCHITECTURE DESIGN")
-    print("=" * 70)
-    print()
-    
-    print("🏗️ Sarah Chen (Architect):")
-    print("   'Great! Based on the requirements, here's my recommendation:'")
-    print()
-    print("   Frontend: React + TypeScript (modern, component-based)")
-    print("   Backend: Node.js + Express (fast development, good for MVP)")
-    print("   Database: PostgreSQL (reliable, handles image metadata well)")
-    print("   Storage: AWS S3 or Cloudinary (for high-res images)")
-    print("   Auth: JWT + OAuth (secure, scalable)")
-    print()
-    print("   'For 10K users initially, this stack handles it well. If we grow")
-    print("   to 100K+, we'll need Redis for caching and CDN for images.'")
-    print()
-    print("   'Marcus, what do you think? Does this work for implementation?'")
-    print()
-    time.sleep(2)
-    
-    print("💻 Marcus Rodriguez (Developer):")
-    print("   'Looks solid! I'd add:'")
-    print()
-    print("   • Image optimization library (sharp.js) for thumbnails")
-    print("   • Rate limiting middleware (to prevent abuse)")
-    print("   • Database indexing on user_id and gallery_id")
-    print("   • API versioning from the start")
-    print()
-    print("   'I can start with project setup. But first, Mike, any security")
-    print("   considerations we should build in from the start?'")
-    print()
-    time.sleep(2)
-    
-    print("🔒 Mike Torres (Security Specialist):")
-    print("   'Yes, several important points:'")
-    print()
-    print("   • File upload validation (type, size limits)")
-    print("   • SQL injection prevention (use parameterized queries)")
-    print("   • XSS protection (sanitize user input)")
-    print("   • CSRF tokens for state-changing operations")
-    print("   • Rate limiting on uploads and API calls")
-    print("   • HTTPS only in production")
-    print()
-    print("   'I'll create a security checklist. Jordan, can you incorporate")
-    print("   these into the deployment setup?'")
-    print()
-    time.sleep(2)
-    
-    print("⚙️ Jordan Kim (DevOps Engineer):")
-    print("   'Absolutely! I'll set up:'")
-    print()
-    print("   • Docker containers for consistent environments")
-    print("   • CI/CD pipeline (GitHub Actions)")
-    print("   • Environment variables for secrets")
-    print("   • Monitoring (error tracking, performance metrics)")
-    print("   • Automated backups for database")
-    print()
-    print("   'Mike, I'll share the deployment config for security review.'")
-    print()
-    time.sleep(2)
-    
-    # Phase 3: Development
-    print("=" * 70)
-    print("PHASE 3: DEVELOPMENT")
-    print("=" * 70)
+    print(f"Documents: {len(documents)}")
+    print(f"Analysis types: Financial, Legal, Risk")
     print()
     
-    print("🎯 Alex Morgan (Orchestrator):")
-    print("   'Excellent team collaboration! Here's the plan:'")
-    print()
-    print("   Week 1: Project setup + authentication")
-    print("   Week 2: Image upload + storage")
-    print("   Week 3: Galleries + profiles")
-    print("   Week 4: Comments + likes")
-    print("   Week 5: Testing + bug fixes")
-    print("   Week 6: Deployment prep")
-    print()
-    print("   'Marcus, start with project scaffolding. Priya, create test cases")
-    print("   as features are developed.'")
-    print()
-    time.sleep(2)
+    # Process case
+    print("Executing multi-agent analysis...")
+    analysis = orchestrator.process_case(
+        case_id=f"demo_case_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
+        title="Q4 2024 Comprehensive Analysis",
+        documents=documents,
+        analysis_types=["financial", "legal", "risk"],
+        description="Complete Q4 analysis with multiple specialized agents"
+    )
     
-    print("💻 Marcus Rodriguez (Developer):")
-    print("   'Starting implementation...'")
+    # Display results
+    print(f"\n✅ Multi-Agent Analysis Complete!")
+    print(f"Case: {analysis.case_id}")
+    print(f"Agents: {', '.join(analysis.agents_used)}")
+    print(f"Embeddings: {analysis.embeddings_count}")
+    print(f"Time: {analysis.total_time:.2f}s")
+    print(f"Tokens: {analysis.total_tokens}")
+    print(f"Avg Confidence: {analysis.average_confidence:.2f}")
     print()
-    print("   ✅ Project structure created")
-    print("   ✅ Database schema designed")
-    print("   ✅ Authentication system implemented")
-    print("   ✅ Image upload endpoint ready")
-    print()
-    print("   'Priya, authentication and image upload are ready for testing.'")
-    print()
-    time.sleep(2)
+
+
+def demo_additional_agents():
+    """Demo 3: Additional specialized agents"""
+    print("\n" + "="*70)
+    print("DEMO 3: Specialized Agents")
+    print("-" * 70)
     
-    print("🔬 Priya Patel (QA Engineer):")
-    print("   'Testing authentication and image upload...'")
-    print()
-    print("   ✅ Test cases created:")
-    print("      • User registration with valid email")
-    print("      • User login with correct credentials")
-    print("      • Image upload with valid file types")
-    print("      • Image upload size limits enforced")
-    print()
-    print("   'Found 2 issues:'")
-    print("   • Edge case: Email validation allows invalid domains")
-    print("   • Security: Image upload doesn't validate file signatures")
-    print()
-    print("   'Marcus, can you fix these before we proceed?'")
-    print()
-    time.sleep(2)
+    from src.agents.base_agent import Task
+    from src.agents.additional_agents import DataScienceAgent, SecurityAgent
     
-    print("💻 Marcus Rodriguez (Developer):")
-    print("   'Fixed both issues:'")
-    print("   ✅ Enhanced email validation")
-    print("   ✅ Added file signature validation")
-    print()
-    print("   'Ready for re-testing!'")
-    print()
-    time.sleep(1)
+    # Create task
+    task = Task(
+        task_id="demo_specialist_001",
+        title="System Security Review",
+        description="Assess system security posture",
+        task_type="security",
+        data={
+            "system": "Multi-agent analytical platform",
+            "users": "Enterprise analysts",
+            "data_types": ["Financial", "Legal", "Confidential"],
+            "deployment": "Hybrid (on-prem + cloud supervision)"
+        },
+        created_at=datetime.now()
+    )
     
-    print("🔬 Priya Patel (QA Engineer):")
-    print("   '✅ All tests passing! Ready for next features.'")
-    print()
-    time.sleep(1)
-    
-    # Phase 4: Deployment
-    print("=" * 70)
-    print("PHASE 4: DEPLOYMENT")
-    print("=" * 70)
+    # Test Security Agent
+    print("Security Agent Analysis:")
+    security = SecurityAgent()
+    result = security.execute(task)
+    print(f"  Status: {result.status.value}")
+    print(f"  Confidence: {result.confidence:.2f}")
+    print(f"  Summary: {result.output['summary'][:150]}...")
     print()
     
-    print("⚙️ Jordan Kim (DevOps Engineer):")
-    print("   'Deployment pipeline is ready:'")
+    # Test Data Science Agent
+    print("Data Science Agent Analysis:")
+    data_science = DataScienceAgent()
+    result = data_science.execute(task)
+    print(f"  Status: {result.status.value}")
+    print(f"  Confidence: {result.confidence:.2f}")
+    print(f"  Summary: {result.output['summary'][:150]}...")
     print()
-    print("   ✅ Docker containers configured")
-    print("   ✅ CI/CD pipeline active")
-    print("   ✅ Staging environment deployed")
-    print("   ✅ Production environment ready")
-    print()
-    print("   'Mike, security review complete?'")
-    print()
-    time.sleep(1)
+
+
+def demo_supervision():
+    """Demo 4: Claude supervision"""
+    print("\n" + "="*70)
+    print("DEMO 4: Quality Supervision")
+    print("-" * 70)
     
-    print("🔒 Mike Torres (Security Specialist):")
-    print("   '✅ Security audit passed!'")
-    print()
-    print("   • All endpoints have rate limiting")
-    print("   • Secrets are in environment variables")
-    print("   • HTTPS configured")
-    print("   • Database connection encrypted")
-    print("   • File uploads validated")
-    print()
-    print("   'Approved for production deployment.'")
-    print()
-    time.sleep(1)
+    supervisor = ClaudeSupervisor()
     
-    print("🎯 Alex Morgan (Orchestrator):")
-    print("   'Excellent work team! Project is ready for launch.'")
+    # Simulate agent output
+    test_output = {
+        "summary": "Strong financial performance with 28% revenue growth.",
+        "key_findings": [
+            "Revenue: $5.2M (+28% YoY)",
+            "Profit margin: 34% (improved from 31%)",
+            "Cash position: $12M (strong runway)"
+        ],
+        "recommendations": [
+            "Continue growth trajectory",
+            "Monitor competitive landscape",
+            "Prepare for European expansion"
+        ]
+    }
+    
+    print("Reviewing agent output...")
+    review = supervisor.review_task(
+        task_id="demo_review_001",
+        agent_name="Financial Analyst",
+        agent_role="financial",
+        task_description="Q4 Financial Analysis",
+        agent_output=test_output,
+        confidence=0.85
+    )
+    
+    print(f"\n✅ Review Complete!")
+    print(f"Grade: {review.grade.value}")
+    print(f"Quality Score: {review.quality_score:.2f}")
+    print(f"Status: {'Approved' if review.approved else 'Needs improvement'}")
+    print(f"\nStrengths:")
+    for strength in review.strengths[:3]:
+        print(f"  ✅ {strength}")
     print()
-    print("   'Artur, your PhotoShare app is deployed and ready!'")
-    print()
-    print("=" * 70)
-    print("📊 PROJECT SUMMARY")
-    print("=" * 70)
-    print()
-    print("✅ Requirements: Defined and validated")
-    print("✅ Architecture: Designed and reviewed")
-    print("✅ Development: Complete with quality code")
-    print("✅ Testing: All test cases passing")
-    print("✅ Security: Audited and approved")
-    print("✅ Deployment: Production-ready")
-    print()
-    print("🚀 Your app is live at: https://photoshare.app")
-    print()
-    print("Thank you for working with the Destiny Development Team!")
-    print("=" * 70)
+
+
+def main():
+    """Run all demos"""
+    print_banner()
+    
+    try:
+        # Demo 1: Simple analysis
+        demo_simple_analysis()
+        
+        # Demo 2: Multi-agent
+        demo_multi_agent()
+        
+        # Demo 3: Additional agents
+        demo_additional_agents()
+        
+        # Demo 4: Supervision
+        demo_supervision()
+        
+        # Summary
+        print("\n" + "="*70)
+        print("DEMO COMPLETE!")
+        print("="*70)
+        print("\n✅ All demos executed successfully!")
+        print("\nThe system demonstrated:")
+        print("  ✅ Single agent analysis")
+        print("  ✅ Multi-agent orchestration")
+        print("  ✅ Specialized agents (10 total)")
+        print("  ✅ Quality supervision")
+        print("\nSystem is ready for production use! 🚀")
+        print("="*70)
+        
+    except Exception as e:
+        print(f"\n❌ Demo error: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+    
+    return True
 
 
 if __name__ == "__main__":
-    simulate_project_lifecycle()
+    success = main()
+    sys.exit(0 if success else 1)

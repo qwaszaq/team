@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-11-05 09:33:41.771396",
+  "server": "http://192.168.200.226:1234/v1",
+  "total_models": 4,
+  "llm_models": [
+    {
+      "id": "gemma-3-12b-it",
+      "object": "model",
+      "created": null
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "object": "model",
+      "created": null
+    }
+  ],
+  "embedding_models": [
+    {
+      "id": "text-embedding-multilingual-e5-large-instruct",
+      "object": "model",
+      "created": null
+    },
+    {
+      "id": "jina-embeddings-v4-text-retrieval",
+      "object": "model",
+      "created": null
+    }
+  ],
+  "all_models": [
+    {
+      "id": "text-embedding-multilingual-e5-large-instruct",
+      "object": "model",
+      "owned_by": "organization_owner"
+    },
+    {
+      "id": "gemma-3-12b-it",
+      "object": "model",
+      "owned_by": "organization_owner"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "object": "model",
+      "owned_by": "organization_owner"
+    },
+    {
+      "id": "jina-embeddings-v4-text-retrieval",
+      "object": "model",
+      "owned_by": "organization_owner"
+    }
+  ]
+}

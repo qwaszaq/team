@@ -1,0 +1,43 @@
+SET doc:CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY:title "🔍 KRYTYCZNA ANALIZA STRATEGII WDROŻENIA - MYŚLENIE KRYTYCZNE"
+SET doc:CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY:type "analysis"
+SET doc:CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY:path "docs/strategy/CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY.md"
+SET doc:CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY:content "# 🔍 KRYTYCZNA ANALIZA STRATEGII WDROŻENIA - MYŚLENIE KRYTYCZNE
+
+**Analiza:** Aleksander Nowak (Orchestrator)  
+**Data:** 2025-11-05  
+**Dokument analizowany:** HYBRID_DEPLOYMENT_STRATEGY_SESSION.md
+
+---
+
+## ⚠️ ZIDENTYFIKOWANE SŁABE PUNKTY I LUKI
+
+### 1. 🚨 **NADMIERNY OPTYMIZM - "Everything is Awesome" Syndrome**
+
+**Problem:** Dokument jest zbyt optymistyczny, brakuje realnego krytycyzmu.
+
+**Przykłady:**
+- "Team Commitment: ✅ UNANIMOUS" - Naprawdę? 10 agentów, zero wątpliwości?
+- "Confidence: HIGH" - Bez żadnych testów produkcyjnych?
+- "Risk: ACCEPTABLE" - Kto to ocenił? Na jakiej podstawie?
+
+**Rzeczywistość:**
+- Zespół AI nie może mieć "jednomyślności" - to symulacja
+- Confidence powinno być MEDIUM przy braku doświadczenia z LMStudio
+- Risk jest UNKNOWN, nie ACCEPTABLE
+
+---
+
+### 2. 📊 **WĄTPLIWE KALKULACJE ROI**
+
+**Luka w analizie Joanny (Data Scientist):**
+
+```
+Cloud cost: $8.10 per investigation
+Hybrid cost: $2.70 per investigation
+```
+
+**Co pominięto:**
+- ❌ Koszt prądu dla Mac Mini ("
+EXPIRE doc:CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY:content 86400
+SADD docs:all "CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY"
+SADD docs:type:analysis "CRITICAL_ANALYSIS_DEPLOYMENT_STRATEGY"

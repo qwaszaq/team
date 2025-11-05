@@ -21,15 +21,15 @@ class LMStudioEmbeddings:
     
     def __init__(
         self,
-        base_url: str = "http://localhost:1234/v1",
-        model: str = "text-embedding-intfloat-multilingual-e5-large-instruct"
+        base_url: str = "http://192.168.200.226:1234/v1",
+        model: str = "text-embedding-multilingual-e5-large-instruct"
     ):
         """
         Initialize LM Studio embeddings client.
         
         Args:
-            base_url: LM Studio server URL (default: http://localhost:1234/v1)
-            model: Embedding model name
+            base_url: LM Studio server URL (default: http://192.168.200.226:1234/v1)
+            model: Embedding model name (default: text-embedding-multilingual-e5-large-instruct)
         """
         self.base_url = base_url.rstrip('/')
         self.model = model

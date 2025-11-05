@@ -1,0 +1,9 @@
+{
+  "file_path": "README.md",
+  "document_type": "architecture",
+  "title": "\ud83d\ude80 Destiny Analytical System - Hybrid Multi-Agent Platform",
+  "detected_at": "2025-11-05T10:19:08.183104",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\ude80 Destiny Analytical System - Hybrid Multi-Agent Platform\n\n**Enterprise-grade analytical system combining local LLM (privacy) with Claude supervision (quality)**\n\n---\n\n## \ud83c\udfaf Overview\n\nHybrid multi-agent system for analyzing complex cases (financial, legal, investigative):\n- **100+ documents** per case\n- **4M+ sentences** processing capability\n- **Multi-agent analysis** (financial, legal, risk, etc.)\n- **Progressive autonomy** (supervised \u2192 autonomous)\n- **Local LLM** (privacy) + **Claude superv"
+}

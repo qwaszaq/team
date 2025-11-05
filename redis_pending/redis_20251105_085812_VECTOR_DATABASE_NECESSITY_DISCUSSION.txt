@@ -1,0 +1,48 @@
+SET doc:VECTOR_DATABASE_NECESSITY_DISCUSSION:title "🔍 DYSKUSJA: CZY NAPRAWDĘ POTRZEBUJEMY QDRANT?"
+SET doc:VECTOR_DATABASE_NECESSITY_DISCUSSION:type "general_documentation"
+SET doc:VECTOR_DATABASE_NECESSITY_DISCUSSION:path "docs/strategy/VECTOR_DATABASE_NECESSITY_DISCUSSION.md"
+SET doc:VECTOR_DATABASE_NECESSITY_DISCUSSION:content "# 🔍 DYSKUSJA: CZY NAPRAWDĘ POTRZEBUJEMY QDRANT?
+
+**Data:** 2025-11-05  
+**Prowadzący:** Aleksander Nowak  
+**Temat:** Wektory, embeddingi i semantyczne wyszukiwanie
+
+---
+
+## ❓ PYTANIE KLUCZOWE
+
+Czy porzucenie Qdrant oznacza rezygnację z semantycznego wyszukiwania?
+
+**ODPOWIEDŹ: NIE!** Ale wymaga przemyślenia strategii.
+
+---
+
+## 💬 DYSKUSJA ZESPOŁOWA
+
+### 🏗️ KATARZYNA WIŚNIEWSKA (Architect) - Przyznaje Rację
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║  REWIZJA: QDRANT JEST POTRZEBNY (ale nie od razu)             ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+**Masz rację - za bardzo uprościłam!**
+
+Semantyczne wyszukiwanie to CORE FEATURE dla systemu analitycznego.
+
+**Propozycja stopniowego wdrożenia:**
+
+```
+PHASE 1 (Week 1-2): MVP bez wektorów
+  ├─ Keyword search (PostgreSQL FTS)
+  ├─ Exact matches
+  └─ Good enough for start
+
+PHASE 2 (Week 3-4): Dodaj embeddingi  
+  ├─ Local embeddings (już masz!)
+  ├─ Store in PostgreSQL pgvector
+"
+EXPIRE doc:VECTOR_DATABASE_NECESSITY_DISCUSSION:content 86400
+SADD docs:all "VECTOR_DATABASE_NECESSITY_DISCUSSION"
+SADD docs:type:general_documentation "VECTOR_DATABASE_NECESSITY_DISCUSSION"

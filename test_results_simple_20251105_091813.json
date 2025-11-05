@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-05 09:18:13.775807",
+  "llm_tests": [
+    {
+      "test": 1,
+      "prompt": "What is 2+2?",
+      "success": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "test": 2,
+      "prompt": "Analyze this: Revenue increased 23% to $4.2M. What does this indicate?",
+      "success": false,
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "test": 3,
+      "prompt": "List 3 risks in financial analysis.",
+      "success": false,
+      "error": "HTTP Error 400: Bad Request"
+    }
+  ],
+  "embedding_tests": [
+    {
+      "text": "Financial analysis shows strong growth",
+      "success": true,
+      "dims": 1024,
+      "time": 0.0428769588470459
+    },
+    {
+      "text": "Legal compliance audit required",
+      "success": true,
+      "dims": 1024,
+      "time": 0.01864004135131836
+    },
+    {
+      "text": "Technical infrastructure assessment",
+      "success": true,
+      "dims": 1024,
+      "time": 0.009855031967163086
+    }
+  ]
+}

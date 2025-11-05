@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/kickoff/IMPLEMENTATION_KICKOFF.md",
+  "document_type": "architecture",
+  "title": "\ud83d\ude80 KICK-OFF IMPLEMENTACJI - HYBRID ANALYTICAL SYSTEM",
+  "detected_at": "2025-11-05T09:58:12.713186",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\ude80 KICK-OFF IMPLEMENTACJI - HYBRID ANALYTICAL SYSTEM\n\n**Data:** 2025-11-05  \n**Status:** IMPLEMENTATION STARTED  \n**Koordynator:** Aleksander Nowak\n\n---\n\n## \ud83c\udfaf MISJA\n\nZbudowa\u0107 w 3 tygodnie hybrydowy system multiagentowy do analizy spraw \u015bledczych/audytowych:\n- 100+ dokument\u00f3w\n- 4M zda\u0144 tekstu\n- Multi-agent analysis (financial, legal, risk)\n- Local LLM + Cloud supervision\n- Enterprise-grade quality\n\n---\n\n## \u2705 CO MAMY (VERIFIED):\n\n```\n\u2705 LMStudio: 192.168.200.226:1234\n\u2705 LLM Models: openai/gpt-oss-2"
+}

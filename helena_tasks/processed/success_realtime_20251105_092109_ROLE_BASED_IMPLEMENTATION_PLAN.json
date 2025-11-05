@@ -1,0 +1,9 @@
+{
+  "file_path": "docs/plans/ROLE_BASED_IMPLEMENTATION_PLAN.md",
+  "document_type": "team_documentation",
+  "title": "\ud83d\udccb PLAN IMPLEMENTACJI - PODZIA\u0141 NA ROLE",
+  "detected_at": "2025-11-05T09:21:09.178356",
+  "processing_mode": "realtime",
+  "priority": "immediate",
+  "content_preview": "# \ud83d\udccb PLAN IMPLEMENTACJI - PODZIA\u0141 NA ROLE\n\n**Data:** 2025-11-05  \n**Koordynator:** Aleksander Nowak  \n**Cel:** Jasny podzia\u0142 zada\u0144 dla systemu multiagentowego\n\n---\n\n## \ud83c\udfaf OVERVIEW - 3 TYGODNIE DO MVP\n\n```\nWeek 1: Foundation (Infrastructure + Basic Flow)\nWeek 2: Intelligence (Multi-agent + Embeddings)  \nWeek 3: Integration (Testing + Polish)\n```\n\n---\n\n## \ud83d\udc65 ROLE I ZADANIA\n\n### \ud83d\ude80 PIOTR SZYMA\u0143SKI (DevOps) - Infrastructure Lead\n\n```\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551  "
+}

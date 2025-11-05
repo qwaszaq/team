@@ -1,0 +1,44 @@
+SET doc:TEAM_STRUCTURE:title "👥 Destiny Team - Complete Structure"
+SET doc:TEAM_STRUCTURE:type "team_documentation"
+SET doc:TEAM_STRUCTURE:path "docs/team/TEAM_STRUCTURE.md"
+SET doc:TEAM_STRUCTURE:content "# 👥 Destiny Team - Complete Structure
+
+## 🎯 Full Team (10 Agents)
+
+### **Coordination Layer**
+
+#### 1. **Aleksander Nowak** - Orchestrator 🎯
+- **Model:** Claude Sonnet 4.5
+- **Role:** Project coordination, routing, decisions
+- **Responsibilities:**
+  - Coordinates team activities
+  - Routes tasks to appropriate agents
+  - Manages timeline and phases
+  - Resolves conflicts
+  - Strategic decisions
+
+#### 10. **Dr. Helena Kowalczyk** - Knowledge Manager 📚
+- **Model:** Claude Sonnet 4.5
+- **Role:** Documentation, summaries, knowledge organization
+- **Responsibilities:**
+  - Daily/weekly/phase summaries
+  - Decision tracking and documentation
+  - Agent memory optimization
+  - Project documentation generation
+  - Knowledge base maintenance
+
+**Why 2 coordinators?**
+- Aleksander: Coordinates PEOPLE & WORK
+- Helena: Coordinates KNOWLEDGE & DOCUMENTATION
+- Different skills, both essential!
+
+---
+
+### **Product & Design Layer**
+
+#### 2. **Magdalena Kowalska** - Product Manager 📋
+- **Model:** GPT-5
+"
+EXPIRE doc:TEAM_STRUCTURE:content 86400
+SADD docs:all "TEAM_STRUCTURE"
+SADD docs:type:team_documentation "TEAM_STRUCTURE"
